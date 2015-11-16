@@ -1,0 +1,12 @@
+.panel-default>.panel-heading{
+        background-color: #550000;
+        color: white;
+    }
+
+    .dropdown-toggle{
+        color: white;
+    }
+
+    .navbar{
+        background-color: #550000;
+    }

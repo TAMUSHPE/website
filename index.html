@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Welcome</title>
+
+  <link rel="shortcut icon" href="images/favicon.ico"/>
+
+  <link rel="shortcut icon" href="images/favicon.ico"/>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- MetisMenu CSS -->
+  <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/sb-admin-2.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<style>
+.panel-default>.panel-heading{
+  background-color: #550000;
+  color: white;
+}
+
+.dropdown-toggle{
+  color: white;
+}
+
+#side-menu li a {
+  color: #ffffff;
+  background-color: #550000;
+}
+
+.navbar{
+  background-color: #550000;
+}
+</style>
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+      <div class="navbar-header">
+
+        <a class="navbar-brand  hidden-xs hidden-sm" href="index.html" style="color:white; padding: 0px"><img src="images/logotop.png" />
+          Texas A&M SHPE
+        </a>
+
+        <a class="navbar-brand  visible-xs visible-sm" href="index.html" style="color:white; padding: 0px"><img src="images/logotop.png" />
+          Texas A&M SHPE
+        </a>
+
+      </div>
+
+      <br>
+      <!-- /.navbar-header -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+
+<!--IF GOING TO CHANGE NAVIGATION BAR, CHANGE IN testbank.xsl TOO!-->
+      <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav navbar-collapse">
+          <ul class="nav" id="side-menu">
+
+            <li>
+              <a href="index.html"><i class="fa fa-home fa-fw"></i> Home</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> About<span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li onclick="showHTML('history.html')">
+                  <a href="#">History</a>
+                </li>
+                <li onclick="showHTML('awards.html')">
+                  <a href="#">Awards</a>
+                </li>
+                <li onclick="showHTML('conferences.html')">
+                  <a href="#">Conferences</a>
+                </li>
+                <li onclick="showHTML('ahetems.html')">
+                  <a href="#">AHETEMS</a>
+                </li>
+              </ul>
+              <!-- /.nav-second-level -->
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Executive Board<span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li onclick="showHTML('advisor.html')">
+                  <a href="#">Advisor</a>
+                </li>
+                  <!-- TODO: make comittes page
+                <li >
+                  <a href="committees.html">Committees</a>
+                </li> -->
+                <li onclick="showHTML('officers.html')">
+                  <a href="#">Officers</a>
+                </li>
+              </ul>
+              <!-- /.nav-second-level -->
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Members<span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li onclick="showHTML('membership.html')">
+                  <a href="#">Membership</a>
+                </li>
+                <li onclick="showHTML('committees.html')">
+                  <a href="#">Committees</a>
+                </li>
+                <!-- TODO: make this opportunities page
+                <li>
+                  <a href="opportunities.html">Opportunities</a>
+                </li> -->
+                <li>
+                  <a target="_blank" href="https://docs.google.com/spreadsheets/d/1aBKdKfdy8oD5jkgjcwoNB_o8I2Fn2cxecQaZ27_Hy_M/edit#gid=0">SHPE Points</a>
+                </li>  
+                <!-- <li>
+                  <a href="https://secure.touchnet.com/C21490_ustores/web/store_main.jsp?STOREID=247">Marketplace</a>
+                </li> -->
+              </ul>
+              <!-- /.nav-second-level -->
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Academics<span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li onclick="showHTML('aeg.html')">
+                  <a href="#">Aggie Engineering Guide</a>
+                </li>
+                <li onclick="showHTML('AFG.html')">
+                  <a href="#">Aggie Freshman Guide</a>
+                </li>
+                <li onclick="showHTML('mentor.html')">
+                  <a href="#">MentorSHPE</a>
+                </li>
+                <li>
+                  <a target=_"blank" href="https://tamushpetestbank.herokuapp.com/">Test Bank</a>
+                  <!-- testbank.xml -->
+                </li>
+              </ul>
+              <!-- /.nav-second-level -->
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Multimedia<span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li onclick="showHTML('socialmedia.html')">
+                  <a href="#">Social Media</a>
+                </li>
+                <li onclick="showHTML('event.html')">
+                  <a href="#">Event Calendar</a>
+                </li>
+                <li onclick="showHTML('gallery.html')">
+                  <a href="#">Gallery</a>
+                </li>
+
+                <!-- TODO: make this newsletters page
+                <li>
+                  <a href="news.html">Newsletters</a>
+                </li>
+                <li>
+                  <a href="resources.html">Resources</a>
+                </li>-->
+              </ul>
+              <!-- /.nav-second-level -->
+            </li>
+            <!-- start of six nav -->
+            <li>
+              <a onclick="showHTML('sponsors.html')" href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Sponsors</a>
+              <!-- /.nav-six-level -->
+            </li>
+            <li>
+              <a onclick="showHTML('contact.html')" href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.sidebar-collapse -->
+      </div>
+      <!-- /.navbar-static-side -->
+    </nav>
+
+
+
+
+
+    <!-- Page Content -->
+    <div id="page-wrapper">
+      <div id="mainContainer">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="page-header">The Society of Hispanic Professional Engineers</h2>
+
+
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="max-width: 959px">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="images/ShellPicture2.jpg" alt="First slide">
+              </div>
+              <div class="item">
+                <img src="images/volunteeringx.png" alt="Second slide">
+              </div>
+              <div class="item">
+                <img src="images/Detroitx.jpg" alt="Third slide">
+              </div>
+              <div class="item">
+                <center><img src="images/SHPEWrecked2.png" alt="Fourth slide"></center>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+        </div>
+        <!-- /.col-lg-12 -->
+      </div>
+      <!-- /.row -->
+      <br>
+                    <!-- /._________________EXAMPLE UPDATE BLOCK___________ -->
+<!-- EXAMPLE STARTS BELOW 
+  "Click <a href = "http://form.jotform.us/form/50188866803161">here</a> if you..." -->
+  <!-- /._________________EXAMPLE UPDATE BLOCK___________ -->
+<!-- EXAMPLE STARTS BELOW
+<div class="row">    
+<br>
+<div class="col-lg-12">
+<center><a class="img-responsive" href="#"><img src="images/Flyer_Gen_Mtng1_Spring2015.jpg" style="width:500px;height:750px;max-width:100%"></a></center>
+</div>
+<div class="col-lg-12">
+
+<h3>First General Meeting of 2015!</h3>
+<div class="row">
+<div class="col-lg-12">
+<p>Make sure to come out to our meeting this <b>Wednesday, January 28<sup>th</sup></b> in <b>Richardson 106 (RICH 106)</b> at <b>6:45pm</b>! <b>FREE</b> tortas will be provided! </p>
+
+<p>Presenting Wednesday will be <b>Honeywell</b>. </p>
+
+<p>"Honeywell International, Inc. is an American multinational conglomerate company that produces a variety of commercial and consumer products, engineering services, and aerospace systems for a wide variety of customers, from private consumers to major corporations and governments."
+</p>
+</div>
+<div class="col-xs-3"></div>
+</div>
+<br>
+</div>
+</div>
+<hr> 
+EXAMPLE ENDS HERE-->
+
+      <!-- /.row -->
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <i class="glyphicon glyphicon-exclamation-sign"></i> Updates
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+            
+<!--START-->
+<hr>
+<div class="row">    
+                <br>
+                <div class="col-lg-12">
+                  <center>
+                    <a class="img-responsive" href="#"><img src="images/game_night.jpg" style="width:600px;height:300px;max-width:100%"></a>
+                  </center>
+                </div>
+                <div class="col-lg-12">
+                  <h3>TAMU SHPE Game Night Social! </h3>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <p>Howdy SHPEsters! Start off your weekend shenanigans right with your fellow SHPEsters! We'll be hosting ping pong, Cards Against Humanity, pool, Jenga, Risk, and every other game that was the epitome of your childhood! And to top it off, pizza will also be provided!</p>
+<p>The social will take place at <b>Northpoint Crossing Building 4 Clubhouse</b>, this <b>Friday, November 6<sup>th</sup></b>, from <b>7 - 9 pm</b>.</p>
+
+<p>See you there!</p>
+                    </div>
+                  <div class="col-xs-3"></div>
+                </div>
+                  <br>
+                </div>
+              </div>
+<!--FINISH-->
+
+<!--START-->
+<hr>
+<div class="row">    
+                <br>
+                <div class="col-lg-12">
+                  <center>
+                    <a class="img-responsive" href="#"><img src="images/Chevron.png" style="width:250px;height:300px;max-width:100%"></a>
+                  </center>
+                </div>
+                <div class="col-lg-12">
+                  <h3>5th General Meeting with Chevron! </h3>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <p>Howdy! Join us for our 5th General Meeting of the semester! We will be having the great Chevron join us in <b>Scoates 208</b> this <b>Wednesday, November 4<sup>th</sup></b> from <b>7 - 8:30 pm</b>. Make sure to wear your SHPE shirt for that extra point and be ready eat some Chick-Fil-A!</p>
+<p>A little about Chevron:
+<br>
+  &quot;At Chevron, our businesses work in concert to provide the energy that drives human progress. Explore Chevron's companies to learn how we use our global resources, determination and ingenuity to meet today's complex energy challenges.&quot;
+</p>
+<p>Click <a target=_"blank" href = "http://careers.chevron.com/global_operations/country_operations/united_states/default.aspx">here</a> for more career possibilities with Chevron!</p>
+<p>See you there!</p>
+                    </div>
+                  <div class="col-xs-3"></div>
+                </div>
+                  <br>
+                </div>
+              </div>
+<!--FINISH-->
+
+<!--START-->
+<hr>
+<div class="row">    
+<br>
+<div class="col-lg-12">
+<center><a class="img-responsive" href="#"><img src="images/PepsiCo.png" style="width:450px;height:150px;max-width:100%"></a></center>
+</div>
+<div class="col-lg-12">
+<br>
+<br>
+<h3>4th General Meeting with PepsiCo!</h3>
+<div class="row">
+<div class="col-lg-12">
+<p>Howdy SHPEsters!<p/>
+<p>Join us for our 4th General Meeting of the semester! We will be having the wonderful PepsiCo join us in <b>Scoates 208</b> this <b>Wednesday, October 20<sup>th</sup></b> from <b>7 - 8:30 pm</b>. Make sure to wear your SHPE shirt for that extra point and be ready to grub on some Panda Express!</p>
+<p>A little about PepsiCo:
+<br>
+  &quot;We have a complementary food and beverage portfolio that enables us to provide more choices for our customers, and drives lower costs, productivity enhancements and new capabilities. Our products are available around the world and our portfolio includes 22 brands that each generates more than $1 billion in estimated annual retail sales.&quot;
+</p>
+<p>Click <a target=_"blank" href = "http://www.pepsicojobs.com/en">here</a> for career possibilities with PepsiCo!</p>
+<p>Thanks & Gig 'Em!</p>
+</div>
+<div class="col-xs-3"></div>
+</div>
+<br>
+</div>
+</div>
+<!--FINISH-->
+
+<!--START-->
+<hr>
+<div class="row">    
+<br>
+<div class="col-lg-12">
+<center><a class="img-responsive" href="#"><img src="images/SHPEWrecked.jpg" style="width:600px;height:300px;max-width:100%"></a></center>
+</div>
+<div class="col-lg-12">
+
+<h3>SHPEWrecked Social!</h3>
+<div class="row">
+<div class="col-lg-12">
+<p>Is there a void in your Saturday since there's not a Fightin' Texas Aggie Football game this weekend? If you answered yes, then come fill that void at TAMU SHPE's SHPEwrecked Social! Come enjoy hot dogs and hamburgers on the grill, outdoor activities, and unwind from a test-filled week with your fellow SHPEsters! Please dress comfortably, and feel free to bring a football, frisbee, or any type of sport-like object!</p>
+
+<p>The social will take place at <b>Spence Park</b> (which is conveniently located on campus across from the beautiful Kyle Field), this <b>Saturday, October 10<sup>th</sup></b>, from <b>12 - 2 pm</b>. Hope to see y'all there!</p>
+
+<p>Thanks & gig em!</p>
+
+<!--Click <a href = "https://docs.google.com/forms/d/1t9HnnU01wiEPwNUOd-VYow59V05jBJAGa-pKymNNtHE/viewform">here</a>!</b></p>-->
+
+</div>
+<div class="col-xs-3"></div>
+</div>
+<br>
+</div>
+</div>
+
+<!--FINISH--> 
+
+<!--START-->
+<hr>
+<div class="row">    
+                <br>
+                <div class="col-lg-12">
+                  <center><a class="img-responsive" href="#"><img src="images/FMCTechnologies.png" style="width:600px;height:450px;max-width:100%"></a></center>
+                </div>
+                <div class="col-lg-12">
+                  <h3>3rd General Meeting with FMC Technologies!</h3>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <p>Howdy y'all! We have a meeting with FMC Technologies this <b>Wednesday, October 7<sup>th</sup></b> from <b>7-8:30 pm</b> in <b>Scoates 208</b>. As always, FREE FOOD!</p>
+                      <p>Hope to see you there!</p>
+                    </div>
+                    <div class="col-xs-3"></div>
+                  </div>
+                  <br>
+                </div>
+              </div>
+<!--FINISH-->
+
+<!-- START -->
+<hr>
+<div class="row">    
+<br>
+<div class="col-lg-12">
+<center><a class="img-responsive" href="#"><img src="images/shell.png" style="width:450px;height:450px;max-width:100%"></a></center>
+</div>
+<div class="col-lg-12">
+
+<h3>2nd General Meeting with Shell!</h3>
+<div class="row">
+<div class="col-lg-12">
+<p>Howdy guys! Please come out and join us in welcoming Shell <b>this Wednesday, September 23<sup>rd</sup></b> from <b>7-9 pm</b> in <b>SCOATES 208</b>! We will be serving pupusas, so come hungry!</p>
+<p>Thanks & Gig'Em!</p>
+
+
+</div>
+<div class="col-xs-3"></div>
+</div>
+<br>
+</div>
+</div>
+<!--FINISH -->
+              
+              <!--/stories-->
+
+            </div>
+            <!-- /.panel-body -->
+          </div>
+          <!-- /.panel -->
+        </div>
+        <!-- /.col-lg-8 -->
+
+
+
+        <!-- Beginning of Plat. Sponsors BLOCK -->
+
+        <!-- /.row -->
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <i class="glyphicon glyphicon-briefcase"></i> Sponsors
+              </div>
+              <!-- /.panel-heading -->
+              <div class="panel-body">
+
+
+
+                <br>
+                <div class="col-lg-12">
+                  <center><a class="img-responsive" href="#"><img src="images/plat-sponsors.png" style="width:450px;height:320px;max-width:100%"></a></center>
+                </div>
+                <div class="row">   
+                  <div class="col-lg-12">
+                    <!-- /.NEW FIRST ENTRY -->
+                    <h3>Platinum Sponsors</h3>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <p>Our <b>platinum</b> sponsors are: <b>Chevron</b>, <b>Phillips 66</b>, <b>Shell</b>, and <b>Northrop Grumman</b>!</p>
+                      </div>
+                      <div class="col-xs-3"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- END OF PLAT SPONSORS BLOCK -->
+
+
+
+
+          <div class="col-lg-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <i class="fa fa-twitter fa-fw"></i> Twitter
+              </div>
+              <!-- /.panel-heading -->
+              <div class="panel-body">
+
+                <a class="twitter-timeline" href="https://twitter.com/tamushpe" data-widget-id="245624259450388480">Tweets by @tamushpe</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+              </div>
+              <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <i class="glyphicon glyphicon-camera"></i> Instagram
+              </div>
+              <div class="panel-body">
+                <div id="morris-donut-chart"></div>
+                <!-- SnapWidget -->
+                <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                <iframe src="https://snapwidget.com/in/?h=dGFtdXNocGV8aW58MTI1fDJ8OHx8bm98NXxub25lfG9uU3RhcnR8eWVzfHllcw==&ve=280115" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+              </div>
+            </div>
+
+
+
+
+
+            <!-- Beginning of Sponsors BLOCK -->
+            <br>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+              <!-- /#wrapper -->
+
+              <!-- jQuery Version 1.11.0 -->
+              <script src="js/jquery-1.11.0.js"></script>
+
+              <!-- Bootstrap Core JavaScript -->
+              <script src="js/bootstrap.min.js"></script>
+
+              <!-- Metis Menu Plugin JavaScript -->
+              <script src="js/plugins/metisMenu/metisMenu.min.js"></script>
+
+              <!-- Custom Theme JavaScript -->
+              <script src="js/sb-admin-2.js"></script>
+              <script src="js/navigation.js"></script>
+
+
+
+            </body>
+
+            </html>
+
