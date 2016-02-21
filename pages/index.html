@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Welcome</title>
+
+  <link rel="shortcut icon" href="../images/favicon.ico"/>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- MetisMenu CSS -->
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+  <script src="../js/angular.min.js"></script>
+  <script src="../js/angular-route.js"></script>
+  <script src="../js/app.js"></script>
+
+<style>
+.panel-default>.panel-heading{
+  background-color: #550000;
+  color: white;
+}
+
+.dropdown-toggle{
+  color: white;
+}
+
+#side-menu li a {
+  color: #ffffff;
+  background-color: #550000;
+}
+
+.navbar{
+  background-color: #550000;
+}
+</style>
+
+</head>
+
+<body ng-app="myApp">
+
+  <div id="wrapper">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+      <div class="navbar-header">
+
+        <a class="navbar-brand  hidden-xs hidden-sm" href="index.html" style="color:white; padding: 0px"><img src="../images/logotop.png" />
+          Texas A&M University
+        </a>
+
+        <a class="navbar-brand  visible-xs visible-sm" href="index.html" style="color:white; padding: 0px"><img src="../images/logotop.png" />
+          Texas A&M University
+        </a>
+
+      </div>
+
+      <br>
+      <!-- /.navbar-header -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+
+<!--IF GOING TO CHANGE NAVIGATION BAR, CHANGE IN testbank.xsl TOO!-->
+      <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav navbar-collapse">
+          <ul class="nav" id="side-menu">
+
+            <li>
+              <a href="#index.html"><i class="fa fa-home fa-fw"></i> Home</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> About<span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li>
+                  <a href="#history">History</a>
+                </li>
+                <li >
+                  <a href="#awards">Awards</a>
+                </li>
+                <li>
+                  <a href="#conferences">Conferences</a>
+                </li>
+                <li >
+                  <a href="#ahetems">AHETEMS</a>
+                </li>
+              </ul>
+              <!-- /.nav-second-level -->
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Executive Board<span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li >
+                  <a href="#advisor">Advisor</a>
+                </li>
+                  <!-- TODO: make comittes page
+                <li >
+                  <a href="committees.html">Committees</a>
+                </li> -->
+                <li >
+                  <a href="#officers">Officers</a>
+                </li>
+              </ul>
+              <!-- /.nav-second-level -->
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Members<span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li >
+                  <a href="#membership">Membership</a>
+                </li>
+                <li >
+                  <a href="#committees">Committees</a>
+                </li>
+                <!-- TODO: make this opportunities page
+                <li>
+                  <a href="opportunities.html">Opportunities</a>
+                </li> -->
+                <li>
+                  <a target="_blank" href="https://docs.google.com/spreadsheets/d/1aBKdKfdy8oD5jkgjcwoNB_o8I2Fn2cxecQaZ27_Hy_M/edit#gid=0">SHPE Points</a>
+                </li>  
+                <!-- <li>
+                  <a href="https://secure.touchnet.com/C21490_ustores/web/store_main.jsp?STOREID=247">Marketplace</a>
+                </li> -->
+              </ul>
+              <!-- /.nav-second-level -->
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Academics<span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li >
+                  <a href="#aeg">Aggie Engineering Guide</a>
+                </li>
+                <li >
+                  <a href="#afg">Aggie Freshman Guide</a>
+                </li>
+                <li >
+                  <a href="#mentor">MentorSHPE</a>
+                </li>
+                <li>
+                  <a target=_"blank" href="https://tamushpetestbank.herokuapp.com/">Test Bank</a>
+                  <!-- testbank.xml -->
+                </li>
+              </ul>
+              <!-- /.nav-second-level -->
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Multimedia<span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li >
+                  <a href="#socialmedia">Social Media</a>
+                </li>
+                <li >
+                  <a href="#event">Event Calendar</a>
+                </li>
+                <li >
+                  <a href="#gallery">Gallery</a>
+                </li>
+
+                <!-- TODO: make this newsletters page
+                <li>
+                  <a href="news.html">Newsletters</a>
+                </li>
+                <li>
+                  <a href="resources.html">Resources</a>
+                </li>-->
+              </ul>
+              <!-- /.nav-second-level -->
+            </li>
+            <!-- start of six nav -->
+            <li>
+              <a  href="#sponsors" ><i class="fa fa-bar-chart-o fa-fw"></i> Sponsors</a>
+              <!-- /.nav-six-level -->
+            </li>
+            <li>
+              <a  href="#contact"><i class="fa fa-bar-chart-o fa-fw"></i> Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.sidebar-collapse -->
+      </div>
+      <!-- /.navbar-static-side -->
+    </nav>
+
+
+
+
+
+    <!-- Page Content -->
+    <div id="page-wrapper" >
+      <ng-view ></ng-view>
+    </div>
+              <!-- /#wrapper -->
+
+              <!-- jQuery Version 1.11.0 -->
+              <script src="../js/jquery-1.11.0.js"></script>
+
+              <!-- Bootstrap Core JavaScript -->
+              <script src="../js/bootstrap.min.js"></script>
+
+              <!-- Metis Menu Plugin JavaScript -->
+              <script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+
+              <!-- Custom Theme JavaScript -->
+              <script src="../js/sb-admin-2.js"></script>
+              <!-- <script src="../js/navigation.js"></script> -->
+
+
+
+            </body>
+
+            </html>
+
