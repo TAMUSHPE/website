@@ -58,6 +58,58 @@ app.config(function ($routeProvider) {
     when('/gallery', {
         templateUrl: '../pages/multimedia/gallery.html',
     }).
+    //gallery pics
+    when('/13-14/severalevents', {
+        templateUrl: '../13-14/severalevents.html',
+    }).
+    when('/12-13/nochedeciencias12-13', {
+        templateUrl: '../12-13/nochedeciencias12-13.html',
+    }).
+    when('/12-13/bowlingnightsocial', {
+        templateUrl: '../12-13/bowlingnightsocial.html',
+    }).
+    when('/12-13/sports', {
+        templateUrl: '../12-13/sports.html',
+    }).
+    when('/12-13/salsa', {
+        templateUrl: '../12-13/salsa.html',
+    }).
+    when('/12-13/bigevent', {
+        templateUrl: '../12-13/bigevent.html',
+    }).
+    when('/12-13/exxon', {
+        templateUrl: '../12-13/exxon.html',
+    }).
+    when('/12-13/stress', {
+        templateUrl: '../12-13/stress.html',
+    }).
+    when('/12-13/lonestar', {
+        templateUrl: '../12-13/lonestar.html',
+    }).
+    when('/12-13/capitalone', {
+        templateUrl: '../12-13/capitalone.html',
+    }).
+    when('/12-13/fmc', {
+        templateUrl: '../12-13/fmc.html',
+    }).
+    when('/12-13/ibm', {
+        templateUrl: '../12-13/ibm.html',
+    }).
+    when('/12-13/wrecked', {
+        templateUrl: '../12-13/wrecked.html',
+    }).
+    when('/12-13/1st', {
+        templateUrl: '../12-13/1st.html',
+    }).
+    when('/12-13/resume', {
+        templateUrl: '../12-13/resume.html',
+    }).
+    when('/12-13/caliente', {
+        templateUrl: '../12-13/caliente.html',
+    }).
+    when('/12-13/informational', {
+        templateUrl: '../12-13/informational.html',
+    }).
   otherwise({
         redirectTo: '/index'
     });
