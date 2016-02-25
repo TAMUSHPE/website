@@ -12,3 +12,10 @@ $(".nav-second-level").on("click",function(event){
         $(".navbar-toggle").click();
     }
 });
+$("#side-menu").on('click',function(event){
+    var text =event.target.text;
+    if(window.mobilecheck() && (text === " Sponsors" ||
+                               text === " Contact")){
+       $(".navbar-toggle").click();
+    }
+});
