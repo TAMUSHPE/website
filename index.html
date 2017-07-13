@@ -1,669 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-<head>
-    <link rel="apple-touch-icon" sizes="144x144" href="images/tamushpe-icon.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/tamushpe-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/tamushpe-icon.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="images/tamushpe-icon.png">
-    <link rel="apple-touch-icon" href="images/tamushpe-icon.png">
+    <title>tamuSHPE</title>
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-  <title>TAMU SHPE</title>
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-  <link rel="shortcut icon" href="images/favicon.ico"/>
+    <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/modernizr.custom.js"></script>
+	
 
-  <link rel="shortcut icon" href="images/favicon.ico"/>
+	
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
 
-  <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-  <!-- MetisMenu CSS -->
-  <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <body id="particles-js" data-spy="scroll" data-offset="0" data-target="#theMenu">
 
-  <!-- Custom CSS -->
-  <link href="css/sb-admin-2.css" rel="stylesheet">
+<!--   
 
-  <!-- Custom Fonts -->
-  <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+onload="myFunction()"
 
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-
-<style>
-.panel-default>.panel-heading{
-  background-color: #550000;
-  color: white;
-}
-
-.dropdown-toggle{
-  color: white;
-}
-
-#side-menu li a {
-  color: #ffffff;
-  background-color: #550000;
-}
-
-.navbar{
-  background-color: #550000;
-}
-
-.fa-s {
-  padding: 15px;
-  font-size: 30px;
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 5px;
-  border-radius: 50%;
-}
-
-.fa-hover:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}  
-    
-
-    
-.center {
-    padding: 5px 0;
-    text-align: center;
-}
-      
-</style>
-
-</head>
-
-<body>
-
-  <div id="wrapper">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-      <div class="navbar-header">
-        <a class="navbar-brand  hidden-xs hidden-sm" href="index.html" style="color:white; padding: 0px"><img src="images/logotop.png" />
-            Texas A&M University
-        </a>
-        <!-- Social Media Icons -->
-        <!-- Google Plus href="https://plus.google.com/112567719739311579807/posts" class="fa fa-s fa-google" -->
-          <div style="position:relative;left:50%"class="navbar-header hidden-xs hidden-sm right">
-          <a href="https://www.facebook.com/groups/SHPETamu/" target="_blank" class="fa fa-s fa-facebook"></a>
-          <a href="https://instagram.com/tamushpe/" target="_blank" class="fa fa-s fa-instagram"></a>
-          <a href="https://twitter.com/tamushpe" target="_blank" class="fa fa-s fa-twitter"></a>
-          <a href="http://tamushpe.org/images/Snapchat.png" target="_blank" class="fa fa-s fa-snapchat-ghost"></a>
-          <a href="https://youtube.com/tamushpe" target="_blank" class="fa fa-s fa-youtube"></a>
-          </div>
-          
-        <a class="navbar-brand  visible-xs visible-sm" href="index.html" style="color:white; padding: 0px"><img src="images/logotop.png" />
-          Texas A&M University 
-        </a>
-
-      </div>
-
-      <br>
-      <!-- /.navbar-header -->
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+<div id="loader" class = "fullscreen">
+  			<div class="spinner">
+			  <div class="bounce1"></div>
+			  <div class="bounce2"></div>
+			  <div class="bounce3"></div>
+			</div>
+  </div>		
+  <script>
+  		var myVar;
+  		function myFunction(){
+  			myVar = setTimeout(showPage, 7000);
+  		}
+  		function showPage(){
+  			document.getElementById("loader").style.display = "none";
+  		}
+  </script> -->
+		
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home">tamuSHPE</a></h1>
+			<i class="icon-remove menu-close"></i>
+			<a href="index.html" class="smoothScroll">Home</a>
+			<!-- <a href="#about" class="smoothScroll">About</a> -->
+			<a href="sponsorshpe.html" class="smoothScroll">SponsorSHPE</a>
+			<!-- <a href="#contact" class="smoothScroll">Contact</a> -->
+			<h1 class="logo"><center>What We Do</center></h1>
+			<a href="academic.html" class="smoothScroll">Academic Development</a>
+			<a href="professional.html" class="smoothScroll">Professional Development</a>
+			<a href="service.html" class="smoothScroll">Service & Outreach</a>
+			<a href="leadership.html" class="smoothScroll">LeaderSHPE Development</a>
+			<a href="chapter.html" class="smoothScroll">Chapter Development</a>
+			
+			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="icon-reorder"></i></div>
+	</nav>
 
 
-<!--IF GOING TO CHANGE NAVIGATION BAR, CHANGE IN testbank.xsl TOO!-->
-      <div class="navbar-default sidebar" role="navigation">
-        <div class="sidebar-nav navbar-collapse">
-          <ul class="nav" id="side-menu">
+	
+	<!-- ========== HEADER SECTION ========== -->
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+		<div class="container">
+			<div class="logo">
+				<img src="assets/img/gearlogo.png">
+			</div>
+			<br>
+			<div class="row">
+				<div class="border white">
+					<h1>TAMUSHPE</h1>
+					<h3>Texas A&M University Society of Hispanic Professional Engineers</h3>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+	
 
-            <li>
-              <a href="index.html"><i class="fa fa-home fa-fw"></i> Home</a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> About<span class="fa arrow"></span></a>
-              <ul class="nav nav-second-level">
-                <li onclick="showHTML('history.html')">
-                  <a href="#">History</a>
-                </li>
-                <li onclick="showHTML('awards.html')">
-                  <a href="#">Awards</a>
-                </li>
-                <li onclick="showHTML('conferences.html')">
-                  <a href="#">Conferences</a>
-                </li>
-              </ul>
-              <!-- /.nav-second-level -->
-            </li>
-               <li>
-              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> General Meetings<span class="fa arrow"></span></a>
-              <ul class="nav nav-second-level">
-                <li onclick="showHTML('presentations_fall2016.html')">
-                  <a href="#">Fall 2016</a>
-                </li>
-                   <li onclick="showHTML('presentations_Spring_2017.html')">
-                  <a href="#">Spring 2017</a>
-                </li>
-              </ul>
-              <!-- /.nav-second-level -->
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Executive Board<span class="fa arrow"></span></a>
-              <ul class="nav nav-second-level">
-                <li onclick="showHTML('advisor.html')">
-                  <a href="#">Advisor</a>
-                </li>
-                  <!-- TODO: make comittes page
-                <li >
-                  <a href="committees.html">Committees</a>
-                </li> -->
-                <li onclick="showHTML('officers.html')">
-                  <a href="#">Officers</a>
-                </li>
-              </ul>
-              <!-- /.nav-second-level -->
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Members<span class="fa arrow"></span></a>
-              <ul class="nav nav-second-level">
-                <li onclick="showHTML('membership.html')">
-                  <a href="#">Membership</a>
-                </li>
-                <li onclick="showHTML('committees.html')">
-                  <a href="#">Committees</a>
-                </li>
-                <!-- TODO: make this opportunities page
-                <li>
-                  <a href="opportunities.html">Opportunities</a>
-                </li> -->
-                <li>
-                  <a target="_blank" href="https://docs.google.com/spreadsheets/d/1jUESVFzWGbiI6ZOB1lykyV6r3NjFHulf2mj3ENafp_w/edit?usp=sharing">SHPE Points</a>
-                </li>  
-                <!-- <li>
-                  <a href="https://secure.touchnet.com/C21490_ustores/web/store_main.jsp?STOREID=247">Marketplace</a>
-                </li> -->
-              </ul>
-              <!-- /.nav-second-level -->
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Academics<span class="fa arrow"></span></a>
-              <ul class="nav nav-second-level">
-                <li onclick="showHTML('aeg.html')">
-                  <a href="#">Aggie Engineering Guide</a>
-                </li>
-                <li onclick="showHTML('afg.html')">
-                  <a href="#">Aggie Freshman Guide</a>
-                </li>
-                <li onclick="showHTML('mentor.html')">
-                  <a href="#">MentorSHPE</a>
-                </li>
-                <li>
-                  <a target=_"blank" href="https://tamushpetestbank.herokuapp.com/">Test Bank</a>
-                  <!-- testbank.xml -->
-                </li>
-              </ul>
-              <!-- /.nav-second-level -->
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Multimedia<span class="fa arrow"></span></a>
-              <ul class="nav nav-second-level">
-                <li onclick="showHTML('socialmedia.html')">
-                  <a href="#">Social Media</a>
-                </li>
-                <li onclick="showHTML('event.html')">
-                  <a href="#">Event Calendar</a>
-                </li>
-                <li onclick="showHTML('gallery.html')">
-                  <a href="#">Gallery</a>
-                </li>
+	<!-- ========== ABOUT SECTION ========== -->
+	<section id="about" name="about"></section>
+	<div id="f">
+		<div class="container">
+		<h3>ABOUT US</h3>
+		<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+			<div class="row">
+				<div class="col-md-6">
+					<img src="assets/img/img001s.jpg">
+				</div>
+				<div class="col-md-6">
+					<img src="assets/img/img000s.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<!-- INTRO INFORMATIO-->
+				<div class="col-lg-6 justified">
+					<p>The Society of Hispanic Professional Engineers (SHPE) was founded in Los Angeles, California, in 1974 by a group of engineers employed by the city of Los Angeles. Their objective was to form a national organization of professional engineers to serve as role models in the Hispanic community. The concept of Networking was the key basis for the organization. SHPE quickly established two student chapters to begin the network that would grow to encompass the nation as well as reach countries outside the United States. Today, SHPE enjoys a strong but independent network of professional and student chapters throughout the nation.</p>
+				</div>		
+				<div class="col-lg-6 justified">
+					<p>The Texas A&M University Chapter of SHPE was founded in 1994 to create an organization where hispanic engineers could come together. Since then, SHPE-TAMU has become a premiere club on campus. SHPE-TAMU has received recognition from the Hispanic Presidents' Council, an umbrella organization, as Hispanic Organization of the Year 2002-2003. In addition, this organization has been awarded as the best of 700+ clubs on the Texas A&M Campus with the title of Recognized Student Organization of the Year 2002-2003. SHPE-TAMU has also been noticed on the regional level as it received the Regional Chapter of the Year 2003-2004 for Region V. We hope to continue this commitment to excellence in the years to come.</p>
+				</div>						
+			</div>
+		</div><!-- /container -->
+	</div><!-- /f -->
+	
 
-                <!-- TODO: make this newsletters page
-                <li>
-                  <a href="news.html">Newsletters</a>
-                </li>
-                <li>
-                  <a href="resources.html">Resources</a>
-                </li>-->
-              </ul>
-              <!-- /.nav-second-level -->
-            </li>
-            <!-- start of six nav -->
-            <li>
-              <a onclick="showHTML('sponsors.html')" href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Sponsors</a>
-              <!-- /.nav-six-level -->
-            </li>
-            <li>
-              <a onclick="showHTML('contact.html')" href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Contact</a>
-            </li>
-          </ul>
-        </div>
-        <!-- /.sidebar-collapse -->
-      </div>
-      <!-- /.navbar-static-side -->
-    </nav>
+	<!-- ========== CAROUSEL SECTION ========== -->	
+<!-- 	<section id="portfolio" name="portfolio"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row centered">
+				<h3>CURRENT EVENTS</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+				
+				<div class="col-lg-6 col-lg-offset-3">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
+						<div class="carousel-inner">
+							<div class="item active centered">
+								<img class="img-responsive" src="assets/img/c1.png" alt="">
+							</div>
+							<div class="item centered">
+								<img class="img-responsive" src="assets/img/c2.png" alt="">
+							</div>
+							<div class="item centered">
+								<img class="img-responsive" src="assets/img/c3.png" alt="">
+							</div>
+						</div>
+						<br>
+						<br>
+						<ol class="carousel-indicators">
+						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->	
 
-
-
-
-    <!-- Page Content -->
-    <div id="page-wrapper">
-      <div id="mainContainer">
-          <div class="navbar-header visible-xs center">
-          <a href="https://www.facebook.com/groups/SHPETamu/" target="_blank" class="fa fa-s fa-facebook"></a>
-          <a href="https://instagram.com/tamushpe/" target="_blank" class="fa fa-s fa-instagram"></a>
-          <a href="https://twitter.com/tamushpe" target="_blank" class="fa fa-s fa-twitter"></a>
-          <a href="http://tamushpe.org/images/Snapchat.png" target="_blank" class="fa fa-s fa-snapchat-ghost"></a>
-          <a href="https://youtube.com/tamushpe" target="_blank" class="fa fa-s fa-youtube"></a>
-          </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <h2 class="page-header">The Society of Hispanic Professional Engineers</h2>
-
-            <center>
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="max-width: 959px;height:inherit;">
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-			  <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-			</ol>
-            <div class="carousel-inner">
-              <div class="item active">
-                <img src="images/slideshow/5.JPG" alt="First slide">
-              </div>
-              <div class="item">
-                <img src="images/slideshow/3.jpg" alt="Second slide">
-              </div>
-              <div class="item">
-                <img src="images/slideshow/4.jpg" alt="Third slide">
-              </div>
-              <div class="item">
-                <img src="images/slideshow/2.jpg" alt="Fourth slide">
-                  </div>
-			  <div class="item">
-                <img src="images/slideshow/1.jpg" alt="Fifth slide">
-                  </div>	  
-            </div>
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-          </div>
-            </center>
-        </div>
-        <!-- /.col-lg-12 -->
-      </div>
-      <!-- /.row -->
-      <br>
-                                   <!-- /._________________EXAMPLE UPDATE BLOCK___________ -->
-<!-- EXAMPLE STARTS BELOW 
-  "Click <a href = "http://form.jotform.us/form/50188866803161">here</a> if you..." -->
-  <!-- /._________________EXAMPLE UPDATE BLOCK___________ -->
-<!-- EXAMPLE STARTS BELOW
-<div class="row">    
-<br>
-<div class="col-lg-12">
-<center><a class="img-responsive" href="#"><img src="images/Flyer_Gen_Mtng1_Spring2015.jpg" style="width:500px;height:750px;max-width:100%"></a></center>
-</div>
-<div class="col-lg-12">
-
-<h3>First General Meeting of 2015!</h3>
-<div class="row">
-<div class="col-lg-12">
-<p>Make sure to come out to our meeting this <b>Wednesday, January 28<sup>th</sup></b> in <b>Richardson 106 (RICH 106)</b> at <b>6:45pm</b>! <b>FREE</b> tortas will be provided! </p>
-
-<p>Presenting Wednesday will be <b>Honeywell</b>. </p>
-
-<p>"Honeywell International, Inc. is an American multinational conglomerate company that produces a variety of commercial and consumer products, engineering services, and aerospace systems for a wide variety of customers, from private consumers to major corporations and governments."
-</p>
-</div>
-<div class="col-xs-3"></div>
-</div>
-<br>
-</div>
-</div>
-<hr> 
-EXAMPLE ENDS HERE-->
-
-      <!-- /.row -->
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <i class="glyphicon glyphicon-exclamation-sign"></i> Updates
-            </div>
-            <!-- /.panel-heading -->
-            <div class="panel-body">
-
-<!--START-->
-<hr>
-<div class="row">    
-                <br>
-                <div class="col-lg-12">
-                  <center><a class="img-responsive" href="#"><img src="images/12thGeneralMeeting.jpg" style="width:600px;height:450px;max-width:100%"></a></center>
+	<!-- ========== CONTACT SECTION ========== -->
+	<section id="contact" name="contact"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<h3>CONTACT US</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+				    <div class="col-lg-12">
+					<p><b>Mailing Address:</b><br>
+					Dwight Look College of Engineering <br>
+					SHPE - Texas A&M SHPE <br>
+					Engineering Activities Building B (EABB) Room 106 <br>
+					College Station, Texas 77843-3127</p>
+					<p><b>Office Phone:</b> (979) 847-8878<br>
+					<b>Email:</b> tamushpe@gmail.com<br>
+					<b>Office Hours:</b> Monday-Thursday | EABB 106 | 10 a.m - 4 p.m.</p>
                 </div>
-                <div class="col-lg-12">
-                <br>
-                <br>
-                  <h3>12th General Meeting</h3>
-                  <div class="row">
-                    <div class="col-lg-12">
-                        <p>Howdy Ags!</p>
-                        <p> come join us for our <b>last general meeting of the semester!</b> It will be hosted by <b>Lockheed Martin this Wednesday April 26th, starting at 7:30PM in RICH 106.</b> This event will be hosted by a great sponsor, you would not want to miss it. Valuable information about the company, career tips, networking opportunities will be able to all of you SHPEsters. Hope you can make it out and as always <b>free food</b> will be served. Thanks & Gig 'em!</p>
-                            <p>See y'all there!</p>
-                    </div>
-                    <div class="col-xs-3"></div>
-                  </div>
-                  <br>
-                </div>
-              </div>
-<!--FINISH-->
-                
-<!--START-->
-<hr>
-<div class="row">    
-                <br>
-                <div class="col-lg-12">
-                  <center><a class="img-responsive" href="#"><img src="images/SHPE2017Banquet.jpg" style="width:600px;height:450px;max-width:100%"></a></center>
-                </div>
-                <div class="col-lg-12">
-                <br>
-                <br>
-                  <h3>SHPE 2017 Banquet</h3>
-                  <div class="row">
-                    <div class="col-lg-12">
-                        <p>Howdy Ags!</p>
-                        <p> Banquet will be <b>Saturday, April 29th at Hilton garden inn in Bryan, 3081 University Dr E, Bryan, TX 77802</b> starting at <b>7PM</b>. Members can expect games, prizes, awards, dancing, and a 3 course meal! Great way to end the year with fellow shpesters and celebrate all our accomplishments. It will be <b>Casino themed</b>, also with all end of the year prizes you must be present in order to recieve your prize. Tickets are $15 and will be sold during office hours all week. First come first serve. So come grab your tickets asap and be ready for a great time this Saturday night!</p>
-                            <p>See y'all there!</p>
-                    </div>
-                    <div class="col-xs-3"></div>
-                  </div>
-                  <br>
-                </div>
-              </div>
-<!--FINISH-->
-<!--START-->
-<hr>
-<div class="row">    
-                <br>
-                <div class="col-lg-12">
-                  <center><a class="img-responsive" href="#"><img src="images/OfficerElections.jpg" style="width:600px;height:450px;max-width:100%"></a></center>
-                </div>
-                <div class="col-lg-12">
-                <br>
-                <br>
-                  <h3>Officer Elections</h3>
-                  <div class="row">
-                    <div class="col-lg-12">
-                        <p>Howdy Ags!</p>
-                        <p> Please make sure to come out to our officer elections! <b>Wednesday, April 12th @ 7:30PM - RICH 106.</b> These elections will determine next year's executive board, all nine positions. Due to the encouraging number of candidates that we have for upcoming elections, we have decided to split elections into two separate days. <b>Internal Affairs, External Affairs, Public Relations, Academic Affairs, and Technical Affairs</b> will all be this Wednesday (same time and place). <b>Secretary, Treasurer, Vice President, and President</b> will all take place next Wednesday (also at the same time and place). Since these are elections meetings, you will receive <b>1 point</b> if you show up to just one of the two meetings, or <b>5 points</b> if you attend both. Looking forward to all of the speeches! Each candidate will present and the voting for each postion will follow. We will see who leads this organization for the next academic year this same night. <b>NOTE: You must be a fully paid member to vote/run. If you haven't turned either one of your applications/dues in, do so before elections.</b> 
-                            <p>See y'all there!</p>
-                        <p><b>P.S. Pizza will be served!</b></p>
-                          <p></p>
-                    </div>
-                    <div class="col-xs-3"></div>
-                  </div>
-                  <br>
-                </div>
-              </div>
-<!--FINISH-->
- <!--START-->
-<hr>
-<div class="row">    
-                <br>
-                <div class="col-lg-12">
-                  <center><a class="img-responsive" href="#"><img src="images/LonestarShowdown2016.jpg" style="width:600px;height:450px;max-width:100%"></a></center>
-                </div>
-                <div class="col-lg-12">
-                <br>
-                <br>
-                  <h3>Lonestar Showdown</h3>
-                  <div class="row">
-                    <div class="col-lg-12">
-                         <p>Howdy Ags!</p>
-                        <p>Get ready to BTHO UT, BTHO UTSA, and BTHO UH at Lonestar showdown! For those who don't know, Lonestar Showdown will feature all four schools in a soccer tournament on <b>Saturday, April 22nd, 2017</b> for a battle to see who the best SHPE chapter is, and we are looking to earn our second first place title of the year.  We will also be holding a social with the other schools after the event! More details to come!</p>
-                        <p> Thanks & Gig 'em!</p>
-                          <p></p>
-                    </div>
-                    <div class="col-xs-3"></div>
-                  </div>
-                  <br>
-                </div>
-              </div>
-<!--FINISH-->
-<!--START-->
-<hr>
-<div class="row">    
-                <br>
-                <div class="col-lg-12">
-                  <center><a class="img-responsive" href="#"><img src="images/Crawfish.png" style="width:600px;height:450px;max-width:100%"></a></center>
-                </div>
-                <div class="col-lg-12">
-                <br>
-                <br>
-                  <h3>Crawfish Boil W/ BASF and Alumni</h3>
-                  <div class="row">
-                    <div class="col-lg-12">
-                         <p>Howdy Ags!</p>
-                        <p>We have another great event this weekend planned on top of Lonestar Showdown! Join us for our annual crawfish boil on <b>Sunday, April 23rd, 2017!</b> We will be joined for this event by BASF employees and SHPE alumni! Not only will you get fed delicious crawfish, get to hang out and network, but we are also going to be bringing back knockerball (and rumor has it that Hector Moreno is coming back for round 2)!</p>
-                        <p> Thanks & Gig 'em!</p>
-                          <p></p>
-                    </div>
-                    <div class="col-xs-3"></div>
-                  </div>
-                  <br>
-                </div>
-              </div>
-<!--FINISH-->                
-                                 
-            <!--/stories-->
+			</div>
+		</div>
+	</div>
 
-            </div>
-            <!-- /.panel-body -->
-          </div>
-          <!-- /.panel -->
-        </div>
-        <!-- /.col-lg-8 -->
+	
+	<canvas class="background"></canvas>
+	<script src="particles.min.js"></script>
+	<script>
+	window.onload = function() {
+  	  	Particles.init({
+    	selector: '.background',
+    	color: '#ffffff',
+    	maxParticles: 150,
+    	connectParticles: true,
 
-           <div class="row">
-          <div class="col-lg-4">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <i class="glyphicon glyphicon-plane"></i> Other Opportunities
-              </div>
-              <!-- /.panel-heading -->
-              <div class="panel-body">
-
-
-
-                <br>
-               
-                <div class="row">   
-                  <div class="col-lg-12">
-                    <!-- /.NEW FIRST ENTRY -->
-                      
-                    <h4><a target="_blank" href="https://drive.google.com/file/d/0B3JvmBjk8PWVUmd2VVhjLWh1WE9mZ0x1OURJMkR6UUV0WUhR/view?usp=sharing">DOW Chemical 2017 Diamond Symposium </a></h4>
-                    <h4><a target="_blank" href="https://drive.google.com/file/d/0B3JvmBjk8PWVdWlQVmt0RW41bjI0UzZqUUhZQUN5ZmJrS0pR/view?usp=sharing">ERCOT EDP Reach Scholarship! </a></h4>
-                    <h4><a target="_blank" href="https://docs.google.com/document/d/1_qbNc0yeKMJi52a_Xd1_iyWLV81CtUCOLRs-BGnSnfU/edit?usp=sharing">Jobs & Internships for TAMU SHPE Students!! </a></h4>
-                    <h4><a target="_blank" href="https://docs.google.com/document/d/1IDnAkZPrHZAQhoT-XNb7TL24XuqxzT7f-oCNj2t5zUo/edit?ts=58ab9614">Intel Manufacturing Technician Jobs </a></h4>
-					<h4><a target="_blank" href="https://docs.google.com/document/d/1OW2csySuFxTnurPIqs9MNEUykqBXue6vpXIlKDBkXmg/edit?usp=sharing">Spend a Week at Harvard Business School </a></h4>
-                    <h4><a target="_blank" href="http://www.pvamu.edu/cahs/reeu/">REEU Fellowships in Water Quality </a></h4>
-                    <div class="row">
-                      <div class="col-lg-12">
-                        <p style="text-align:center">
-
-
-
-                      </div>
-                      <div class="col-xs-3"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        
-        <!-- Beginning of Plat. Sponsors BLOCK -->
-
-        <!-- /.row -->
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <i class="glyphicon glyphicon-briefcase"></i> Sponsors
-              </div>
-              <!-- /.panel-heading -->
-              <div class="panel-body">
-
-
-
-                <br>
-                <div class="col-lg-12 ">
-                  <center><a class="img-responsive" href="#"><img src="images/2016-2017-Sponsors/Platinum.jpg" style="width:450px;height:320px;max-width:100%"></a></center>
-                </div>
-                <div class="row">   
-                  <div class="col-lg-12">
-                    <!-- /.NEW FIRST ENTRY -->
-                    <h3>Platinum Sponsors</h3>
-                    <div class="row">
-                      <div class="col-lg-12">
-                        <p>Our <b>Platinum</b> sponsors are: <b>Chevron</b>, <b>Phillips 66</b>, and <b>Shell</b>!</p>
-                      </div>
-                      <div class="col-xs-3"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <!-- END OF PLAT SPONSORS BLOCK -->
-
-
-
-            
-        
-         
-            <div class="col-lg-4 hidden-xs">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <i class="fa fa-twitter fa-fw"></i> Twitter
-              </div>
-              <!-- /.panel-heading -->
-              <div class="panel-body">
-
-                <a class="twitter-timeline" href="https://twitter.com/tamushpe" data-widget-id="245624259450388480">Tweets by @tamushpe</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-              </div>
-              <!-- /.panel-body -->
-            </div>
-            <!-- /.panel -->
-         <!-- Start of facebook block -->
-
-                <div class="panel panel-default hidden-xs">
-              <div class="panel-heading">
-                <i class="glyphicon glyphicon-camera"></i> Facebook
-              </div>
-              <div class="panel-body">
-               
-                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftamushpe5&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" height="500" style="border:none;overflow:hidden; width:100%" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-              </div>
-            </div>
-                
-            <!-- End of facebook block -->
-          <!-- /.panel -->
- 
-            <div class="panel panel-default hidden-xs">
-              <div class="panel-heading">
-                <i class="glyphicon glyphicon-camera"></i> Instagram
-              </div>
-              <div class="panel-body">
-                <div id="morris-donut-chart"></div>
-                <!-- SnapWidget -->
-                <script src="https://snapwidget.com/js/snapwidget.js"></script>
-                
-                  <!-- SnapWidget -->
-                  <iframe src="https://snapwidget.com/embed/268031" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:1040px"></iframe>
-                  
-              </div>
-            </div>
-
-
-
-
-
-
-            <!-- Beginning of Sponsors BLOCK -->
-            <br>
-  
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-              <!-- /#wrapper -->
-
-              <!-- jQuery Version 1.11.0 -->
-              <script src="js/jquery-1.11.0.js"></script>
-
-              <!-- Bootstrap Core JavaScript -->
-              <script src="js/bootstrap.min.js"></script>
-
-              <!-- Metis Menu Plugin JavaScript -->
-              <script src="js/plugins/metisMenu/metisMenu.min.js"></script>
-
-              <!-- Custom Theme JavaScript -->
-              <script src="js/sb-admin-2.js"></script>
-              <script src="js/navigation.js"></script>
-
-
-
-            </body>
-
-            </html>
-
+   		});
+ 	};
+	</script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
