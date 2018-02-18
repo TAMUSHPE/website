@@ -246,6 +246,7 @@ a:after {
 	top: 0;
 	z-index: 1;
 	text-align: left;
+	overflow-y: auto;
 }
 
 .menu.menu-open {
