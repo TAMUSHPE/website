@@ -15,13 +15,14 @@ body {
     color: #555;
     margin: 0;
     padding: 0;
+    overflow: visible;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
 #particles-js {
-	position: relative;
+    position: relative;
     top: 0;
     width: 100%;
     height: 100%;
