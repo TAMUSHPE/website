@@ -289,7 +289,7 @@ a:after {
 	display: block;
 	font-size: 12px;
 	font-weight: 700;
-	line-height: 100%;
+	line-height: 120%;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
@@ -309,7 +309,7 @@ a:after {
 	text-align: left;
 	width: 25px;
 	font-size: 14px;
-	line-height: 100%;
+	line-height: 120%;
 	margin: 25px 2px;
 }
 
@@ -375,7 +375,7 @@ a:after {
 	color: #ffffff;
 	width: 40px;
 	height: 40px;
-	line-height: 100%;
+	line-height: 120%;
 	cursor: pointer;
 	background: rgba(0,0,0,0.25);
 	-webkit-transition: all .1s ease-in-out;
