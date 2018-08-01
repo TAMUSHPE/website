@@ -2341,9 +2341,9 @@
   overflow: hidden;
 }
 .topnav a {
-  float: center;
+  float: right;
   display: block;
-  color: #f2f2f2;
+  /*color: #f2f2f2;*/
   text-align: center;
   padding: 20px 30px;
   text-decoration: none;
