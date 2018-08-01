@@ -2341,20 +2341,20 @@
   overflow: hidden;
 }
 .topnav a {
-  float: right;
+  float: center;
   display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 20px 30px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 40px;
 }
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 .active {
-  background-color: #4CAF50;
+  background-color: #6d2614;
   color: white;
 }
 .topnav .icon {
