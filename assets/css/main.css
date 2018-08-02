@@ -247,11 +247,11 @@ a:after {
 	top: 0;
 	z-index: 1;
 	text-align: left;
-	overflow-y: auto; */
+	overflow-y: auto; 
 	float: right;
 	display: block;
-	text-align: center;
-	overflow-y: auto;
+	text-align: center;*/
+	overflow: hidden;
 
 }
 
