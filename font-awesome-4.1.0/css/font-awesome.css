@@ -2337,7 +2337,7 @@
 }
 /*trying to create top nav */
 .topnav {
-  background-color: #333;
+  background-color: none;
   overflow: hidden;
 }
 .topnav a {
