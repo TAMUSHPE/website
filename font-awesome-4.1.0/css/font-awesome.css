@@ -2339,7 +2339,7 @@
 .topnav {
   /*background-color: #333; */
   overflow: hidden;
-    background-color: #00000000;
+  background-color: #ddd;
   float: right;
   display: block;
   position: fixed;
