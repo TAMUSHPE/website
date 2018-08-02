@@ -2341,6 +2341,7 @@
   overflow: hidden;
 }
 .topnav a {
+  background-color: none;
   float: right;
   display: block;
   /*color: #f2f2f2;*/
