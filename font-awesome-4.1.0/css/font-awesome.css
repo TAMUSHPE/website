@@ -2354,7 +2354,7 @@
   background-color: #ddd;
   color: black;
 }
-.topnav h1.logo a {
+.topnav h2.logo a {
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-weight: 700;
