@@ -15,10 +15,11 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nav.css">
 
     <script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/modernizr.custom.js"></script>
-	
+	<script src="js/nav.js"></script>
 
 	
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
@@ -33,44 +34,36 @@
   </head>
 
   <body id="particles-js" data-spy="scroll" data-offset="0" data-target="#theMenu">
-	<!-- Menu -->
-	<nav class="menu" id="theMenu">
-		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">tamuSHPE</a></h1>
-			<i class="icon-remove menu-close"></i>
-			<a href="index.html" class="smoothScroll">Home</a>
-			<a href="sponsorshpe.html" class="smoothScroll">SponsorSHPE</a>
-			<a href="membershpe.html" class="smoothScroll">MemberSHPE</a>
-	 		<a href="execboard.html" class="smoothScroll">Executive Board</a>
-			<a href="calendar.html" class="smoothScroll">Calendar</a>
-			<a href="https://tamushpetestbank.herokuapp.com" class="smoothScroll">Test Bank</a>
-			<a href="https://docs.google.com/spreadsheets/d/1mSSlUkxOTHHaeBh2hZab9xO1hpwLa_xKmJPskGcmMss/edit?usp=sharing" class="smoothScroll">SHPE Points</a>
-			<!-- <a href="#contact" class="smoothScroll">Contact</a> -->
-			<h1 class="logo"><center>What We Do</center></h1>
-			<a href="academic.html" class="smoothScroll">Academic Development</a>
-			<a href="professional.html" class="smoothScroll">Professional Development</a>
-			<a href="service.html" class="smoothScroll">Service & Outreach</a>
-			<a href="leadership.html" class="smoothScroll">LeaderSHPE Development</a>
-			<a href="chapter.html" class="smoothScroll">Chapter Development</a>
-			
-			<a href="https://www.facebook.com/tamushpe5/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-			<a href="https://twitter.com/tamushpe?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			<a href="https://www.instagram.com/tamushpe/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a href="https://www.snapchat.com/add/tamushpe"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
-			<a href="https://www.youtube.com/channel/UCebsLGRRglWj459ueGDTzug"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-		</div>
-		
-		<!-- Menu button -->
-		<div id="menuToggle"><i class="icon-reorder"></i></div>
-	</nav>
+	
+	<!-- top navigation menu -->
+	<div class="topnav" id="myTopnav">
+    	  <a href="index.html#home"> <img src="assets/img/shpe-logo-white-small.png"></a> 
+      	<a href="index.html#home">tamuSHPE</a>
+      	<a href="about.html">About Us</a>
+      	<a href="sponsorshpe.html">SponsorSHPE</a>
+      	<a href="membershpe.html" class="smoothScroll">MemberSHPE</a>
+      	<a href="execboard.html" class="smoothScroll">Executive Board</a>
+      	<a href="formerstudents.html" class="smoothScroll">Former Students</a>
+      	<a href="https://tamushpetestbank.herokuapp.com" class="smoothScroll">Test Bank</a>
+      	<a href="https://docs.google.com/spreadsheets/d/1mSSlUkxOTHHaeBh2hZab9xO1hpwLa_xKmJPskGcmMss/edit?usp=sharing" class="smoothScroll">SHPE Points</a>
+      
+      	<a href="https://www.facebook.com/tamushpe5/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      	<a href="https://twitter.com/tamushpe?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      	<a href="https://www.instagram.com/tamushpe/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      	<a href="https://www.snapchat.com/add/tamushpe"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
+      	<a href="https://www.youtube.com/channel/UCebsLGRRglWj459ueGDTzug"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+      	<a href="https://www.linkedin.com/company/society-of-hispanic-professional-engineers-texas-a-m1/"><i class="fa fa-linkedin" arua-hidden="true"></i></a>
+
+  	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    	<i class="fa fa-bars"></i>
+  	</a>
+	</div>
 	
 	<!-- ========== HEADER SECTION ========== -->
 	<section id="home" name="home"></section>
 	<div id="headerwrap">
 		<div class="container">
-			<div class="logo">
-				<img src="assets/img/shpe-logo-white-small.png">
-			</div>
+			<br>
 			<br>
 			<div class="row border white">
 				<h1>MemberSHPE</h1>
@@ -96,7 +89,7 @@
 					<h3 class="centered">#TAMUSHPE Registration</h3>
 					<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
 					<ul style="text-align: left">
-	                    <li>Fill out the following Google Doc: <a href="https://goo.gl/forms/Rq1XsGAj1g8F0pzF3">Click Here</a></li>
+	                    <li><a> Fill out the following Google Doc: <a href="https://goo.gl/forms/Rq1XsGAj1g8F0pzF3">Click Here</a></a></li>
 						<li>Pay $16 to cover your Chapter Dues (includes your very own #TAMUSHPE t-shirt) <a href="https://secure.touchnet.com/C21490_ustores/web/store_main.jsp?STOREID=247">Here</a> </li>
 						<li>Continue below to complete the registration for SHPE National</li>
 	                </ul>
