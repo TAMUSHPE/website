@@ -41,7 +41,7 @@ body {
 
 .topnav a:hover {
   background-color: #6d1313;
-  color: #f2f2f2;
+  /*color: #f2f2f2;*/
 }
 /*.topnav b:hover {
 	background-color: #ddd;
@@ -50,7 +50,7 @@ body {
 
 .active {
   background-color: #6d1313;/*maroon*/
-  color: white;
+  /*color: white;*/
 }
 
 .topnav .icon {
@@ -140,10 +140,10 @@ body {
   display: block;
 }
 
-/*hero image attempt*
+/*hero image attempt*/
 body, html {
     height: 100%;
-}*/
+}
 
 /* The hero image */
 .hero-image-form {
@@ -173,7 +173,7 @@ body, html {
 }
 .hero-image-exec {
     /* The image used */
-    background-image: url("../Pictures/officers.png");
+    background-image: url("/Pictures/officers.png");
 
     /* Set a specific height */
     height: 50%;
