@@ -191,6 +191,13 @@ body, html {
     transform: translate(-50%, -50%);
     color: white;
 }
+
+/*responsive image*/
+.responsiveimg {
+    width: 100%;
+    max-width: 680px;
+    height: auto;
+}
 /*
 .topnav {
   overflow: hidden;
