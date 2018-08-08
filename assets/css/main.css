@@ -110,6 +110,14 @@ p {
 	text-align: justify;
 }
 
+.lefted {
+	text-align: left;
+}
+
+.righted {
+	text-align: right;
+}
+
 .border{
 	border: 5px solid white;
 	padding-bottom: 200px;
