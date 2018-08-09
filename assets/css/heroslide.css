@@ -56,7 +56,7 @@ body, html {
 }
 .hero-image-spon {
     /* The image used */
-    background-image: url("../img/crawsoc.jpg");
+    background-image: url("../img/technipgm.JPG");
 
     /* Set a specific height */
     height: 50%;
@@ -69,6 +69,66 @@ body, html {
 .hero-image-mem {
     /* The image used */
     background-image: url("../img/soccerfin.jpeg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-image-prof {
+    /* The image used */
+    background-image: url("../img/genmeet.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-image-aca {
+    /* The image used */
+    background-image: url("../img/studyhours.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-image-serv {
+    /* The image used */
+    background-image: url("../img/acepanel.JPG");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-image-chap {
+    /* The image used */
+    background-image: url("../img/pwcleadershipwksp.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-image-lead {
+    /* The image used */
+    background-image: url("../img/prcomm.jpg");
 
     /* Set a specific height */
     height: 50%;
