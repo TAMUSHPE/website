@@ -146,6 +146,8 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-family: EB Garamond,serif;
+    font-size: 50px;
 }
 
 /*responsive image*/
