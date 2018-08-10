@@ -244,6 +244,36 @@ a:after {
 	text-align: center;
 }
 
+/* bottom Wrap */
+
+#b {
+	background: #333;/*lighter black*/
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center
+}
+
+#b h3 {
+	color: white;
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 1px;	
+}
+
+#b i {
+	font-size: 8px;
+	color: #fff;
+    padding: 3px;
+}
+
+#b p {
+	font-size: 20px;
+	color: #f2f2f2;
+}
+
+#b img {
+	text-align: center;
+}
 
 /* MENU CONF*/
 
