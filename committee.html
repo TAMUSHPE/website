@@ -15,10 +15,12 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="18-19/nav.css">
+	<link rel="stylesheet" href="assets/css/heroslide.css">
 
     <script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/modernizr.custom.js"></script>
-	
+	<script src="js/nav.js"></script>
 
 	
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
@@ -34,42 +36,34 @@
 
   <body id="particles-js" data-spy="scroll" data-offset="0" data-target="#theMenu">
 		
-	<!-- Menu -->
-	<nav class="menu" id="theMenu">
-		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">tamuSHPE</a></h1>
-			<i class="icon-remove menu-close"></i>
-			<a href="index.html" class="smoothScroll">Home</a>
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLSctKyMgfKywuP1SUxXRu76YLvxrGQAlGAky9jiJwUukdOP8bg/viewform" class="smoothScroll">Nominations</a>
-			<a href="sponsorshpe.html" class="smoothScroll">SponsorSHPE</a>
-			<a href="membershpe.html" class="smoothScroll">MemberSHPE</a>
-	 		<a href="execboard.html" class="smoothScroll">Executive Board</a>
-			<a href="calendar.html" class="smoothScroll">Calendar</a>
-			<a href="https://tamushpetestbank.herokuapp.com" class="smoothScroll">Test Bank</a>
-			<a href="https://docs.google.com/spreadsheets/d/1KaPoNJpNwXhxHMJezQpdJ56AjwFO9B71MUiOxR5yi0k/edit?usp=sharing" class="smoothScroll">SHPE Points</a>
-			<!-- <a href="#contact" class="smoothScroll">Contact</a> -->
-			<h1 class="logo"><center>What We Do</center></h1>
-			<a href="academic.html" class="smoothScroll">Academic Development</a>
-			<a href="professional.html" class="smoothScroll">Professional Development</a>
-			<a href="service.html" class="smoothScroll">Service & Outreach</a>
-			<a href="leadership.html" class="smoothScroll">LeaderSHPE Development</a>
-			<a href="chapter.html" class="smoothScroll">Chapter Development</a>
-			
-			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a href="#"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
-			<a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-		</div>
-		
-		<!-- Menu button -->
-		<div id="menuToggle"><i class="icon-reorder"></i></div>
-	</nav>
+	<!-- top navigation menu -->
+<div class="topnav" id="myTopnav">
+      <b href="index.html#home"> <img src="assets/img/shpe-logo-white-small.png"></b> 
+      <a href="index.html" class="smoothscroll">tamuSHPE</a>
+      <a href="about.html" class="smoothscroll">About Us</a>
+      <a href="sponsorshpe.html" class="smoothscroll">SponsorSHPE</a>
+      <a href="membershpe.html" class="smoothscroll">MemberSHPE</a>
+      <a href="execboard.html" class="smoothScroll">Executive Board</a>
+      <a href="formerstudents.html" class="smoothscroll">Former Students</a>
+      <a href="https://sites.google.com/view/tamushpetestbank/home" class="smoothScroll" target="_blank">Test Bank</a>
+      <a href="https://docs.google.com/spreadsheets/d/1KaPoNJpNwXhxHMJezQpdJ56AjwFO9B71MUiOxR5yi0k/edit?usp=sharing" class="smoothScroll" target="_blank">SHPE Points</a>
+      
+      <a href="https://www.facebook.com/tamushpe5/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/tamushpe?lang=en" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/tamushpe/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.snapchat.com/add/tamushpe" target="_blank"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
+      <a href="https://www.youtube.com/channel/UCebsLGRRglWj459ueGDTzug" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/company/society-of-hispanic-professional-engineers-texas-a-m1/" target="_blank"><i class="fa fa-linkedin" arua-hidden="true"></i></a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 	
 	<!-- ========== HEADER SECTION ========== -->
 	<section id="home" name="home"></section>
-	<div id="headerwrap">
+	<!-- <div id="headerwrap">
 		<div class="container">
 			<div class="logo">
 				<img src="assets/img/shpe-logo-white-small.png">
@@ -78,8 +72,9 @@
 			<div class="row border white">
 				<h1>Committees</h1>
 			</div>
-		</div><!-- /container -->
-	</div><!-- /headerwrap -->
+		</div><-- /container --
+	</div><-- /headerwrap -->
+	<div class="hero-image-lead"></div>
 	
 	
 	
@@ -160,7 +155,8 @@
 					125 Spence Street<br> Suite 450, P1 <br> College Station, Texas 77843-3127</p>
 					<p><b>Office Phone:</b> (979) 847-8878<br>
 					<b>Email:</b> tamushpe@gmail.com<br>
-					<b>Office Hours:</b> Monday-Thursday | ZACH 450-P1 | 10 a.m - 2 p.m.</p>
+					<b>Office Hours:</b> Monday-Thursday | ZACH 450-P1 | 10 a.m - 2 p.m.<br>
+						Join our newsletter <a href="http://eepurl.com/dDRrV9" target="popup" onclick="window.open('http://eepurl.com/dDRrV9','popup','width=600,height=600'); return false;">here.</a></p>
                 </div>
 			</div>
 		</div>
