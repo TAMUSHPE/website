@@ -113,6 +113,7 @@ body {
   min-width: 140px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  margin-top: 98px;
 }
 
 /* Links inside the dropdown */
@@ -120,7 +121,7 @@ body {
   float: none;
   color: black;
   padding: 5px 7px;
-  font-size: 18px;
+  font-size: 17px;
   text-decoration: none;
   display: block;
   text-align: center;
