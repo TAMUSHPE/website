@@ -44,6 +44,7 @@ body {
 
 .active {
   background-color: #6d1313;/*maroon*/
+  color: #f2f2f2;
 }
 
 .topnav .icon {
