@@ -9,7 +9,8 @@
 
 body {
   background-color: #f2f2f2;
-    font-family: 'EB Garamond', serif;
+    /*font-family: 'EB Garamond', serif;*/
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -129,7 +130,7 @@ p {
 
 /* Links */
 a {
-    color: #b9eff7; /* light blue*/
+    color: #b73131;/*light red/maroonish*/
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -216,14 +217,14 @@ a:after {
 /* Footer Wrap */
 
 #f {
-	background: #1a1a1a;
+	background: white;/*#1a1a1a;*/
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center
 }
 
 #f h3 {
-	color: white;
+	color: #423d3d;/*white;*/
 	font-size: 28px;
 	font-weight: 700;
 	letter-spacing: 1px;	
@@ -237,7 +238,7 @@ a:after {
 
 #f p {
 	font-size: 20px;
-	color: #f2f2f2;
+	color: #393942;/*#f2f2f2;*/
 }
 
 #f img {
@@ -261,9 +262,9 @@ a:after {
 }
 
 #b i {
-	font-size: 8px;
+	font-size: 30px;
 	color: #fff;
-    padding: 3px;
+    padding: 10px;
 }
 
 #b p {
