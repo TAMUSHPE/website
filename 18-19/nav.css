@@ -133,7 +133,7 @@ body {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .topnav a:not(:first-child), .dropdown-18 .dropbtn {
     display: none;
   }
@@ -143,7 +143,7 @@ body {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
