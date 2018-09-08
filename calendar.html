@@ -16,7 +16,8 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="18-19/nav.css">
+	<link rel="stylesheet" href="assets/css/heroslide.css">
 
     <script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/modernizr.custom.js"></script>
@@ -27,6 +28,7 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -47,14 +49,23 @@
   <body id="particles-js" data-spy="scroll" data-offset="0" data-target="#theMenu">
 		
 
-	<!-- top navigation menu -->
-<div class="topnav" id="myTopnav">
-      <a href="index.html#home"> <img src="assets/img/shpe-logo-white-small.png" height="70"></a> 
-      <a href="index.html#home">tamuSHPE</a>
-      <a href="sponsorshpe.html">SponsorSHPE</a>
-      
+<!-- top navigation menu -->
+	<div class="topnav" id="myTopnav">
+    	<b href="index.html"> <img src="assets/img/shpe-logo-white-small.png" height="70"></b> 
+      	<a href="index.html" class="smoothscroll">tamuSHPE</a>
+      	<a href="about.html" class="smoothscroll">About Us</a>
+      	<a href="sponsorshpe.html" class="smoothscroll">SponsorSHPE</a>
+
       	<div class="dropdown-18">
       		<a href="membershpe.html" class="dropbtn">MemberSHPE</a>
+      		<div class="dropdown-18-content">
+      			<a href="membershpe.html#join_SHPE">Join SHPE</a>
+      			<a href="committee.html">Committee Apps</a>
+      		</div>
+      	</div>
+
+      	<div class="dropdown-18">
+      		<a class="dropbtn">The 5 Pillars</a>
       		<div class="dropdown-18-content">
       			<a href="academic.html">Academic Development</a>
       			<a href="chapter.html">Chapter Development</a>
@@ -64,34 +75,39 @@
       		</div>
       	</div>
 
-      <a href="execboard.html" class="smoothScroll">Executive Board</a>
-      <a href="calendar.html" class="smoothScroll">Calendar</a>
-      <a href="https://tamushpetestbank.herokuapp.com" class="smoothScroll">Test Bank</a>
-      <a href="https://docs.google.com/spreadsheets/d/1mSSlUkxOTHHaeBh2hZab9xO1hpwLa_xKmJPskGcmMss/edit?usp=sharing" class="smoothScroll">SHPE Points</a>
-      
-      <a href="https://www.facebook.com/tamushpe5/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      <a href="https://twitter.com/tamushpe?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a href="https://www.instagram.com/tamushpe/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-      <a href="https://www.snapchat.com/add/tamushpe"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
-      <a href="https://www.youtube.com/channel/UCebsLGRRglWj459ueGDTzug"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-      <a href="https://www.linkedin.com/company/society-of-hispanic-professional-engineers-texas-a-m1/"><i class="fa fa-linkedin" arua-hidden="true"></i></a>
+      	<a href="execboard.html" class="smoothScroll">Executive Board</a>
+      	<a href="formerstudents.html" class="smoothScroll">Former Students</a>
 
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+      	<div class="dropdown-18">
+      		<a href="18-19/Pictures/testbankpopup.pdf" class="dropbtn" target="_blank">Test Bank</a>
+      		<div class="dropdown-18-content">
+      			<a href="http://www.google.com/url?q=http%3A%2F%2Fbit.ly%2FSubmitTestBank&sa=D&sntz=1&usg=AFQjCNGbK3262YrXNDmph4TDRGXYoEBnvg" class="smoothscroll" target="_blank">Submit a Test</a>
+      		</div>
+      	</div>
+      	
+      	<a href="https://docs.google.com/spreadsheets/d/1KaPoNJpNwXhxHMJezQpdJ56AjwFO9B71MUiOxR5yi0k/edit?usp=sharing" class="smoothScroll" target="_blank">SHPE Points</a>
+      
+      	<a href="https://www.facebook.com/tamushpe5/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      	<a href="https://twitter.com/tamushpe?lang=en" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      	<a href="https://www.instagram.com/tamushpe/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      	
+  	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    	<i class="fa fa-bars"></i>
+  	</a>
+	</div>
 
 	
 	<!-- ========== HEADER SECTION ========== -->
 	<section id="home" name="home"></section>
-	<div id="headerwrap">
+	<!--<div id="headerwrap">
 		<div class="container">
 			<br> <br>
 			<div class="row border white">
 				<h1>Calendar</h1>
 			</div>
-		</div><!-- /container -->
-	</div><!-- /headerwrap -->
+		</div><-- /container --
+	</div><-- /headerwrap -->
+	<div class="hero-image-comm"></div>
 	
 	
 	
@@ -101,7 +117,16 @@
 		<div class="container">
 			<div class="row">
 				
-				<iframe src="https://calendar.google.com/calendar/embed?title=TAMU%20SHPE&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=tamushpe%40gmail.com&amp;color=%23691426&amp;src=qseipl2jkfh4kd1jimnk0e3600%40group.calendar.google.com&amp;color=%23853104&amp;src=otmmlpi343epdcvioo9k5nu0q0%40group.calendar.google.com&amp;color=%2342104A&amp;src=jpso1ngij1sfrq1c19h4hrgsm8%40group.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+			<p class="centered">Click through the calendar to see our events throughout the year.<br> *Dates and times are subject to change.</p>
+			<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+			<div class="hidden-xs">
+				<div class="responsive-iframe-container"> <!-- responsive calender month until too small then agenda-->
+					<iframe src="https://calendar.google.com/calendar/embed?title=TAMU%20SHPE&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=qseipl2jkfh4kd1jimnk0e3600%40group.calendar.google.com&amp;color=%23853104&amp;src=otmmlpi343epdcvioo9k5nu0q0%40group.calendar.google.com&amp;color=%2342104A&amp;src=jpso1ngij1sfrq1c19h4hrgsm8%40group.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+				</div>
+			</div>
+			<div class="visible-xs">
+				<iframe src="https://calendar.google.com/calendar/embed?title=TAMU%20SHPE&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=qseipl2jkfh4kd1jimnk0e3600%40group.calendar.google.com&amp;color=%23853104&amp;src=otmmlpi343epdcvioo9k5nu0q0%40group.calendar.google.com&amp;color=%2342104A&amp;src=jpso1ngij1sfrq1c19h4hrgsm8%40group.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FChicago" style="border-width:0" width="300" height="600" frameborder="0" scrolling="no"></iframe>
+			</div>
 				
 				<!--pdf calander 
 				<h3 class="centered">View the schedule of events for the specific months:</h3>
@@ -119,20 +144,33 @@
 
 	<!-- ========== CONTACT SECTION ========== -->
 	<section id="contact" name="contact"></section>
-	<div id="f">
+	<div id="b">
 		<div class="container">
 			<div class="row">
-				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
-				    <div class="col-lg-12">
-					<p><b>Mailing Address:</b><br>
-					TAMU SHPE <br>
-					Zachary Engineering Education Complex <br>
-					125 Spence Street<br> Suite 450, P1 <br> College Station, Texas 77843-3127</p>
+				<!-- <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p> -->
+				<div class="col-sm-4"><!--"col-lg-12">-->
 					<p><b>Office Phone:</b> (979) 847-8878<br>
 					<b>Email:</b> tamushpe@gmail.com<br>
-					<b>Office Hours:</b> Monday-Thursday | ZACH 450-P1 | 10 a.m - 2 p.m.<br>
-						Join our newsletter <a href="http://eepurl.com/dDRrV9" target="popup" onclick="window.open('http://eepurl.com/dDRrV9','popup','width=600,height=600'); return false;">here.</a></p>
-                </div>
+					<b>Office Hours:</b> Monday-Thursday |<br> ZACH 450-P1 | 10 a.m - 2 p.m.<br>
+					Join our newsletter <a href="http://eepurl.com/dDRrV9" target="popup" onclick="window.open('http://eepurl.com/dDRrV9','popup','width=600,height=600'); return false;">here.</a></p>
+            	</div>
+            	<div class="col-sm-4">
+            		<p><b>Mailing Address:</b><br>
+					TAMU SHPE <br>
+					Zachry Engineering Education Complex <br>
+					125 Spence Street<br> Suite 450, P1 <br> College Station, Texas 77843-3127</p>
+            	</div>
+            	<div class="col-sm-4">
+            		<p><b>Follow us on Social Media!</b><br>
+            		<a href="https://www.facebook.com/tamushpe5/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      				<a href="https://twitter.com/tamushpe?lang=en" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      				<a href="https://www.instagram.com/tamushpe/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a><br>
+      				<a href="https://www.snapchat.com/add/tamushpe" target="_blank"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
+      				<a href="https://www.youtube.com/channel/UCebsLGRRglWj459ueGDTzug" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+      				<a href="https://www.linkedin.com/company/society-of-hispanic-professional-engineers-texas-a-m1/" target="_blank"><i class="fa fa-linkedin" arua-hidden="true"></i></a>
+      				<a href="https://www.flickr.com/photos/143848472@N03/" target="_blank"><i class="fa fa-flickr" aria-hidden="true"></i></a>
+      				</p>
+            	</div>
 			</div>
 		</div>
 	</div>
