@@ -139,7 +139,7 @@ body {
 
 
 @media screen and (max-width: 1024px) {
-  .topnav a:not(:first-child), .dropdown-18 .dropbtn .dropbtnactive{
+  .topnav a:not(:first-child), .dropdown-18, .dropbtn, .dropbtnactive{
     display: none;
   }
   .topnav a.icon {
