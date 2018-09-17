@@ -139,7 +139,7 @@ body {
 
 
 @media screen and (max-width: 1024px) {
-  .topnav a:not(:first-child), .dropdown-18, .dropbtn, .dropbtnactive{
+  .topnav a:not(:first-child), .dropdown-18, .dropbtn, .dropbtnactive {
     display: none;
   }
   .topnav a.icon {
@@ -162,7 +162,7 @@ body {
   }
   .topnav.responsive .dropdown-18 {float: none;}
   .topnav.responsive .dropdown-18-content {position: relative;}
-  .topnav.responsive .dropdown-18 .dropbtn .dropbtnactive{
+  .topnav.responsive .dropdown-18, .dropbtn, .dropbtnactive{
     display: block;
     width: 100%;
     text-align: left;
