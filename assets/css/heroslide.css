@@ -80,7 +80,7 @@ body, html {
 }
 .hero-image-prof {
     /* The image used */
-    background-image: url("../img/genmeet.jpg");
+    background-image: url("../img/gm_group.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -128,7 +128,7 @@ body, html {
 }
 .hero-image-lead {
     /* The image used */
-    background-image: url("../img/prcomm.jpg");
+    background-image: url("../img/marine_ariana.jpg");
 
     /* Set a specific height */
     height: 50%;
