@@ -1,0 +1,174 @@
+body{
+    background: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.form-inline {
+    display: inline-block;
+}
+.navbar-header.col {
+    padding: 0 !important;
+}	
+.navbar {		
+    background: #fff;
+    padding-right: 16px;
+    border-bottom: 1px solid #d6d6d6;
+    box-shadow: 0 0 4px rgba(0,0,0,.1);
+}
+.nav-link img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin: -8px 0;
+    float: left;
+    margin-right: 10px;
+}
+.navbar .navbar-brand {
+    color: maroon;
+    padding-left: 0;
+    padding-right: 0px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar .navbar-brand b {
+    font-weight: bold;
+    color: navy;
+}
+.navbar ul.nav li a:hover, .navbar ul.nav li a:focus {
+    color: maroon !important;
+}
+.navbar ul.nav li.active a, .navbar ul.nav li.active a:hover, .navbar ul.nav li.active a:focus {
+    color: maroon !important;
+    background: transparent !important;
+}
+
+.navbar .nav-item i {
+    font-size: 18px;
+}
+.navbar .dropdown-item i {
+    font-size: 16px;
+    min-width: 22px;
+}
+.navbar .nav-item.open > a {
+    background: none !important;
+}
+.navbar .dropdown-menu {
+    border-radius: 1px;
+    border-color: #e5e5e5;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .dropdown-menu li a {
+    color: #777;
+    padding: 8px 20px;
+    line-height: normal;
+}
+.navbar .navbar-form {
+    margin-right: 0;
+    margin-left: 0;
+    border: 0;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.row {
+    margin: auto;
+    text-align: center;
+}
+
+.nounder  {
+    color:white;
+    text-decoration: none;
+}
+
+.nounder:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.region {
+    text-align: center;
+    vertical-align: middle;
+    color: maroon;
+}
+
+.centered {
+    text-align: center;
+}
+
+.justified {
+    text-align: justify;
+}
+
+.footer {
+    color:  black;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px
+}
+
+.footer:hover {
+    color:  maroon;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px
+}
+
+#contact {
+    background-image: url("../pictures/contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 50%;
+    padding: 200px;
+}
+
+#footer {
+    padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*
+#member:hover {
+    background-image: url("../pictures/pic2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 50%;
+    text-align: center;
+    padding: 150px;
+}
+*/
+
+/**
+.d-inline-block {
+    padding-right: 5px;
+}
+**/
+
+@media (min-width: 992px){
+    .form-inline .input-group {
+        width: 250px;
+        margin-right: 30px;
+    }
+}
+@media (max-width: 991px){
+    .form-inline {
+        display: block;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    .input-group {
+        width: 100%;
+    }
+}
