@@ -2,18 +2,33 @@ body{
     background: #eeeeee;
     font-family: 'Montserrat', sans-serif;
 }
+
+p {
+    margin: 0;
+}
+
 .form-inline {
     display: inline-block;
 }
+
 .navbar-header.col {
     padding: 0 !important;
 }	
+
 .navbar {		
     background: #fff;
     padding-right: 16px;
     border-bottom: 1px solid #d6d6d6;
     box-shadow: 0 0 4px rgba(0,0,0,.1);
 }
+
+.rounded {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    max-width: 680px;
+    height: auto;
+}
+
 .nav-link img {
     border-radius: 50%;
     width: 36px;
@@ -22,6 +37,7 @@ body{
     float: left;
     margin-right: 10px;
 }
+
 .navbar .navbar-brand {
     color: maroon;
     padding-left: 0;
@@ -34,9 +50,11 @@ body{
     font-weight: bold;
     color: navy;
 }
+
 .navbar ul.nav li a:hover, .navbar ul.nav li a:focus {
     color: maroon !important;
 }
+
 .navbar ul.nav li.active a, .navbar ul.nav li.active a:hover, .navbar ul.nav li.active a:focus {
     color: maroon !important;
     background: transparent !important;
@@ -45,23 +63,28 @@ body{
 .navbar .nav-item i {
     font-size: 18px;
 }
+
 .navbar .dropdown-item i {
     font-size: 16px;
     min-width: 22px;
 }
+
 .navbar .nav-item.open > a {
     background: none !important;
 }
+
 .navbar .dropdown-menu {
     border-radius: 1px;
     border-color: #e5e5e5;
     box-shadow: 0 2px 8px rgba(0,0,0,.05);
 }
+
 .navbar .dropdown-menu li a {
     color: #777;
     padding: 8px 20px;
     line-height: normal;
 }
+
 .navbar .navbar-form {
     margin-right: 0;
     margin-left: 0;
@@ -83,7 +106,7 @@ body{
 
 .centered {
     text-align: center;
-    padding-top: 50px;
+    margin: 0;
 }
 
 

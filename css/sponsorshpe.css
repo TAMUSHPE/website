@@ -77,7 +77,7 @@ body{
 }
 
 .row {
-    margin: auto;
+    margin: 0;
 }
 
 .centered {
