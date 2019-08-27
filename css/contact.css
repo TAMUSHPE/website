@@ -113,10 +113,12 @@ h3.centered {
 
 .centered {
     text-align: center;
+    margin: 0;
 }
 
 .justified {
     text-align: justify;
+    margin: 0;
 }
 
 #contact {
