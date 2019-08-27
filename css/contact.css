@@ -121,6 +121,11 @@ h3.centered {
     margin: 0;
 }
 
+p.justified {
+    text-align: justify;
+    margin: 0;
+}
+
 #contact {
     background-image: url("../pictures/contact.jpg");
     background-position: center;
