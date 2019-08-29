@@ -2,6 +2,11 @@ body{
     background: #eeeeee;
     font-family: 'Montserrat', sans-serif;
 }
+
+p {
+    margin: 0;
+}
+
 .form-inline {
     display: inline-block;
 }
