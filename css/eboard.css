@@ -8,6 +8,10 @@ h3.centered {
     padding: 50px;
 }
 
+p.centered {
+    margin: 0;
+}
+
 .form-inline {
     display: inline-block;
 }
