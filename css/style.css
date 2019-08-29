@@ -79,6 +79,10 @@ body{
     display: block;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 .row {
     margin: auto;
     text-align: center;
