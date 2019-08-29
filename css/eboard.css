@@ -100,12 +100,12 @@ p.centered {
 
 .nounder {
     text-decoration: none;
-    color: maroon;
+    color:  grey;
 }
 
 .nounder:hover {
     text-decoration: none;
-    color: grey;
+    color: maroon;
 }
 
 .rounded {
