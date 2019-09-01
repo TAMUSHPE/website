@@ -136,6 +136,10 @@ h3.centered {
     padding: 5px
 }
 
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+
 #footer {
     padding-top: 50px;
 	padding-bottom: 50px;

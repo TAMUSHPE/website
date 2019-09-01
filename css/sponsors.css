@@ -117,6 +117,10 @@ h3.centered {
     height: auto;
 }
 
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+
 
 #spons{
     text-align: center;

@@ -126,6 +126,10 @@ p.justified {
     margin: 0;
 }
 
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+
 #contact {
     background-image: url("../pictures/contact.jpg");
     background-position: center;

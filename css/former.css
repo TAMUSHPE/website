@@ -107,6 +107,10 @@ p {
     height: auto;
 }
 
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+
 #footer.row {
     margin: auto;
     text-align: center;
