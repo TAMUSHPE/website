@@ -105,6 +105,11 @@ body{
     color: maroon;
 }
 
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
 .centered {
     text-align: center;
 }
