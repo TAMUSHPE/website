@@ -71,7 +71,7 @@ p.centered {
     color: #777;
     padding: 8px 20px;
     line-height: normal;
-    background-color: transparent;
+    background-color: transparent !important;
 }
 .navbar .navbar-form {
     margin-right: 0;
