@@ -215,16 +215,18 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     padding: 150px;
 }
 
+/**
 #conf {
-    /**
+    
     background-image: url("../pictures/nc19-feature-image.jpg");
-    **/
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 50%;
     padding: 150px;
 }
+**/
 
 #about {
     /*background-color: rgb(30, 214, 46);*/
@@ -249,10 +251,12 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 #photo {
+    /**
     background-image: linear-gradient(rgba(182, 185, 183, 0.822), rgba(182, 185, 183, 0.822)), url("../pictures/members.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    **/
     height: 50%;
     padding: 150px;
 }
@@ -473,6 +477,35 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     opacity: 1;
 }
 
+.gradient8 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(
+      to right,rgba(182, 185, 183, 0.822), rgba(182, 185, 183, 0.822)), url("../pictures/members.jpg");
+    z-index: 1;
+}
+  
+.gradient8::before {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-image: url("../pictures/members.jpg");
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: opacity 0.5s linear;
+    opacity: 0;
+}
+  
+.gradient8:hover::before {
+    opacity: 1;
+}
 
 /**
 .d-inline-block {
