@@ -483,7 +483,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     background-size: cover;
     position: relative;
     background-image: linear-gradient(
-      to right,rgba(235, 235, 235, 1), rgba(235, 235, 235, 1)), url("../pictures/members.jpg");
+      to right,rgba(235, 235, 235, 0.8), rgba(235, 235, 235, 0.8)), url("../pictures/members.jpg");
     z-index: 1;
 }
   
