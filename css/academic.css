@@ -72,6 +72,7 @@ h3.centered {
     color: #777;
     padding: 8px 20px;
     line-height: normal;
+    background-color: transparent;
 }
 .navbar .navbar-form {
     margin-right: 0;
