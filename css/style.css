@@ -216,7 +216,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 #conf {
+    /**
     background-image: url("../pictures/nc19-feature-image.jpg");
+    **/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
