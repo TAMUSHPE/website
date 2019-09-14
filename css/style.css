@@ -533,4 +533,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     .input-group {
         width: 100%;
     }
+    h3 {
+        font-size: 15px;
+    }
+    div.col-xs-12 {
+        padding: 75px !important;
+    }
 }
