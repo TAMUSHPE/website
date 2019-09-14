@@ -5,11 +5,6 @@ body{
     padding: 0;
 }
 
-.img-fluid {
-    height: auto;
-    max-width: 100%;
-}
-
 .navbar-toggler:focus {
     outline:none !important;   
 }
