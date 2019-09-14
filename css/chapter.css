@@ -150,7 +150,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 #chapter {
     text-align: center;
-    padding: 200px;
+    padding: 150px;
     background-image: url("../pictures/gm1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -177,7 +177,13 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         margin-bottom: 10px;
         margin-top: 0;
     }
+
     .input-group {
         width: 100%;
+    }
+
+    /**New Addition**/
+    div.col-xs-12 {
+        padding: 100px !important;
     }
 }
