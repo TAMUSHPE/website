@@ -5,6 +5,10 @@ body{
     padding: 0;
 }
 
+.navbar-toggler:focus {
+    outline:none !important;   
+}
+
 .form-inline {
     display: inline-block;
 }

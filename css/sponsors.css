@@ -3,6 +3,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.navbar-toggler:focus {
+    outline:none !important;   
+}
+
 h3.centered {
     text-align: center;
     padding: 50px;

@@ -2,6 +2,11 @@ body{
     background: #eeeeee;
     font-family: 'Montserrat', sans-serif;
 }
+
+.navbar-toggler:focus {
+    outline:none !important;   
+}
+
 .form-inline {
     display: inline-block;
 }
