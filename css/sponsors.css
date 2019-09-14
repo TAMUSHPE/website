@@ -129,7 +129,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 #spons{
     text-align: center;
-    padding: 200px;
+    padding: 150px;
     background-image: url("../pictures/jpig.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -166,18 +166,6 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	padding-bottom: 50px;
 }
 
-
-
-#eboard {
-    background-image: url("../pictures/da_peeps2.JPG"); /*FIXME*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    height: 50%;
-    padding: 200px;
-}
-
 /**
 .d-inline-block {
     padding-right: 5px;
@@ -198,5 +186,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
     .input-group {
         width: 100%;
+    }
+    /**New Addition**/
+    div.col-xs-12 {
+        padding: 100px !important;
     }
 }
