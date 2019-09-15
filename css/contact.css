@@ -218,4 +218,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     div.col-xs-12 {
         padding: 100px !important;
     }
+    #footer {
+        font-size: 15px;
+        padding: 20px !important;
+    }
 }
