@@ -145,7 +145,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 #service {
     text-align: center;
-    padding: 200px;
+    padding: 230px;
     background-image: url("../pictures/chapdev2.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -197,7 +197,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
     /**New Addition**/
     div.col-xs-12 {
-        padding: 100px !important;
+        padding: 150px !important;
     }
     #footer {
         font-size: 15px;

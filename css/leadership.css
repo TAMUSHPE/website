@@ -148,7 +148,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     background-size: cover;
     height: 50%;
     width: 100%;
-    padding: 200px;
+    padding: 230px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -197,7 +197,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
     /**New Addition**/
     div.col-xs-12 {
-        padding: 100px !important;
+        padding: 150px !important;
     }
 
     #footer {
