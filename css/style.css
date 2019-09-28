@@ -273,7 +273,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     position: relative;
     background-image: linear-gradient(
       to right,
-      rgba(240, 148, 86, 0.568), rgba(240, 148, 86, 0.568)
+      rgba(240, 148, 86, 0.4), rgba(240, 148, 86, 0.4)
     ),url("../pictures/about.jpg");
     z-index: 1;
 }
@@ -305,7 +305,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     position: relative;
     background-image: linear-gradient(
       to right,
-      rgba(23, 143, 255, 0.568), rgba(23, 143, 255, 0.568)
+      rgba(23, 143, 255, 0.4), rgba(23, 143, 255, 0.4)
     ),url("../pictures/officers.jpg");
     z-index: 1;
 }
@@ -336,7 +336,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     background-size: cover;
     position: relative;
     background-image: linear-gradient(
-      to right,rgba(255, 66, 66, 0.692), rgba(255, 66, 66, 0.692)),url("../pictures/pic2.jpg");
+      to right,rgba(255, 66, 66, 0.4), rgba(255, 66, 66, 0.4)),url("../pictures/pic2.jpg");
     z-index: 1;
 }
   
@@ -367,7 +367,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     position: relative;
     background-image: linear-gradient(
       to right,
-      rgba(247, 250, 93, 0.692), rgba(247, 250, 93, 0.692)),url("../pictures/points3.jpg");
+      rgba(154, 156, 15, 0.4), rgba(154, 156, 15, 0.4)),url("../pictures/points3.jpg");
     z-index: 1;
 }
   
@@ -397,7 +397,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     background-size: cover;
     position: relative;
     background-image: linear-gradient(
-      to right,rgba(24, 255, 63, 0.568), rgba(24, 255, 63, 0.568)), url("../pictures/news.jpg");
+      to right,rgba(23, 218, 55, 0.4), rgba(23, 218, 55, 0.4)), url("../pictures/news.jpg");
     z-index: 1;
 }
   
@@ -428,7 +428,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     position: relative;
     background-image: linear-gradient(
       to right,
-      rgba(6, 115, 187, 0.692), rgba(6, 115, 187, 0.692)),url("../pictures/scholar.jpg");
+      rgba(6, 115, 187, 0.4), rgba(6, 115, 187, 0.4)),url("../pictures/scholar.jpg");
     z-index: 1;
 }
   
@@ -458,7 +458,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     background-size: cover;
     position: relative;
     background-image: linear-gradient(
-      to right,rgba(230, 78, 179, 0.692), rgba(230, 78, 179, 0.692)),url("../pictures/cal.jpg");
+      to right,rgba(230, 78, 179, 0.4), rgba(230, 78, 179, 0.4)),url("../pictures/cal.jpg");
     z-index: 1;
 }
   
