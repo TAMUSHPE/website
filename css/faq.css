@@ -194,6 +194,14 @@ h3.centered {
 	padding-bottom: 50px;
 }
 
+.white-text {
+    color: maroon;
+}
+
+.white-text:hover {
+    color: maroon;
+    text-decoration: none;
+}
 /*
 #member:hover {
     background-image: url("../pictures/pic2.jpg");

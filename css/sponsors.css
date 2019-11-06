@@ -185,6 +185,16 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     width: 100%;
     transition: width .3s;
 }
+
+.white-text {
+    color: maroon;
+}
+
+.white-text:hover {
+    color: maroon;
+    text-decoration: none;
+}
+
 /**
 .d-inline-block {
     padding-right: 5px;
