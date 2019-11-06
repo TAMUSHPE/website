@@ -1,14 +1,16 @@
 body{
     background: #eeeeee;
     font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+p {
+    margin: 0;
 }
 
 h3.centered {
     margin: 0;
-}
-
-.navbar-toggler:focus {
-    outline:none !important;   
 }
 
 .form-inline {
@@ -70,7 +72,6 @@ h3.centered {
     color: #777;
     padding: 8px 20px;
     line-height: normal;
-    background-color: transparent !important;
 }
 .navbar .navbar-form {
     margin-right: 0;
@@ -86,17 +87,13 @@ h3.centered {
     display: block;
 }
 
-.row .centered {
+.row {
     margin: auto;
-    text-align: center;
+    text-align: justify;
 }
 
 .centered {
     text-align: center;
-}
-
-.justified {
-    text-align: justify;
 }
 
 .nounder {
@@ -109,8 +106,11 @@ h3.centered {
     color: grey;
 }
 
-ul.nav li.dropdown:hover ul.dropdown-menu {
-    display: block;
+.rounded {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    max-width: 680px;
+    height: auto;
 }
 
 #footer.row {
@@ -136,47 +136,20 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     padding: 5px
 }
 
-.rounded {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 100%;
-    max-width: 680px;
-    height: auto;
-}
-
 #footer {
     padding-top: 50px;
 	padding-bottom: 50px;
 }
+
 
 #about {
     background-image: url("../pictures/groupxl.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
     height: 50%;
     padding: 230px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.cool-link {
-    display: inline-block;
-    color: navy;
-    text-decoration: none;
-}
-
-.cool-link::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background:navy;
-    transition: width .3s;
-}
-
-.cool-link:hover::after {
-    width: 100%;
-    transition: width .3s;
 }
 
 .white-text {
@@ -187,6 +160,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     color: maroon;
     text-decoration: none;
 }
+
 
 /**
 .d-inline-block {
@@ -206,15 +180,12 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         margin-bottom: 10px;
         margin-top: 0;
     }
+
     .input-group {
         width: 100%;
     }
     /**New Addition**/
     div.col-xs-12 {
-        padding: 150px !important;
-    }
-    #footer {
-        font-size: 15px;
-        padding: 20px !important;
+        padding: 100px !important;
     }
 }
