@@ -208,7 +208,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         width: 100%;
     }
     /**New Addition**/
-    div.col-xs-12 {
+    #member {
         padding: 150px !important;
     }
     #footer {
