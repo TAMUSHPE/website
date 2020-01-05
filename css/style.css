@@ -1,0 +1,652 @@
+body{
+    background: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#footer {
+    padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* index */
+#photo {
+    background-image: linear-gradient(to right, rgba(200, 200, 200, 0.8),rgba(200, 200, 200, 0.8)),url("../pictures/members.jpg");
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#photo2 {
+    background-image: url("../pictures/rldc19.jpeg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#photo3 {
+    background-image: url("../pictures/groupxl.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#photo4 {
+    background-image: url("../pictures/32668338137_0c7968a56d_k.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+/* about */
+#confaward {
+    background-image: url("../pictures/IMG_20191031_182250.jpg"); 
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#lucas {
+    background-image: url("../pictures/IMG_8367.jpg"); 
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#subregional {
+    background-image: url("../pictures/20191030_165158.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#test {
+    background-image: url("../pictures/akawksp-capone.png");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#bowl {
+    background-image: url("../pictures/48655384398_29b08a2ae1_c.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#volley {
+    background-image: url("../pictures/48701583832_a2b45026cf_c.jpg"); 
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#acd {
+    background-image: url("../pictures/academicXL2.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#study {
+    background-image: url("../pictures/studyhours.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#scholar {
+    background-image: url("../pictures/43127073190_a49f7fb501_c.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#acdWork {
+    background-image: url("../pictures/47428292982_2bc3992838_c.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#pro {
+    background-image: url("../pictures/pro3.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#resumeWork {
+    background-image: url("../pictures/48690200371_4bf372c322_c.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#close {
+    background-image: url("../pictures/29700851157_d3cf67b195_c.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#leadshpe {
+    background-image: url("../pictures/panel.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#emmanuelTalking {
+    background-image: url("../pictures/DSC_0090.JPG");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#awardPhoto {
+    background-image: url("../pictures/54897612-469F-4AD2-A190-91CC9DA9A960.jpeg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#chp {
+    background-image: url("../pictures/48689881398_b0930b6931_c.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#memretreat {
+    background-image: url("../pictures/48701415516_93b82edbb2_c.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#icesocial {
+    background-image: url("../pictures/33287978688_fb19428cdb_c.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#imural {
+    background-image: url("../pictures/44334967660_623195b14c_c.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#service {
+    background-image: url("../pictures/44783688344_93c94a2937_c.jpg"); 
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#service2 {
+    background-image: url("../pictures/32668179447_dd312aa65d_c.jpg"); 
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#outreach {
+    background-image: url("../pictures/chapdev2.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#former {
+    background-image: url("../pictures/fromermems.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#former2 {
+    background-image: url("../pictures/former.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#former3 {
+    background-image: url("../pictures/59871142_2306438336267762_3344083367984365568_n.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#former4 {
+    background-image: url("../pictures/48173406_2210256839219246_1634337542637617152_n.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#faq {
+    background-image: url("../pictures/53359614_2267670983477831_5659363317995536384_o.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#sponsor {
+    background-image: url("../pictures/48690389657_842a86bcea_c.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#boil {
+    background-image: url("../pictures/46658850815_0479c0f3e3_c.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#review {
+    background-image: url("../pictures/818B5E6E-C7B7-4A5D-A5BB-91B4242C99C7.jpeg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#fin {
+    background-image: url("../pictures/IMG_3424.JPG");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#award {
+    height: 75%;
+}
+
+.newback {
+    padding: 50px;
+}
+
+.plax {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 50%;
+}
+
+.navbar-toggler:focus {
+    outline:none !important;   
+}
+
+.navbar-header.col {
+    padding: 0 !important;
+}	
+.navbar {		
+    background: #fff;
+    padding-right: 16px;
+    border-bottom: 1px solid #d6d6d6;
+    box-shadow: 0 0 4px rgba(0,0,0,.1);
+}
+.nav-link img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin: -8px 0;
+    float: left;
+    margin-right: 10px;
+}
+.navbar .navbar-brand {
+    color: rgb(80, 0, 0);
+    padding-left: 0;
+    padding-right: 0px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar .navbar-brand b {
+    font-weight: bold;
+    color: navy;
+}
+.navbar ul.nav li a:hover, .navbar ul.nav li a:focus {
+    color: rgb(80, 0, 0) !important;
+}
+.navbar ul.nav li.active a, .navbar ul.nav li.active a:hover, .navbar ul.nav li.active a:focus {
+    color: rgb(80, 0, 0) !important;
+    background: transparent !important;
+}
+
+.navbar .nav-item i {
+    font-size: 18px;
+}
+.navbar .dropdown-item i {
+    font-size: 16px;
+    min-width: 22px;
+}
+.navbar .nav-item.open > a {
+    background: none !important;
+}
+.navbar .dropdown-menu {
+    border-radius: 1px;
+    border-color: #e5e5e5;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .dropdown-menu li a {
+    color: #777;
+    padding: 8px 20px;
+    line-height: normal;
+    background-color: transparent !important;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: auto;
+    text-align: center;
+    color:  #777;
+}
+
+.nounder  {
+    color:white;
+    text-decoration: none;
+}
+
+.nounder:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.region {
+    text-align: center;
+    vertical-align: middle;
+    color:rgb(80, 0, 0);
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.icon {
+    color: #777;
+    padding: 5px;
+}
+
+#footer.row {
+    margin: auto;
+    text-align: center;
+    color:  #777;
+    background: #fff;
+    border-top: 1px solid #d6d6d6;
+    box-shadow: 0 0 4px rgba(0,0,0,.1);
+}
+
+.footer,.footer2 {
+    color:  #777;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px
+}
+
+.footer:hover,.footer2:hover {
+    color:  rgb(80, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+
+
+.cool-link {
+    display: inline-block;
+    color: navy;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:navy;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.btn-lg, .btn-lg:hover {
+    color: white;
+    border-radius: 0;
+    background-color: rgb(80, 0, 0);
+}
+
+.school {
+    color: rgb(80, 0, 0);
+}
+
+.nat {
+    color: navy;
+}
+
+.pillTextHead {
+    color: #777;
+}
+
+.pillText {
+    color: #777;
+    text-decoration: none;
+}
+
+.pillText:hover {
+    color: rgb(80, 0, 0);
+    text-decoration: none;
+}
+
+.service {
+    padding-top: 20px;
+}
+
+.motto,.underline {
+    border-bottom: 1px solid;
+}
+
+/* Responsive iFrame */
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.reviewRes {
+    max-width: 380px;
+    max-height: 950px;
+    width: auto;
+    height: auto;
+}
+
+.maroonLink,.maroonLink:hover {
+    color: rgb(80, 0, 0);
+    text-decoration: none;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+.for-mobile {
+    display: none;
+}
+
+.forIpad {
+    display: none;
+}
+
+/* Get around ipad pro issue */
+@media (min-width: 1280px) and (max-width: 1365px) , (min-width: 1367px) {
+    .plax {
+        background-attachment: fixed;
+    }
+}
+
+/*Calendar Adjustment*/
+@media (min-width: 300px) and (max-width: 1023px){
+    .big-container {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .small-container {
+        display: none;
+    }
+    #name {
+        font-size: 12px;
+    }
+
+    #posiiton {
+        font-size: 12px;
+    }
+    .eInfo,#major{
+        font-size: 12px;
+    }
+    
+    .footer2 {
+        font-size: 15px;
+    }
+    .forIpad {
+        display: inherit;
+    }
+
+}
+
+
+/*fix issues with ipad*/
+@media (min-width: 760px) {
+    .motto,.icon {
+        font-size: 25px !important;
+    }
+}
+
+/*mobile devices*/
+@media (max-width: 750px) {
+    #name {
+        font-size: 15px;
+    }
+
+    #posiiton {
+        font-size: 12px;
+    }
+
+    /*Can't spell too lazy to fix*/
+
+    #photo {
+        padding: 75px;
+    }
+    #photo2,#photo3,#photo4,#subregional,#confaward,#lucas,
+    #chp,#memretreat,#icesocial,#imural,#faq,
+    #former,#former2,#former3,#former4,#leadshpe,
+    #emmanuelTalking,#awardPhoto,#bowl,#volley,
+    #pro,#resumeWork,#close,#service,#outreach,
+    #service2,#boil,#review,#fin,#sponsor,#acd,
+    #scholar,#acdWork {
+        padding: 150px;
+    }
+    .reviewRes {
+        max-width: 250px;
+        max-height: 750px;
+        height: auto;
+        width: auto;
+    }
+    .school,.nat {
+        font-size: 30px;
+        border-bottom: solid 1px #777;
+        padding-bottom: 5px;
+    }
+    .pillText {
+        text-align: justify !important;
+    }
+    .icon {
+        font-size: 15px !important;
+    }
+    .motto,.rem,.non-mobile {
+       display: none;
+    }
+    .for-mobile {
+        display: inherit;
+    }
+    .eInfo, #major {
+        font-size: 10px;
+    }
+    .footer2 {
+        font-size: 15px;
+    }
+}
