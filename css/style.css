@@ -550,6 +550,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     display: none;
 }
 
+.maroon, .maroon:hover {
+    background-color: #800000;
+    color: white;
+}
+
 /* Get around ipad pro issue */
 @media (min-width: 1280px) and (max-width: 1365px) , (min-width: 1367px) {
     .plax {
