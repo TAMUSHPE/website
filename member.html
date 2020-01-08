@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="pictures/SHPE-Logo-WhiteRound.png">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="https://kit.fontawesome.com/4de1663c1b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/member.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>MemberSHPE</title>
     <!-- Favicon and Mobile Icon -->
     <link rel="apple-touch-icon" sizes="180x180" href="pictures/apple-touch-icon.png">
@@ -21,7 +22,6 @@
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-
     <!--Navigation menu-->
     <nav class="navbar fixed-top navbar-default navbar-expand-lg navbar-light">
             <div class="navbar-header d-flex col">
@@ -38,7 +38,7 @@
             <!-- Collection of nav links, forms, and other content for toggling -->
             <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item" ><a href="about.html" class="cool-link nav-link">About Us</a></li>
+                    <!--<li class="nav-item" ><a href="index.html" class="cool-link nav-link">Home</a></li>-->
                     <li class="nav-item dropdown">
                             <a class="cool-link nav-link" href="#">The 5 Pillars</a>
                             <ul class="dropdown-menu">					
@@ -49,130 +49,159 @@
                                 <li><a href="service.html"  class="cool-link dropdown-item">Service and Outreach</a></li>
                             </ul>
                         </li>			
+                    <!--<li class="nav-item dropdown">
+                        <a data-toggle="dropdown" class="cool-link nav-link dropdown-toggle" href="#">The 5 Pillars</a>
+                        <ul class="dropdown-menu">					
+                            <li><a href="academic.html" class="dropdown-item">Academic Development</a></li>
+                            <li><a href="chapter.html" class="dropdown-item">Chapter Development</a></li>
+                            <li><a href="leadership.html" class="dropdown-item">Leadership Development</a></li>
+                            <li><a href="professional.html" class="dropdown-item">Professional Development</a></li>
+                            <li><a href="service.html" class="dropdown-item">Service and Outreach</a></li>
+                        </ul>
+                    </li>
+                    -->
+                    <!--<li class="nav-item"><a href="SHPE 2019-2020 Committee Applications.pdf" target="_blank" class="nav-link">Committees</a></li>-->
                     <li class="nav-item"><a href="former.html" class="cool-link nav-link">Former Students</a></li>
                     <li class="nav-item dropdown">
                         <a class="cool-link nav-link" href="https://www.tamushpetestbank.com/" target="_blank">Test Bank</a>
-                        <ul class="dropdown-menu">					
-                            <li><a href="faq.html" class="cool-link dropdown-item">FAQ</a></li>  
+                        <ul class="dropdown-menu">
+                            <li><a href="faq.html" class="cool-link dropdown-item">FAQ</a></li>  					
                             <li><a href="http://www.google.com/url?q=http%3A%2F%2Fbit.ly%2FSubmitTestBank&sa=D&sntz=1&usg=AFQjCNGbK3262YrXNDmph4TDRGXYoEBnvg"  target="_blank" class="cool-link dropdown-item">Submit a Test</a></li>
                         </ul>
                     </li>	
-                    <!-- <li class="nav-item"><a href="sponsors.html" class="cool-link nav-link">Sponsors</a></li>  -->
+                    <li class="nav-item"><a href="sponsors.html" class="cool-link nav-link">Sponsors</a></li> 
                     <li class="nav-item"><a href="sponsorshpe.html" class="cool-link nav-link">SponsorSHPE</a></li>	
-                    <li class="nav-item"><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=tamushpe@gmail.com" target="_blank" class="cool-link nav-link">Contact Us</a></li>
-                    <!-- <li class="nav-item"><a href="contact.html" class="cool-link nav-link">Contact Us</a></li> -->
+                    <li class="nav-item"><a href="contact.html" class="cool-link nav-link">Contact Us</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right ml-auto">
+                    <li class="nav-item"><a href="https://www.facebook.com/tamushpe5/" target="_blank" class="nav-link"><i class="fa fa-facebook"></i></a></li>
+                    <li class="nav-item"><a href="https://twitter.com/tamushpe?lang=en" target="_blank" class="nav-link"><i class="fa fa-twitter"></i></a></li>
+                    <li class="nav-item"><a href="https://www.instagram.com/tamushpe/?hl=en" target="_blank" class="nav-link"><i class="fa fa-instagram"></i></a></li>
+                    <li class="nav-item"><a href="https://www.flickr.com/photos/143848472@N03/" target="_blank" class="nav-link"><i class="fa fa-flickr"></i></a></li>
                 </ul>
             </div>
     </nav>
     <!--End of nav-->
 
     <!--Main content-->
-    <div class="container newback">
-        <br>
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="text-center"><strong>Why join the #SHPEFamilia?</strong></h3>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i4C1Gj9YnD8?rel=0" allowfullscreen></iframe>
+  
+    <div class="col-xs-12 col-md-12 col-lg-12 img-fluid" id="member"></div> <!--FIXME-->
+
+    <div class="row">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb secondary-color">
+            <li class="breadcrumb-item"><a class="white-text" href="index.html">Home</a></li>
+            <li class="breadcrumb-item active">MemberSHPE</li>
+          </ol>
+        </nav>
+    </div>
+
+    <div class="container">
+            <br>
+            <h3 class="centered">Listen to what members have to say about TAMU SHPE!</h3>
+            <br>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i4C1Gj9YnD8?rel=0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
-        </div>
+
+            <br>
+            <h3 class="centered">Why join the #SHPEFamilia?</h3>
+            <p class="centered">TAMU SHPE is a great place to meet new people that share similar cultures and studies. Our members help each other to grow personally and professionally through the events we host. We have fun and get work done in our organizaton. Make friends that turn into family by attending our socials, such as our Bowling Social, or Ice Skating Social. Complete some work with new friends at Study Hours at the Annex, or learn how to build your resume at our Resume Workshop. TAMU SHPE does a great job of combining fun activities with meaningful workshops that help members gain professional skills and enjoy their time.</p>
+            <br>
+            <h3 class="centered">The 5 Pillars of SHPE</h3>
+            <div class="row">
+                <div class="col-md-3 col-xs-12 text-center">
+                    <b><a href="academic.html" class="nounder">Academic Development</a></b>
+                </div>
+                <div class="col-md-3 col-xs-12 text-center">    
+                    <b><a href="chapter.html" class="nounder">Chapter Development</a></b>
+                </div>
+                <div class="col-md-3 col-xs-12 text-center">
+                    <b><a href="leadership.html" class="nounder">Leadership Development</a></b>
+                </div>
+                <div class="col-md-3 col-xs-12 text-center">
+                    <b><a href="professional.html" class="nounder">Professional Development</a></b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <b><a href="service.html" class="nounder">Service and Outreach</a></b>        
+                </div>
+            </div>
+            <br>
+            <h3 class="centered">How do I become a member of the #SHPEFamilia?</h3>
+            <br>
+            <h3 class="centered">You must complete BOTH the NATIONAL and TAMU CHAPTER application and pay their respective dues. Instructions on how to complete both are down below:</h3>
+            <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <img src="pictures/rldc.jpg" class="rounded responsiveimg img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h3 class="centered">#TAMUSHPE Registration</h3>
+                <ul style="text-align: left">
+                    <p> 1. Fill out the following Google Doc: <b><a class="nounder" href="https://forms.gle/bdDeskFioqb5o1BL7" target="_blank">Click Here</a></b>
+                    <br>2. Pay $20 to cover your Chapter Dues (includes your very own #TAMUSHPE t-shirt) <b><a class="nounder" href="https://secure.touchnet.com/C21490_ustores/web/classic/product_detail.jsp?PRODUCTID=11927" target="_blank">Here</a></b>
+                    <br>3. Continue below to complete the registration for SHPE National</p>
+                </ul>
+            </div>						
+        </div> 
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="centered">SHPE National Registration</h3>
+                <ul style="text-align: left">
+                    <p>1. Go to the following link to complete the registration: <b><a class="nounder" href="https://shpe.org/join-membershpe-renewal/" target="_blank">Click Here</a></b>
+                    <br>2. Go to "Join/Renew Membership", make sure to select Region 5 and Texas A&M University as your chapter
+                    <br>3. Fill out your Account Information and make sure that the Educational Information given to you is correct
+                    <br>4. Agree to the Code of Ethics and add the Membership to your cart
+                    <br>5. Pay for the membership
+                    <br><b>PLEASE MAKE SURE TO SEND A SCREENSHOT OF YOUR PAYMENT CONFIRMATION TO secretary.tamushpe@gmail.com</b></p>
+                </ul>
+            </div>	
+            <div class="col-md-6">
+                <img src="pictures/bowlsoc18.jpg" class="rounded responsiveimg img-fluid">
+            </div>
+        </div>	
+        <br>
+
+        <h3 class="text-bold text-center">MemberSHPE Points</h3>
+    
         <div class="row">
             <div class="col-md-12">
-                <br>
-                <p class="text-justify">
-                    TAMU SHPE is a great place to meet new people that share similar cultures and studies. 
-                    Our members help each other to grow personally and professionally through the events we host. 
-                    We have fun and get work done in our organizaton. 
-                    Make friends that turn into family by attending our socials, such as our Bowling Social, or Ice Skating Social. 
-                    Complete some work with new friends at Study Hours at the Annex, or learn how to build your resume at our Resume Workshop. 
-                    TAMU SHPE does a great job of combining fun activities with meaningful workshops that help members gain professional skills and enjoy their time.
-                </p>
+                <ul class="text-center">
+                    <p>General Meeting & events - 1 pt</p>
+                    <p>Community Service - 2 pts/hour</p>
+                    <p>Workshops - 3 pts</p>
+                    <p>Upload old exam - 1 pt</p>
+                    <p>Wear SHPE Gear - 1 pt</p>
+                    <p>Post your #wearitwednesday on social media - 1 pt</p>
+                </ul>
             </div>
         </div>
-    </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 plax" id="bowl">
-            </div>
-        </div>
-    </div>
+        <h3 class="text-bold text-center">Why the points matter!</h3>
 
-    <div class="container newback">
         <div class="row">
             <div class="col-md-12">
-                <h3><strong>How do I become a member of the #SHPEFamilia?</strong></h3>
-                <p class="text-center">
-                    You must complete BOTH the NATIONAL and TAMU CHAPTER application and pay their respective dues. 
-                    Instructions on how to complete both are down below:
+                <p>Top point earners who are fully paid can be eligilbe for sponsorship to future National Conventions and have the opportunity to win various awards
+                    at the End of Year Banquet.
                 </p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <h3><strong>#TAMUSHPE Registration</strong></h3>
-                <ol class="text-justify">
-                    <li>Fill out the following Google Doc: <strong><a class="maroonLink" href="https://docs.google.com/forms/d/e/1FAIpQLSduoWcVtJuQlQGfNxhB62hni6T0mIPAgcwmh1R5CFge0_x0HQ/viewform" target="_blank">Click Here</a></strong></li>
-                    <li>Pay $20 to cover your Chapter Dues (includes your very own #TAMUSHPE t-shirt) <strong><a class="maroonLink" href="https://secure.touchnet.com/C21490_ustores/web/classic/product_detail.jsp?PRODUCTID=11927" target="_blank">Here</a></strong></li>
-                    <li>Continue below to complete the registration for SHPE National</li>
-                </ol>
-            </div>
-            <div class="col-md-6">
-                <h3><strong>SHPE National Registration</strong></h3>
-                <ol class="text-justify">
-                    <li>Go to the following link to complete the registration: <strong><a class="maroonLink" href="https://www.shpe.org/membership/join-shpe" target="_blank">Click Here</a></strong></li>
-                    <li>Go to "Join/Renew Membership", make sure to select Region 5 and Texas A&M University as your chapter</li>
-                    <li>Fill out your Account Information and make sure that the Educational Information given to you is correct</li>
-                    <li>Agree to the Code of Ethics and add the Membership to your cart</li>
-                    <li>Pay for the membership</li>
-                </ol>
-                <p>
-                    <strong>PLEASE MAKE SURE TO SEND A SCREENSHOT OF YOUR PAYMENT CONFIRMATION TO secretary.tamushpe@gmail.com</strong>
-                </p>
-            </div>
-        </div>
-    </div>
+        </div>        
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 plax" id="volley">
-            </div>
-        </div>
-    </div>
+    </div> <!--/container -->
 
-    <div class="container newback">
-        <div class="row">
-            <div class="col-md-6">
-                <h3><strong>MemberSHPE Points</strong></h3>
-                <p>
-                    General Meeting & events - 1 pt
-                    <br>
-                    Community Service - 2 pts/hour
-                    <br>
-                    Workshops - 3 pts
-                    <br>
-                    Upload old exam - 1 pt
-                    <br>
-                    Wear SHPE Gear - 1 pt
-                    <br>
-                    Post your #wearitwednesday on social media - 1 pt
-                </p>
-                <h3><strong>Why the points matter!</strong></h3>
-                <p>Top point earners who are fully paid can be eligilbe for sponsorship to future National Conventions 
-                    and have the opportunity to win various awards at the End of Year Banquet.
-                </p>
-            </div>
-            <div class="col-md-6">
-                <img src="pictures/DSC_0984.JPG" alt="" class="img-fluid">
-            </div>
-        </div>
-    </div>
+    <br>
+
     <!--End of main-->
 
-    <!--Footer-->
-    <div class="container-fluid">
-		<div class="row" id="footer">
+    <div class="row" id="footer">
 			<div class="col-md-4 col-lg-4">
 				<p><b>Email:</b> tamushpe@gmail.com<br>
 				<b>Office Hours:</b> Monday-Thursday |<br> ZACH 450-P1 | 10 a.m - 2 p.m.<br>
@@ -185,20 +214,20 @@
             </div>
             <div class="col-md-4 col-lg-4">
             	<p><b>Follow us on Social Media!</b><br>
-            		<a class="footer" href="https://www.facebook.com/tamushpe5/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-      				<a class="footer" href="https://twitter.com/tamushpe?lang=en" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-      				<a class="footer" href="https://www.instagram.com/tamushpe/?hl=en" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a><br>
-      				<a class="footer" href="https://www.snapchat.com/add/tamushpe" target="_blank"><i class="fab fa-snapchat" aria-hidden="true"></i></a>
-      				<a class="footer" href="https://www.youtube.com/channel/UCebsLGRRglWj459ueGDTzug" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-      				<a class="footer" href="https://www.linkedin.com/company/society-of-hispanic-professional-engineers-texas-a-m1/" target="_blank"><i class="fab fa-linkedin" arua-hidden="true"></i></a>
-      				<a class="footer" href="https://www.flickr.com/photos/143848472@N03/" target="_blank"><i class="fab fa-flickr" aria-hidden="true"></i></a>
+            		<a class="footer" href="https://www.facebook.com/tamushpe5/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      				<a class="footer" href="https://twitter.com/tamushpe?lang=en" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      				<a class="footer" href="https://www.instagram.com/tamushpe/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a><br>
+      				<a class="footer" href="https://www.snapchat.com/add/tamushpe" target="_blank"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
+      				<a class="footer" href="https://www.youtube.com/channel/UCebsLGRRglWj459ueGDTzug" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+      				<a class="footer" href="https://www.linkedin.com/company/society-of-hispanic-professional-engineers-texas-a-m1/" target="_blank"><i class="fa fa-linkedin" arua-hidden="true"></i></a>
+      				<a class="footer" href="https://www.flickr.com/photos/143848472@N03/" target="_blank"><i class="fa fa-flickr" aria-hidden="true"></i></a>
       			</p>
             </div>
-		</div>
 	</div>
+
     <!-- Bootstrap core-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>

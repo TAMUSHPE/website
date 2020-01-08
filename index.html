@@ -5,12 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="pictures/SHPE-Logo-WhiteRound.png">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="https://kit.fontawesome.com/4de1663c1b.js" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>tamuSHPE</title>
     <!-- Favicon and Mobile Icon -->
     <link rel="apple-touch-icon" sizes="180x180" href="pictures/apple-touch-icon.png">
@@ -23,6 +22,9 @@
   </head>
   <body>
 
+
+    
+<div class="container-fluid">
     <!--Navigation menu-->
     <nav class="navbar fixed-top navbar-default navbar-expand-lg navbar-light">
             <div class="navbar-header d-flex col">
@@ -39,7 +41,7 @@
             <!-- Collection of nav links, forms, and other content for toggling -->
             <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item" ><a href="about.html" class="cool-link nav-link">About Us</a></li>
+                    <!--<li class="nav-item" ><a href="index.html" class="cool-link nav-link">Home</a></li>-->
                     <li class="nav-item dropdown">
                             <a class="cool-link nav-link" href="#">The 5 Pillars</a>
                             <ul class="dropdown-menu">					
@@ -50,6 +52,18 @@
                                 <li><a href="service.html"  class="cool-link dropdown-item">Service and Outreach</a></li>
                             </ul>
                         </li>			
+                    <!--<li class="nav-item dropdown">
+                        <a data-toggle="dropdown" class="cool-link nav-link dropdown-toggle" href="#">The 5 Pillars</a>
+                        <ul class="dropdown-menu">					
+                            <li><a href="academic.html" class="dropdown-item">Academic Development</a></li>
+                            <li><a href="chapter.html" class="dropdown-item">Chapter Development</a></li>
+                            <li><a href="leadership.html" class="dropdown-item">Leadership Development</a></li>
+                            <li><a href="professional.html" class="dropdown-item">Professional Development</a></li>
+                            <li><a href="service.html" class="dropdown-item">Service and Outreach</a></li>
+                        </ul>
+                    </li>
+                    -->
+                    <!--<li class="nav-item"><a href="SHPE 2019-2020 Committee Applications.pdf" target="_blank" class="nav-link">Committees</a></li>-->
                     <li class="nav-item"><a href="former.html" class="cool-link nav-link">Former Students</a></li>
                     <li class="nav-item dropdown">
                         <a class="cool-link nav-link" href="https://www.tamushpetestbank.com/" target="_blank">Test Bank</a>
@@ -58,149 +72,64 @@
                             <li><a href="http://www.google.com/url?q=http%3A%2F%2Fbit.ly%2FSubmitTestBank&sa=D&sntz=1&usg=AFQjCNGbK3262YrXNDmph4TDRGXYoEBnvg"  target="_blank" class="cool-link dropdown-item">Submit a Test</a></li>
                         </ul>
                     </li>	
-                    <!-- <li class="nav-item"><a href="sponsors.html" class="cool-link nav-link">Sponsors</a></li>  -->
+                    <li class="nav-item"><a href="sponsors.html" class="cool-link nav-link">Sponsors</a></li> 
                     <li class="nav-item"><a href="sponsorshpe.html" class="cool-link nav-link">SponsorSHPE</a></li>	
-                    <li class="nav-item"><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=tamushpe@gmail.com" target="_blank" class="cool-link nav-link">Contact Us</a></li>
+                    <li class="nav-item"><a href="contact.html" class="cool-link nav-link">Contact Us</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right ml-auto">
+                    <li class="nav-item"><a href="https://www.facebook.com/tamushpe5/" target="_blank" class="nav-link"><i class="fa fa-facebook"></i></a></li>
+                    <li class="nav-item"><a href="https://twitter.com/tamushpe?lang=en" target="_blank" class="nav-link"><i class="fa fa-twitter"></i></a></li>
+                    <li class="nav-item"><a href="https://www.instagram.com/tamushpe/?hl=en" target="_blank" class="nav-link"><i class="fa fa-instagram"></i></a></li>
+                    <li class="nav-item"><a href="https://www.flickr.com/photos/143848472@N03/" target="_blank" class="nav-link"><i class="fa fa-flickr"></i></a></li>
                 </ul>
             </div>
     </nav>
     <!--End of nav-->
 
     <!--Main content-->
-    <div class="container-fluid plax" id="photo">    
+    <div class="container-fluid">    
         <div class="row">
-            <div class="col-md-12 text-justify">
-                <h1 class="text-bold"><strong class="school">TAMU</strong><strong class="nat">SHPE</strong></h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-justify">
-                <h1 class="motto">Leading and Preparing all Aggies</h1>
-            </div>
-        </div>
-        <div class="row">
-            <!-- <div class="col-xs-12 col-md-12 col-lg-2 text-justify" id="media">
-                <button type="button" class="btn btn-lg" id="social" disabled>Follow us!</button>
-            </div> -->
-            <div class="col-lg-12 text-justify">
-                <a href="https://www.facebook.com/tamushpe5/" target="_blank"><i class="fab fa-facebook-square fa-lg icon" aria-hidden="true"></i></a>                
-                <a href="https://twitter.com/tamushpe?lang=en" target="_blank"><i class="fab fa-twitter-square fa-lg icon" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com/tamushpe/?hl=en" target="_blank"><i class="fab fa-instagram fa-lg icon" aria-hidden="true"></i></a>
-                <a href="https://www.snapchat.com/add/tamushpe" target="_blank"><i class="fab fa-snapchat-square fa-lg icon" aria-hidden="true"></i></a>
-                <a href="https://www.youtube.com/channel/UCebsLGRRglWj459ueGDTzug" target="_blank"><i class="fab fa-youtube-square fa-lg icon" aria-hidden="true"></i></a>
-            </div>
+            <div class="col-xs-12 col-md-12 col-lg-12 gradient8" id="photo"><a href="https://convention.shpe.org/" target="_blank" class="nounder stretched-link"><img class="img-fluid" src="pictures/5c052d9644cfac586f2edd28_SHPE.png"></a></div>
         </div>  
     </div>
 
+    <div class="container-fluid">
+            <div class="row">
+                    <div class="col-xs-12 col-md-6 col-lg-6 gradient1" id="about"><h3 class="centered"><b><a href="about.html" class="nounder stretched-link">About Us</a></b></h3></div>
+                    <div class="col-xs-12 col-md-6 col-lg-6 gradient2" id="eboard"><h3 class="centered"><b><a href="eboard.html" class="nounder stretched-link">Executive Board</a></b></h3></div>
+            </div>
+    </div>
+    <!--
+    <div class="container-fluid">
+            <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12 img-fluid" id="conf"><img src="../testsite2/pictures/2019cong.jpg" class="img-fluid w-100" alt="Responsive image"></div>
+            </div>
+    </div>
+    -->
+
+    <div class="container-fluid">
+            <div class="row">
+                    <!-- <div class="col-md-4" id="member"><h3 class="centered"><b><a href="member.html" class="nounder"></a></b></h3></div> -->
+                    <div class="col-xs-12 col-md-8 col-lg-8 gradient3" id="member"><h3 class="centered"><b><a href="member.html" class="nounder stretched-link">MemberSHPE</a></b></h3></div>
+                    <div class="col-xs-12 col-md-4 col-lg-4 gradient4" id="points"><h3 class="centered"><b><a href="https://docs.google.com/spreadsheets/d/1CVsEaVF25EIslQq5t4YvBxoY-bQJEVLPFijj7GpbfcE/edit?usp=sharing" target="_blank" class="nounder stretched-link">Points</a></b></h3></div>
+                    <!--<div class="col-md-4" id="news"><h3 class="centered"><b><a href="http://eepurl.com/dDRrV9" target="_blank" class="nounder">Newsletter</a></b></h3></div>-->
+            </div>        
+    </div>
+
+    <div class="container-fluid">
+            <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12 gradient5" id="news"><h3 class="centered"><b><a href="http://eepurl.com/dDRrV9" target="_blank" class="nounder stretched-link">Newsletter</a></b></h3></div>
+            </div>
+    </div>
+
+    <div class="container-fluid">
+            <div class="row">
+                    <div class="col-xs-12 col-md-5 col-lg-5 gradient6" id="money"><h3 class="centered"><b><a href="https://sites.google.com/view/scholarshpe/home" target="_blank" class="nounder stretched-link">ScholarSHPEs</a></b></h3></div>
+                    <div class="col-xs-12 col-md-7 col-lg-7 gradient7" id="events"><h3 class="centered"><b><a href="calendar.html" class="nounder stretched-link">Calendar</a></b></h3></div>
+            </div>
+    </div>
+
     <!--End of main-->
-
-    <div class="container newback">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="pillTextHead">The 5 Pillars of SHPE</h2>
-                <br>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3"><a href="academic.html" class="pillText"><i class="fas fa-apple-alt"></i> <strong>Academic Development</strong></a></div>
-            <div class="col-md-3"><a href="chapter.html" class="pillText""><i class="fas fa-users"></i> <strong>Chapter Development</strong></a></div>
-            <div class="col-md-3"><a href="leadership.html" class="pillText"><i class="fas fa-fist-raised"></i> <strong>Leadership Development</strong></a></div>
-            <div class="col-md-3"><a href="professional.html" class="pillText"><i class="fas fa-user-tie"></i> <strong>Professional Development</strong></a></div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 rem">
-                <br>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12"><a href="service.html" class="pillText"><i class="fas fa-home"></i> <strong>Service and Outreach</strong></a></div>
-        </div>
-    </div>
-
-    <div class="container-fluid plax" id="photo2">
-    </div>
-
-    <div class="container newback">
-        <div class="row">
-            <div class="col-md-12">
-                <h2><strong>Upcoming Events!</strong></h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="events/DRqAx1jWAAA5_F3.jpg" class="img-fluid d-block w-100" alt="...">
-                      </div>
-                      <!-- <div class="carousel-item">
-                        <img src="events/bowl_resize.jpg" class="img-fluid d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="events/jones_resize.png" class="img-fluid d-block w-100" alt="...">
-                      </div> -->
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                      <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <br>
-    </div>
-
-    <div class="container-fluid plax" id="photo4">
-    </div>
-
-    <div class="container newback">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="pictures/da_peeps2.jpg"class="img-fluid">
-                <h3 class="text-justify"><strong>Executive Board</strong></h3>
-                <div class="text-justify">Get to know our 2019-2020 Officers</div>
-                <a href="eboard.html" class="btn btn-outline-secondary float-left" role="button">Learn More</a>
-                <br class="for-mobile">
-                <br class="for-mobile">
-            </div>
-            <div class="col-md-6">
-                <img src="pictures/mem2.jpg" class="img-fluid">
-                <h3 class="text-justify"><strong>MemberSHPE</strong></h3>
-                <div class="text-justify">Learn how to be a part of the Familia</div>
-                <a href="member.html" class="btn btn-outline-secondary float-left" role="button">Learn More</a>
-                <br class="for-mobile">
-                <br class="for-mobile">
-            </div>
-        </div>
-        <br class="non-mobile">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="pictures/calendar.jpg" class="img-fluid">
-                <h3 class="text-justify"><strong>Calendar</strong></h3>
-                <div class="text-justify">Come and check out our events</div>
-                <a href="calendar.html" class="btn btn-outline-secondary float-left" role="button">Learn More</a>
-                <br class="for-mobile">
-                <br class="for-mobile">
-            </div>
-            <div class="col-md-6">
-                <img src="pictures/points2.jpg" class="img-fluid">
-                <h3 class="text-justify"><strong>Points</strong></h3>
-                <div class="text-justify">Keep track of your memberSHPE points throughout the semester</div>
-                <a href="https://docs.google.com/spreadsheets/d/1CVsEaVF25EIslQq5t4YvBxoY-bQJEVLPFijj7GpbfcE/edit?usp=sharing" class="btn btn-outline-secondary float-left" role="button" target="_blank">Learn More</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid plax" id="photo3">
-        <!-- <img src="pictures/5c052d9644cfac586f2edd28_SHPE.png" class="img-fluid natlogo"> -->
-    </div>
 
     <!--Footer-->
     <div class="container-fluid">
@@ -217,23 +146,21 @@
             </div>
             <div class="col-md-4 col-lg-4">
             	<p><b>Follow us on Social Media!</b><br>
-            		<a class="footer" href="https://www.facebook.com/tamushpe5/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-      				<a class="footer" href="https://twitter.com/tamushpe?lang=en" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-      				<a class="footer" href="https://www.instagram.com/tamushpe/?hl=en" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a><br>
-      				<a class="footer" href="https://www.snapchat.com/add/tamushpe" target="_blank"><i class="fab fa-snapchat" aria-hidden="true"></i></a>
-      				<a class="footer" href="https://www.youtube.com/channel/UCebsLGRRglWj459ueGDTzug" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-      				<a class="footer" href="https://www.linkedin.com/company/society-of-hispanic-professional-engineers-texas-a-m1/" target="_blank"><i class="fab fa-linkedin" arua-hidden="true"></i></a>
-      				<a class="footer" href="https://www.flickr.com/photos/143848472@N03/" target="_blank"><i class="fab fa-flickr" aria-hidden="true"></i></a>
+            		<a class="footer" href="https://www.facebook.com/tamushpe5/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      				<a class="footer" href="https://twitter.com/tamushpe?lang=en" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      				<a class="footer" href="https://www.instagram.com/tamushpe/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a><br>
+      				<a class="footer" href="https://www.snapchat.com/add/tamushpe" target="_blank"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
+      				<a class="footer" href="https://www.youtube.com/channel/UCebsLGRRglWj459ueGDTzug" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+      				<a class="footer" href="https://www.linkedin.com/company/society-of-hispanic-professional-engineers-texas-a-m1/" target="_blank"><i class="fa fa-linkedin" arua-hidden="true"></i></a>
+      				<a class="footer" href="https://www.flickr.com/photos/143848472@N03/" target="_blank"><i class="fa fa-flickr" aria-hidden="true"></i></a>
       			</p>
             </div>
 		</div>
 	</div>
+</div>
     <!-- Bootstrap core-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script>
-        AOS.init();
-    </script>  
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
