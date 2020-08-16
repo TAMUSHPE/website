@@ -1,304 +1,433 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="pictures/SHPE-Logo-WhiteRound.png">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/eboard.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>Executive Board</title>
-    <!-- Favicon and Mobile Icon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="pictures/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="pictures/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="pictures/favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="mask-icon" href="pictures/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-  </head>
-  <body>
-    <!--Navigation menu-->
-    <nav class="navbar fixed-top navbar-default navbar-expand-lg navbar-light">
-            <div class="navbar-header d-flex col">
-                <a class="navbar-brand" href="index.html"><!--FIXME<img src="image2vector.svg" width="50" height="50" class="d-inline-block align-center" id="logo" alt="Logo">-->
-                    tamu<b>SHPE</b>
-                </a>  		
-                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler ml-auto">
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <!-- Collection of nav links, forms, and other content for toggling -->
-            <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
-                <ul class="nav navbar-nav">
-                    <!--<li class="nav-item" ><a href="index.html" class="cool-link nav-link">Home</a></li>-->
-                    <li class="nav-item dropdown">
-                            <a class="cool-link nav-link" href="#">The 5 Pillars</a>
-                            <ul class="dropdown-menu">					
-                                <li><a href="academic.html"  class="cool-link dropdown-item">Academic Development</a></li>
-                                <li><a href="chapter.html"  class="cool-link dropdown-item">Chapter Development</a></li>
-                                <li><a href="leadership.html"  class="cool-link dropdown-item">Leadership Development</a></li>
-                                <li><a href="professional.html"  class="cool-link dropdown-item">Professional Development</a></li>
-                                <li><a href="service.html"  class="cool-link dropdown-item">Service and Outreach</a></li>
-                            </ul>
-                        </li>			
-                    <!--<li class="nav-item dropdown">
-                        <a data-toggle="dropdown" class="cool-link nav-link dropdown-toggle" href="#">The 5 Pillars</a>
-                        <ul class="dropdown-menu">					
-                            <li><a href="academic.html" class="dropdown-item">Academic Development</a></li>
-                            <li><a href="chapter.html" class="dropdown-item">Chapter Development</a></li>
-                            <li><a href="leadership.html" class="dropdown-item">Leadership Development</a></li>
-                            <li><a href="professional.html" class="dropdown-item">Professional Development</a></li>
-                            <li><a href="service.html" class="dropdown-item">Service and Outreach</a></li>
-                        </ul>
-                    </li>
-                    -->
-                    <!-- <li class="nav-item"><a href="SHPE 2019-2020 Committee Applications.pdf" target="_blank" class="cool-link nav-link">Committees</a></li> -->
-                    <li class="nav-item"><a href="former.html" class="cool-link nav-link">Former Students</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="cool-link nav-link" href="https://www.tamushpetestbank.com/" target="_blank">Test Bank</a>
-                        <ul class="dropdown-menu">	
-                            <li><a href="faq.html" class="cool-link dropdown-item">FAQ</a></li>  				
-                            <li><a href="http://www.google.com/url?q=http%3A%2F%2Fbit.ly%2FSubmitTestBank&sa=D&sntz=1&usg=AFQjCNGbK3262YrXNDmph4TDRGXYoEBnvg"  target="_blank" class="cool-link dropdown-item">Submit a Test</a></li>
-                        </ul>
-                    </li>	
-                    <li class="nav-item"><a href="sponsors.html" class="cool-link nav-link">Sponsors</a></li> 
-                    <li class="nav-item"><a href="sponsorshpe.html" class="cool-link nav-link">SponsorSHPE</a></li>	
-                    <li class="nav-item"><a href="contact.html" class="cool-link nav-link">Contact Us</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right ml-auto">
-                    <li class="nav-item"><a href="https://www.facebook.com/tamushpe5/" target="_blank" class="nav-link"><i class="fa fa-facebook"></i></a></li>
-                    <li class="nav-item"><a href="https://twitter.com/tamushpe?lang=en" target="_blank" class="nav-link"><i class="fa fa-twitter"></i></a></li>
-                    <li class="nav-item"><a href="https://www.instagram.com/tamushpe/?hl=en" target="_blank" class="nav-link"><i class="fa fa-instagram"></i></a></li>
-                    <li class="nav-item"><a href="https://www.flickr.com/photos/143848472@N03/" target="_blank" class="nav-link"><i class="fa fa-flickr"></i></a></li>
-                </ul>
-            </div>
-    </nav>
-    <!--End of nav-->
 
-    <!--Main content-->
-    <div class="row">
-        <div class="col-xs-12 col-md-12 col-lg-12 img-fluid" id="eboard"></div>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="pictures/SHPELogoTransparent.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://kit.fontawesome.com/4de1663c1b.js" crossorigin="anonymous"></script>
+  <title>Executive Board</title>
+  <!-- Favicon and Mobile Icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="pictures/SHPELogoTransparent.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="pictures/SHPELogoTransparent.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="pictures/SHPELogoTransparent.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="pictures/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+  <!--Navigation menu-->
+  <nav class="navbar fixed-top navbar-default navbar-expand-lg navbar-light">
+    <div class="navbar-header d-flex col">
+      <a class="navbar-brand" href="index.html">
+        <img src="pictures/SHPE_logo_FullColor-RGB-2x.png" width="100" height="30" class="d-inline-block align-center"
+          id="logo" alt="Logo">
+        <!-- tamu<b>SHPE</b> -->
+      </a>
+      <button type="button" data-target="#navbarCollapse" data-toggle="collapse"
+        class="navbar-toggle navbar-toggler ml-auto">
+        <span class="navbar-toggler-icon"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     </div>
-    <!--
-    <div class="container">
-    
-        <h3 class="centered">Our Executive Board</h3>
-        <p class="centered"></p>
-        <div class="row">
-            <div class="col-md-6">
-                <img src="../testsite2/pictures/emmanuel.JPG" class="responsiveimg rounded img-fluid" style="width:60%;height:60%;">
-            </div>
-            <div class="col-md-6">
-                <h3 class="centered">Emmanuel Valencia</h3>
-           
-                <h3 class="centered">President</h3>
-                <p class="justified">Howdy! My name is Emmanuel Valencia and I am a Senior Mechanical Engineer from Houston, TX, but most importantly, I am the LOUDEST and PROUDEST member of the Fightin' Texas Aggie Class of 2020, A-WHOOP! It is my great honor to lead this organization as your President for the 2019-2020 academic year. I am excited to meet you and invest in your life; while I firmly believe that TAMU SHPE will help you grow into a successful and professional engineer post-graduation, I am also working hard to ensure that you have the tools necessary to enjoy the process. I am a highly motivated person who enjoys worship, playing the piano, and learning something new every day. At the end of the day, I am here to serve you -- my SHPE Familia. After all, I live after this quote: "There is someone looking up to you, don't let that person down." Feel free to catch me during SHPE Office Hours for anything, whether it be tutoring or mentoring. Have a blessed semester! Thanks and Gig ’em!
-                </p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=President">Email Emmanuel</a></b></p>
-            </div>						
-        </div>
-        <div class="row">
-                <div class="col-md-6">
-                <h3 class="centered">Gisselle Ramos</h3>
-        		
-                <h3 class="centered">Vice President</h3>
-                <p class="justified">Howdy! My name is Gisselle Ramos and I am a Senior Electrical Engineering Major from Katy, Texas, but more importantly, I am the loudest and proudest member of the Fightin' Texas Aggie Class of 2020! A-WHOOP! I am excited to be Vice President for this school year and help my fellow SHPEsters grow. My job is to maintain company relations and plan the logistics for National Convention and RLDC. My second home is ZACH, where I am usually staring at my computer trying to study. I enjoy reading, running, and learning new languages. If you see me around campus, don't hesitate to say Howdy. I'll gladly talk to you about SHPE and life in Aggieland. I hope to see as many SHPEsters as possible this year and improve our organization, as well as myself! Thanks & Gig 'Em!</p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=Vice President">Email Gisselle</a></b></p>
-            </div>	
-            <div class="col-md-6">
-                <img src="../testsite2/pictures/gisselle.JPG" class="responsiveimg rounded img-fluid" style="width:60%;height:60%;">
-            </div>	
-        </div> <br>
-        <div class="row">
-            <div class="col-md-6">
-                <img src="../testsite2/pictures/anais.JPG" class="responsiveimg rounded img-fluid" style="width:60%;height:60%;"> 
-            </div>
-            <div class="col-md-6">
-                <h3 class="centered">Anais Baca</h3>		
-                <h3 class="centered">Secretary</h3>
-                <p class="justified">Howdy! My name is Anais Baca and I am a Junior Biological and Agricultural Engineering major from Conroe, Texas, but most importantly, I am the loudest and proudest member of the Fightin’ Texas Aggie Class of 2021! A-A-A-WHOOP! I have the honor of serving as Secretary for the 2019-2020 academic school year. I enjoy spending time with family/friends as well as make THE best puns you can think of. I like making new friends and am excited to get to know you all and see the SHPE familia grow! Whether you have any questions regarding MemberSHPE or where the best places to eat are, I’ll be more than happy to help you in any way I can. Thanks & Gig ‘Em!</p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=Secretary">Email Anais</a></b></p>
-            </div>						
-        </div>
-        <div class="row">
-                <div class="col-md-6">
-                <h3 class="centered">Luis Alejandre</h3>		
-                <h3 class="centered">Treasurer</h3>
-                <p class="justified">Howdy! My name is Luis Alejandre and I am a junior geographic science and technology major from Houston, TX, but most importantly, I am the loudest and proudest member of the Fightin’ Texas Aggie Class of 2021! A-A-A-WHOOP!!!. I am proud and honored to serve as your treasurer for the 2019-2020 academic year. Ever since I joined, SHPE has helped me meet some of my closest friends and has given me so many amazing opportunities that I will always be grateful for. I absolutely love meeting new people, and if you happen to want to play sand volleyball, talk about why the Rockets are the best NBA team, or you just need someone to talk to, please reach out to me! If you take a chance and join the SHPE familia, I promise you won’t regret it! Thanks & Gig ‘Em!</p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=Treasurer">Email Luis</a></b></p>
-            </div>	
-            <div class="col-md-6">
-                <img src="../testsite2/pictures/luis.JPG" class="responsiveimg rounded img-fluid" style="width:60%;height:60%;"> 
-            </div>	
-        </div> <br>
-        <div class="row">
-            <div class="col-md-6">
-                <img src="../testsite2/pictures/cynthia.JPG" class="responsiveimg rounded img-fluid" style="width:60%;height:60%;">
-            </div>
-            <div class="col-md-6">
-                <h3 class="centered">Cynthia Jarvis</h3>	
-                <h3 class="centered">Director of External Affairs</h3>
-                <p class="justified">Howdy!  My name is Cynthia Jarvis and I am a sophomore mechanical engineering major from Houston, TX, but more importantly I am the loudest and proudest member of the Fightin' Texas Aggie Class of 2022 A-A-A-A-A!  I have the honor of serving as your Director of External Affairs for the 2019-2020 academic school year.  My goal is to get all you SHPEsters involved in motivating the younger generation to believe in themselves and their capability to pursue a STEM degree in college.  In my free time, I enjoy reading, running, watching movies, and spending time with my friends.  If you ever want to learn more about why SHPE is life or just want to talk, don't hesitate to reach out.  I look forward to meeting you all and making this a great year for SHPE.  Thanks and Gig 'em!</p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=External Affairs">Email Cynthia</a></b></p>
-            </div>						
-        </div>
-        <div class="row">
-                <div class="col-md-6">
-                <h3 class="centered">Heidi Muñoz</h3>			
-                <h3 class="centered">Director of Internal Affairs</h3>
-                <p class="justified">Howdy! My name is Heidi Muñoz, I am senior Civil Engineering major from Houston, Texas but most importantly I am the loudest and the proudest member of the Fightin’ Texas Aggie Class of 2020 A-WHOOP! I have the honor of serving as your Director of Internal Affairs for the 2019-2020 academic year. This means I will be in charge of organizing the community service, intramural sports and social events. I hope to make you feel right at home and have you enjoy your time with us. I enjoy playing sports,  hanging out with my friends and I am really excited to meet all of you this upcoming year! If you have any questions don’t be afraid to ask me I will be there to help you out to the best of my ability! T’s and G’s</p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=Internal Affairs">Email Heidi</a></b></p>
-            </div>	
-            <div class="col-md-6">
-                <img src="../testsite2/pictures/heidi.JPG" class="responsiveimg rounded img-fluid" style="width:60%;height:60%;"> 
-            </div>	
-        </div> <br>
-            <div class="row">
-            <div class="col-md-6">
-                <img src="../testsite2/pictures/mercedes.JPG" class="responsiveimg rounded img-fluid" style="width:60%;height:60%;"> 
-            </div>
-            <div class="col-md-6">
-                <h3 class="centered">Mercedes Lewis</h3>			
-                <h3 class="centered">Director of Academic Development</h3>
-                <p class="justified">Howdy! My name is Mercede Lewis, I am a Junior Manufacturing and Mechanical Engineering Technology major from Adkins, Texas but most importantly I am the loudest and proudest member of the Fightin’ Texas Aggie Class of 2021!  A-A-A Whoop! I have the honor and privilege of serving as your Director of Academic Development for the 2019-2020 academic year. It is my responsibility to oversee the MentorSHPE and Professional MentorSHPE programs as well as the Academic Development Committee. I am excited to help all our members grow in their school and professional lives by utilizing all the resources SHPE and Texas A&M University have to offer. In my free time I enjoy hanging out with friends and traveling to new places. My goal is to help every member feel confident in their ability to thrive at A&M and in their professional careers. I am excited to get to know all of y’all! Thanks and Gig’em!</p> 
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=Academic Development">Email Mercedes</a></b></p>
-
-            </div>						
-        </div>
-        <div class="row">
-                <div class="col-md-6">
-                <h3 class="centered">Rudee Vasquez</h3>		
-                <h3 class="centered">Director of Public Relations</h3>
-                <p class="justified">Howdy! My name is Rudee Vasquez, I am a Senior Mechanical Engineering major from San Antonio, Texas, but more importantly I am the loudest and the proudest member of the Fightin’ Texas Aggie Class of 2020, WHOOP! I have the honor and privilege of serving as your Director of Public Relations for the 2019-2020 academic year. It is my responsibility to oversee of all of our social media and merchandise. I am also in charge of making sure each member is aware of all of our important dates and opportunities. You can usually find me hanging out with my friends in Zachary Engineering complex, watching the newest superhero movie/show, or studying somewhere on campus. If you ever have any questions or amazing ideas about SHPE don’t Hesitate to reach out to me. I love meeting and talking to new people so I encourage you to come talk to me whenever you get the chance, Thanks & Gig’em!</p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=Public Relations">Email Rudee</a></b></p>
-            </div>	
-            <div class="col-md-6">
-                <img src="../testsite2/pictures/rudee.JPG" class="responsiveimg rounded img-fluid" style="width:60%;height:60%;"> Vanessa's pic
-            </div>	
-        </div> <br>
-        <div class="row">
-            <div class="col-md-6">
-                <img src="../testsite2/pictures/matt.JPG" class="responsiveimg rounded img-fluid" style="width:60%;height:60%;"> 
-            </div>
-            <div class="col-md-6">
-                <h3 class="centered">Matthew Kanarr</h3>	
-                <h3 class="centered">Director of Technical Affairs</h3>
-                <p class="justified">Howdy!  My name is Matthew Kanarr and I am a Junior Computer Science Major from Round Rock, Texas.  Most importantly, I am the loudest and the proudest member of the Fightin’ Texas Aggie Class of 2021!  A-A-A Whoop!  I have the honor and privilege of serving as your Director of Technical Affairs for the 2019-2020 academic year.  My tasks include updating and maintaining the website, preparing presentations for general meetings, and hosting technical workshops throughout the semester.  I hope to bring the passion I have for software and to instill those ideas to our current and future members.  One of my biggest goals is to have our SHPEsters attain the programming skills to be successful in their academics and industry helping pave the path to make our members the technical leaders of tomorrow today!  Some of my hobbies include: running, playing trumpet, playing games, and programming.  I am eager to meet all of our new members and if you ever have any questions, or just want to chat, feel free to reach out!  Thanks, and Gig ‘em</p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=Technical Affairs">Email Matthew</a></b></p>
-            </div>						
-        </div>
+    <!-- Collection of nav links, forms, and other content for toggling -->
+    <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+      <ul class="nav navbar-nav">
+        <li class="nav-item"><a href="about.html" class="cool-link nav-link">About Us</a></li>
+        <li class="nav-item dropdown">
+          <a class="cool-link nav-link" href="#">The 5 Pillars</a>
+          <ul class="dropdown-menu">
+            <li><a href="academic.html" class="cool-link dropdown-item">Academic Development</a></li>
+            <li><a href="chapter.html" class="cool-link dropdown-item">Chapter Development</a></li>
+            <li><a href="leadership.html" class="cool-link dropdown-item">Leadership Development</a></li>
+            <li><a href="professional.html" class="cool-link dropdown-item">Professional Development</a></li>
+            <li><a href="service.html" class="cool-link dropdown-item">Service and Outreach</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="former.html" class="cool-link nav-link">Former Students</a></li>
+        <li class="nav-item dropdown">
+          <a class="cool-link nav-link" href="https://www.tamushpetestbank.com/" target="_blank">Test Bank</a>
+          <ul class="dropdown-menu">
+            <li><a href="faq.html" class="cool-link dropdown-item">FAQ</a></li>
+            <li><a
+                href="http://www.google.com/url?q=http%3A%2F%2Fbit.ly%2FSubmitTestBank&sa=D&sntz=1&usg=AFQjCNGbK3262YrXNDmph4TDRGXYoEBnvg"
+                target="_blank" class="cool-link dropdown-item">Submit a Test</a></li>
+          </ul>
+        </li>
+        <!-- <li class="nav-item"><a href="sponsors.html" class="cool-link nav-link">Sponsors</a></li>  -->
+        <li class="nav-item"><a href="sponsorshpe.html" class="cool-link nav-link">SponsorSHPE</a></li>
+        <li class="nav-item dropdown">
+          <a class="cool-link nav-link" href="#">Get Involved</a>
+          <ul class="dropdown-menu">
+            <li><a href="committees.html" class="cool-link dropdown-item">Committees</a>
+            </li>
+            <li><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=tamushpe@gmail.com" target="_blank"
+                class="cool-link dropdown-item">Contact Us</a></li>
+            <li><a href="https://www.remind.com/join/tamushpe" target="_blank"
+                class="cool-link dropdown-item">RemindMe</a></li>
+            <li><a href="https://tamu.us6.list-manage.com/subscribe/post?u=6ae7c8bc6f504306c21da82d0&id=9f11e7de05"
+                target="_blank" class="cool-link dropdown-item">Newsletter</a></li>
+            <li><a href="calendar.html" class="cool-link dropdown-item">Upcoming Events</a>
+            </li>
+          </ul>
+        </li>
+        <!-- <li class="nav-item"><a href="contact.html" class="cool-link nav-link">Contact Us</a></li> -->
+      </ul>
     </div>
-    -->
+  </nav>
+  <!--End of nav-->
 
-    <div class="container">
-        <h3 class="centered">Executive Board</h3>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="pictures/emmanuel.JPG" class="responsiveimg rounded img-fluid">
-                <p class="centered">Emmanuel Valencia '20<br>Mechanical Engineering<br><i>President</i></p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=President">Email Emmanuel</a></b></p>
-                <p class="centered"><a href="https://www.linkedin.com/in/e-valencia/" target="_blank" class="nounder"><i class="fa fa-linkedin-square fa-2x"></i></a></p>
-            </div>
-            <div class="col-md-4">
-                <img src="pictures/gisselle.JPG" class="responsiveimg rounded img-fluid">
-                <p class="centered">Gisselle Ramos '20<br>Electrical Engineering<br><i>Vice President</i></p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=Vice President">Email Gisselle</a></b></p>
-                <p class="centered"><a href="https://www.linkedin.com/in/gisselle-ramos/" target="_blank" class="nounder"><i class="fa fa-linkedin-square fa-2x"></i></a></p>
-            </div>
-            <div class="col-md-4">
-                <img src="pictures/anais.JPG" class="responsiveimg rounded img-fluid">
-                <p class="centered">Anais Baca '21<br>Biological & Agricultural Engineering<br><i>Secretary</i></p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=Secretary">Email Anais</a></b></p>
-                <p class="centered"><a href="https://www.linkedin.com/in/anaisbaca/" target="_blank" class="nounder"><i class="fa fa-linkedin-square fa-2x"></i></a></p>
-            </div>
+  <!--Main content-->
+  <div class="container newback">
+    <br>
+    <div class="card mb-3">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-12">
+          <img src="pictures/anais.JPG" class="card-img img-fluid">
         </div>
-
-        <br><br>
-
-        <div class="row">
-            <div class="col-md-4">
-                <img src="pictures/luis.JPG" class="responsiveimg rounded img-fluid">
-                <p class="centered">Luis Alejandre '21<br>Geographic Science & Technology<br><i>Treasurer</i></p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=Treasurer">Email Luis</a></b></p>
-            </div>
-            <div class="col-md-4">
-                <img src="pictures/cynthia.JPG" class="responsiveimg rounded img-fluid">
-                <p class="centered">Cynthia Jarvis '22<br>Mechanical Engineering<br><i>Director of External Affairs</i></p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=External Affairs">Email Cynthia</a></b></p>
-                <p class="centered"><a href="https://www.linkedin.com/in/cynthia-jarvis-048849174/" target="_blank" class="nounder"><i class="fa fa-linkedin-square fa-2x"></i></a></p>
-            </div>
-            <div class="col-md-4">
-                <img src="pictures/heidi_NEW.jpg" class="responsiveimg rounded img-fluid">
-                <p class="centered">Heidi Muñoz '20<br>Civil Engineering<br><i>Director of Internal Affairs</i></p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=Internal Affairs">Email Heidi</a></b></p>
-                <p class="centered"><a href="https://www.linkedin.com/in/heidi-munoz-52b287183/" target="_blank" class="nounder"><i class="fa fa-linkedin-square fa-2x"></i></a></p>
-            </div>
+        <div class="col-lg-8 col-md-12">
+          <div class="card-body eInfo">
+            <h5 class="card-title text-justify" id="name"><a class="footer2"
+                href="https://www.linkedin.com/in/anaisbaca/" target="_blank"><i class="fab fa-linkedin"
+                  arua-hidden="true"></i></a> Anais Baca '21</h5>
+            <h5 class="card-title text-justify" id="major">Biological & Agricultural Engineering</h5>
+            <h5 class="card-title text-justify" id="posiiton"><strong><em>President</em></strong></h5>
+            <p class="card-text text-justify">
+              Howdy! My name is Anais Baca and I am a Senior Biological and Agricultural Engineering major from Conroe,
+              Texas. But most importantly,
+              I am the loudest and proudest member of the Fightin’ Texas Aggie Class of 2021! A-WHOOP! I have the honor
+              and privilege of serving
+              as your President for the 2020-2021 academic school year. I enjoy spending time with family/friends as
+              well as spend my extra time
+              gardening. I enjoy making new friends and am excited to get to know you all and see the SHPE familia once
+              again! I am a strong believer
+              TAMU SHPE will help you grow into a successful student and engineer, and I have been working hard to
+              ensure you have all the tools
+              necessary to do so. I am here to serve YOU, so please to reach out to me with anything SHPE related!
+              Thanks & Gig ‘Em!
+            </p>
+          </div>
         </div>
-
-        <br><br>
-
-        <div class="row">
-            <div class="col-md-4">
-                <img src="pictures/mercedes.JPG" class="responsiveimg rounded img-fluid">
-                <p class="centered">Mercedes Lewis '21<br>Manufacturing and Mechanical Engineering Technology<br><i>Director of Academic Development</i></p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=Academic Development">Email Mercedes</a></b></p>
-                <p class="centered"><a href="https://www.linkedin.com/in/mercedes-lewis-9632b9151/" target="_blank" class="nounder"><i class="fa fa-linkedin-square fa-2x"></i></a></p>
-            </div>
-            <div class="col-md-4">
-                <img src="pictures/rudee.JPG" class="responsiveimg rounded img-fluid">
-                <p class="centered">Rudee Vasquez '20<br>Mechanical Engineering<br><i>Director of Public Relations</i></p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=Public Relations">Email Rudee</a></b></p>
-                <p class="centered"><a href="https://www.linkedin.com/in/rudee-vasquez-74806614b/" target="_blank" class="nounder"><i class="fa fa-linkedin-square fa-2x"></i></a></p>
-            </div>
-            <div class="col-md-4">
-                <img src="pictures/matt.JPG" class="responsiveimg rounded img-fluid">
-                <p class="centered">Matthew Kanarr '21<br>Computer Science<br><i>Director of Technical Affairs</i></p>
-                <p class="centered"><b><a class="nounder" href="mailto:tamushpe@gmail.com?subject=Technical Affairs">Email Matthew</a></b></p>
-                <p class="centered"><a href="https://www.linkedin.com/in/matthewkanarr/" target="_blank" class="nounder"><i class="fa fa-linkedin-square fa-2x"></i></a></p>
-            </div>
-        </div>
-
-        <br><br>
-        
+      </div>
     </div>
 
-    <!---->
+    <div class="card mb-3">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-12">
+          <img src="pictures/cynthia.JPG" class="card-img img-fluid">
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <div class="card-body eInfo">
+            <h5 class="card-title text-justify" id="name"><a class="footer2"
+                href="https://www.linkedin.com/in/cynthia-jarvis-048849174/" target="_blank"><i class="fab fa-linkedin"
+                  arua-hidden="true"></i></a> Cynthia Jarvis '22</h5>
+            <h5 class="card-title text-justify" id="major">Mechanical Engineering</h5>
+            <h5 class="card-title text-justify" id="posiiton"><strong><em>Vice President</em></strong></h5>
+            <p class="card-text text-justify">
+              Howdy! My name is Cynthia Jarvis and I am a Junior Mechanical Engineering Major from Houston, TX, but more
+              importantly,
+              I am the loudest and proudest member of the Fightin’ Texas Aggie Class of 2022! A-A-A-WHOOP! I have the
+              honor of serving as
+              your Vice President for the 2020-2021 academic school year. My role is to maintain and strengthen company
+              relations, along
+              with helping as many members as possible attend virtual National Convention and RLDC 2021, which will be
+              held right here in College Station!
+              In my free time, I enjoy reading, running, watching movies, and spending time with my friends. If you ever
+              want to learn more about why
+              SHPE is life or just want to talk, don't hesitate to reach out. I look forward to meeting you all and
+              making this a great year for SHPE.
+              Thanks and Gig 'em!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="card mb-3">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-12">
+          <img src="pictures/kat_prof.jpeg" class="card-img img-fluid eboardcard">
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <div class="card-body eInfo">
+            <h5 class="card-title text-justify" id="name"><a class="footer2"
+                href="https://www.linkedin.com/in/katerina-garcia-071249171/" target="_blank"><i class="fab fa-linkedin"
+                  arua-hidden="true"></i></a> Katerina Garcia '22</h5>
+            <h5 class="card-title text-justify" id="major">Aerospace Engineering</h5>
+            <h5 class="card-title text-justify" id="posiiton"><strong><em>Secretary</em></strong></h5>
+            <p class="card-text text-justify">
+              Howdy! My name is Katerina Garcia and I am a Junior Aerospace Engineering major from Corpus Christi,
+              Texas but most importantly I am the loudest and the proudest member of the Fightin’ Texas Aggie Class of
+              2022!
+              A-A-A-WHOOP! It is my honor and privilege to serve as the Secretary for the 2020-2021 Academic school
+              year!
+              My job is to maintain memberSHPE records as well as maintain points for all members. You can usually find
+              me studying at the
+              garden on top of Zach when it's a nice day out or in my hammock around campus. I love spending time
+              outdoors,
+              drumming, or listening to music. If you have any music recommendations or just want to say hi and talk
+              about SHPE,
+              don’t hesitate to stop and talk to me! I hope I can get to know many more of you this year. Thanks and
+              Gig’em!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-12">
+          <img src="pictures/Luis_Alvarado.JPG" class="card-img img-fluid eboardcard">
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <div class="card-body eInfo">
+            <h5 class="card-title text-justify" id="name"><a class="footer2"
+                href="https://www.linkedin.com/in/luis-alvarado44/" target="_blank"><i class="fab fa-linkedin"
+                  arua-hidden="true"></i></a> Luis A. Alvarado '22</h5>
+            <h5 class="card-title text-justify" id="major">Civil Engineering</h5>
+            <h5 class="card-title text-justify" id="posiiton"><strong><em>Treasurer</em></strong></h5>
+            <p class="card-text text-justify">
+              Howdy! My name is Luis A. Alvarado Jr. and I am a Junior Civil Engineering Major from Houston, Texas, but
+              most importantly,
+              I am the LOUDEST and the PROUDEST member of the Fightin' Texas Aggie Class of 2022! A-A-A WHOOP! I am
+              serving as your Treasurer
+              for the 2020-2021 Academic School year. I am excited to be your Treasurer this school year and meet new
+              members to help them in
+              their college careers. As Treasurer I will be in charge of the financial aspect of SHPE by creating a
+              budget and funding the events
+              yall love so much. You can always find me at the DLEB Civil Engineering building doing some kind of work
+              or eating. I love to stay
+              active so in my free time I am at the REC playing basketball. If you see me around campus don't hesitate
+              to say Howdy and if you have
+              any questions about SHPE or engineering feel free to reach out to me as well. I hope to see everyone this
+              school year having fun and
+              studying hard. Thanks and Gig 'Em!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-12">
+          <img src="pictures/eddy-jan.png" class="card-img img-fluid eboardcard">
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <div class="card-body eInfo">
+            <h5 class="card-title text-justify" id="name"><a class="footer2"
+                href="https://www.linkedin.com/in/eduardo-uria-151236179/" target="_blank"><i class="fab fa-linkedin"
+                  arua-hidden="true"></i></a> Eduardo Uria '22</h5>
+            <h5 class="card-title text-justify" id="major">Mechanical Engineering</h5>
+            <h5 class="card-title text-justify" id="posiiton"><strong><em>Director of External Affairs</em></strong>
+            </h5>
+            <p class="card-text text-justify">
+              Howdy! My name is Eduardo Uria, and I am a Junior Mechanical Engineering major from
+              McAllen, TX ,but most importantly, I am the loudest and proudest member of the fightin’ Texas
+              Aggie Class of 2022! AAA WHOOOP! While the challenges that have been handed to us are
+              great I strongly believe that the bright individuals that will lead us this year will be able to jump
+              through the hurdles in order to maintain our high impact mission of uplifting the Hispanic
+              community through our 5 Pillars. This school year I will be leading the external affairs branch.
+              With goals of promoting inclusivity by introducing the very first bilingual inclusion to the program,
+              and increasing our reach of students that have access to our programs. Some of my favorite
+              things to do is exercise, watch movies and eat! Don’t be afraid to reach out if you have any
+              questions or just want to talk! See you Zoom!
+              Thanks and Gig’Em!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-12">
+          <img src="pictures/abrahamprof.jpg" class="card-img img-fluid">
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <div class="card-body eInfo">
+            <h5 class="card-title text-justify" id="name"><a class="footer2"
+                href="https://www.linkedin.com/in/abrahamadiaz/" target="_blank"><i class="fab fa-linkedin"
+                  arua-hidden="true"></i></a> Abraham Diaz '20</h5>
+            <h5 class="card-title text-justify" id="major">Aerospace Engineering</h5>
+            <h5 class="card-title text-justify" id="posiiton"><strong><em>Director of Internal Affairs</em></strong>
+            </h5>
+            <p class="card-text text-justify">
+              Howdy! My name is Abraham Diaz and I am a Junior Aerospace Engineering major from Katy. Texas, but most
+              importantly
+              I am the loudest and proudest member of the Fightin’ Texas Aggie Class of 2022! A-A-A-WHOOP! I am
+              extremely excited
+              to serve as your Director of Internal Affairs for the 2020-21 academic year and get a chance to meet every
+              single one
+              of you. My main responsibility is to organize and coordinate all athletics, social, and volunteering
+              related events.
+              When I am not studying for classes I enjoy weightlifting, watching, and playing pretty much every sport. I
+              also love a
+              great Netflix show! I hope to make this an enjoyable and memorable year for everyone! If you see me around
+              campus feel
+              free to say Howdy and if you have any questions, I am always available. Thanks and Gig’Em!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-12">
+          <img src="pictures/Elizabeth_photo.jpg" class="card-img img-fluid">
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <div class="card-body eInfo">
+            <h5 class="card-title text-justify" id="name"><a class="footer2"
+                href="https://www.linkedin.com/in/elizabeth-salcedo" target="_blank"><i class="fab fa-linkedin"
+                  arua-hidden="true"></i></a> Elizabeth Salcedo '22</h5>
+            <h5 class="card-title text-justify" id="major">Mechanical Engineering</h5>
+            <h5 class="card-title text-justify" id="posiiton"><strong><em>Director of Academic Development</em></strong>
+            </h5>
+            <p class="card-text text-justify">
+              Howdy! My name is Elizabeth Salcedo and I am a Junior Mechanical Engineering major from Fort Worth, Texas,
+              but most importantly,
+              I am the loudest and proudest member of the Fightin’ Texas Aggie Class of 2022! A-A-A-WHOOP!
+              I have the honor of serving as your Director of Academic Development for the 2020-2021 academic year.
+              I look forward to helping our chapter prosper academically and as engineering professionals by providing
+              resources and enabling mentorship opportunities.
+              I love meeting new people and I am excited to get to know our new and returning members this year. If you
+              have questions regarding SHPE or anything,
+              feel free to reach out to me as I am always happy to help! Thanks and Gig ‘em!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-12">
+          <img src="pictures/kianaprof.JPG" class="card-img img-fluid eboardcard">
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <div class="card-body eInfo">
+            <h5 class="card-title text-justify" id="name"><a class="footer2"
+                href="https://www.linkedin.com/in/kiana-rodriguez/" target="_blank"><i class="fab fa-linkedin"
+                  arua-hidden="true"></i></a> Kiana Rodriguez '20</h5>
+            <h5 class="card-title text-justify" id="major">Mechanical Engineering</h5>
+            <h5 class="card-title text-justify" id="posiiton"><strong><em>Director of Public Relations</em></strong>
+            </h5>
+            <p class="card-text text-justify">
+              Howdy! My name is Kiana Rodriguez, I am a Junior Mechanical Engineer Major from San Antonio, Texas, but
+              most importantly,
+              I am the LOUDEST AND PROUDEST member of the Fightin’ Texas Aggie Class of 2022, A-A-A WHOOP!! I am
+              delighted to serve as the
+              Director of Public Relations for the 2020-2021 school year. I am excited to help fellow TAMU SHPEsters
+              grow academically and
+              professionally while still having fun! My job is to recruit, promote, advertise, maintain social media,
+              and sustain the
+              character of TAMU SHPE. What I enjoy doing in my free time is playing soccer, running, painting, and
+              watching shows on Netflix.
+              You can find me studying either at Evans or Zach if you ever need motivation or someone to study with,
+              feel free
+              to reach out to me. I am here to help the #SHPEFamilia in any way I can, don’t hesitate to say howdy or
+              hi! I hope I get to see more
+              incredible people joining SHPE and expanding our organization. Most importantly, make sure to have fun! I
+              want everyone to feel welcomed
+              and enjoy this amazing organization, I call my familia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-12">
+          <img src="pictures/Duarte.jpg" class="card-img img-fluid">
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <div class="card-body eInfo">
+            <h5 class="card-title text-justify" id="name"><a class="footer2"
+                href="https://www.linkedin.com/in/joshua-duarte/" target="_blank"><i class="fab fa-linkedin"
+                  arua-hidden="true"></i></a> Joshua Duarte '22</h5>
+            <h5 class="card-title text-justify" id="major">Mechanical Engineering</h5>
+            <h5 class="card-title text-justify" id="posiiton"><strong><em>Director of Technical Affairs</em></strong>
+            </h5>
+            <p class="card-text text-justify">
+              Howdy! My name is Joshua Duarte and I am a Junior Mechanical Engineering Major from Waxahachie, Texas.
+              Most importantly, I am the loudest and the proudest member of the Fightin’ Texas Aggie Class of 2022!
+              A-A-A Whoop!
+              I have the honor and privilege of serving as your Director of Technical Affairs for the 2020-2021 academic
+              year.
+              My tasks include updating and maintaining the website, the development of a TamuSHPE application, point
+              sheet automation, along with the
+              creation of our very own member portal.
+              One of my biggest goals is to have our SHPEsters develop technical skills to be successful in their
+              academic and future endeavours!
+              I am excited to meet all of our new members and if you ever have any questions, or just want to chat, feel
+              free to reach out!
+              Thanks, and Gig ‘em!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of main-->
+
+  <!--Footer-->
+  <div class="container-fluid">
     <div class="row" id="footer">
-			<div class="col-md-4 col-lg-4">
-				<p><b>Email:</b> tamushpe@gmail.com<br>
-				<b>Office Hours:</b> Monday-Thursday |<br> ZACH 450-P1 | 10 a.m - 2 p.m.<br>
-            </div>
-            <div class="col-md-4 col-lg-4">
-            	<p><b>Mailing Address:</b><br>
-				TAMU SHPE <br>
-				Zachry Engineering Education Complex <br>
-				Suite 450-P1 <br> 3127 Texas A&M University <br> College Station, Texas 77843-3127</p>
-            </div>
-            <div class="col-md-4 col-lg-4">
-            	<p><b>Follow us on Social Media!</b><br>
-            		<a class="footer" href="https://www.facebook.com/tamushpe5/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      				<a class="footer" href="https://twitter.com/tamushpe?lang=en" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      				<a class="footer" href="https://www.instagram.com/tamushpe/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a><br>
-      				<a class="footer" href="https://www.snapchat.com/add/tamushpe" target="_blank"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
-      				<a class="footer" href="https://www.youtube.com/channel/UCebsLGRRglWj459ueGDTzug" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-      				<a class="footer" href="https://www.linkedin.com/company/society-of-hispanic-professional-engineers-texas-a-m1/" target="_blank"><i class="fa fa-linkedin" arua-hidden="true"></i></a>
-      				<a class="footer" href="https://www.flickr.com/photos/143848472@N03/" target="_blank"><i class="fa fa-flickr" aria-hidden="true"></i></a>
-      			</p>
-            </div>
-	</div>
-    <!--End of main-->
+      <div class="col-md-4 col-lg-4">
+        <p><b>Email:</b> tamushpe@gmail.com<br>
+          <!---<b>Office Hours:</b> Monday-Thursday |<br> ZACH 450-P1 | 10 a.m - 2 p.m.<br> -->
+      </div>
+      <div class="col-md-4 col-lg-4">
+        <p><b>Mailing Address:</b><br>
+          TAMU SHPE <br>
+          Zachry Engineering Education Complex <br>
+          Suite 450-P1 <br> 3127 Texas A&M University <br> College Station, Texas 77843-3127</p>
+      </div>
+      <div class="col-md-4 col-lg-4">
+        <p><b>Follow us on Social Media!</b><br>
+          <a class="footer" href="https://www.facebook.com/tamushpe5/" target="_blank"><i class="fab fa-facebook"
+              aria-hidden="true"></i></a>
+          <a class="footer" href="https://twitter.com/tamushpe?lang=en" target="_blank"><i class="fab fa-twitter"
+              aria-hidden="true"></i></a>
+          <a class="footer" href="https://www.instagram.com/tamushpe/?hl=en" target="_blank"><i class="fab fa-instagram"
+              aria-hidden="true"></i></a><br>
+          <a class="footer" href="https://www.snapchat.com/add/tamushpe" target="_blank"><i class="fab fa-snapchat"
+              aria-hidden="true"></i></a>
+          <a class="footer" href="https://www.youtube.com/channel/UCebsLGRRglWj459ueGDTzug" target="_blank"><i
+              class="fab fa-youtube" aria-hidden="true"></i></a>
+          <a class="footer" href="https://www.linkedin.com/company/tamushpe/" target="_blank"><i class="fab fa-linkedin"
+              arua-hidden="true"></i></a>
+          <a class="footer" href="https://www.flickr.com/photos/143848472@N03/" target="_blank"><i class="fab fa-flickr"
+              aria-hidden="true"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap core-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
 
-    <!-- Bootstrap core-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
 </html>
