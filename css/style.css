@@ -1,26 +1,365 @@
-body{
+body {
     background: #eeeeee;
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     padding: 0;
 }
 
-.navbar-toggler:focus {
-    outline:none !important;   
+#footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.form-inline {
-    display: inline-block;
+/* index */
+#photo {
+    background-image: linear-gradient(to right, rgba(200, 200, 200, 0.8), rgba(200, 200, 200, 0.8)), url("../pictures/members.jpg");
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
+
+#photo2 {
+    background-image: url("../pictures/rldc19.jpeg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#photo3 {
+    background-image: url("../pictures/groupxl.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#photo4 {
+    background-image: url("../pictures/2018FieldDayGroup.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+/* about */
+#confaward {
+    background-image: url("../pictures/IMG_20191031_182250.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#lucas {
+    background-image: url("../pictures/LucasHeadshot.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#subregional {
+    background-image: url("../pictures/HardRockCafePhoenix.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#test {
+    background-image: url("../pictures/akawksp-capone.png");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#bowl {
+    background-image: url("../pictures/SHPEs&Salsa.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#volley {
+    background-image: url("../pictures/LuisWithCorgi.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#acd {
+    background-image: url("../pictures/academicXL2.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+#mentor{
+    background-image: url("../pictures/mentorshpe_plex.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#study {
+    background-image: url("../pictures/studyhours.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#scholar {
+    background-image: url("../pictures/ZachChevronRoomMeeting.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#acdWork {
+    background-image: url("../pictures/AcademicDevelopmentWorkshop.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#pro {
+    background-image: url("../pictures/pro3.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#resumeWork {
+    background-image: url("../pictures/ResumeWorkshop.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#close {
+    background-image: url("../pictures/ETBmeeting.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#leadshpe {
+    background-image: url("../pictures/panel.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#emmanuelTalking {
+    background-image: url("../pictures/DSC_0090.JPG");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#awardPhoto {
+    background-image: url("../pictures/2019AwardPhotoGroup.jpeg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#chp {
+    background-image: url("../pictures/ScoatesGeneralMeeting.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#memretreat {
+    background-image: url("../pictures/SackPotatoRace.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#icesocial {
+    background-image: url("../pictures/IceSkatingSocial.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#imural {
+    background-image: url("../pictures/IntramuralFlagFootball.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#service {
+    background-image: url("../pictures/ServiceTeachingKids.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#service2 {
+    background-image: url("../pictures/ServicePicture.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#outreach {
+    background-image: url("../pictures/chapdev2.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#former {
+    background-image: url("../pictures/FormerMems.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#former2 {
+    background-image: url("../pictures/former.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#former3 {
+    background-image: url("../pictures/FormerMemberInFrontofAcademicBuilding.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#former4 {
+    background-image: url("../pictures/FormerMemberLeaningOnAggieRing.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#faq {
+    background-image: url("../pictures/ZachChevronRooms.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+#waterTower{
+    background-image: url("../pictures/WaterTower.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#sponsor {
+    background-image: url("../pictures/EboardWithSponsors.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#boil {
+    background-image: url("../pictures/CrawfishBoilGroup.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#review {
+    background-image: url("../pictures/2019NationalConventionTrophy.jpeg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#fin {
+    background-image: url("../pictures/WalkingInArizona.JPG");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#award {
+    height: 75%;
+}
+
+#ShpeLogo{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+#TamuShpeLogo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right:10px;
+    width: 100%;
+    height: auto;
+}
+
+.newback {
+    padding: 50px;
+}
+
+.plax {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 50%;
+}
+
+.navbar-toggler:focus {
+    outline: none !important;
+}
+
 .navbar-header.col {
     padding: 0 !important;
-}	
-.navbar {		
+}
+
+.navbar {
     background: #fff;
     padding-right: 16px;
     border-bottom: 1px solid #d6d6d6;
-    box-shadow: 0 0 4px rgba(0,0,0,.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .1);
 }
+
 .nav-link img {
     border-radius: 50%;
     width: 36px;
@@ -29,8 +368,9 @@ body{
     float: left;
     margin-right: 10px;
 }
+
 .navbar .navbar-brand {
-    color: maroon;
+    color: rgb(80, 0, 0);
     padding-left: 0;
     padding-right: 0px;
     font-size: 20px;
@@ -41,39 +381,43 @@ body{
     font-weight: bold;
     color: navy;
 }
-.navbar ul.nav li a:hover, .navbar ul.nav li a:focus {
-    color: maroon !important;
+
+.navbar ul.nav li a:hover,
+.navbar ul.nav li a:focus {
+    color: rgb(80, 0, 0) !important;
 }
-.navbar ul.nav li.active a, .navbar ul.nav li.active a:hover, .navbar ul.nav li.active a:focus {
-    color: maroon !important;
+
+.navbar ul.nav li.active a,
+.navbar ul.nav li.active a:hover,
+.navbar ul.nav li.active a:focus {
+    color: rgb(80, 0, 0) !important;
     background: transparent !important;
 }
 
 .navbar .nav-item i {
     font-size: 18px;
 }
+
 .navbar .dropdown-item i {
     font-size: 16px;
     min-width: 22px;
 }
-.navbar .nav-item.open > a {
+
+.navbar .nav-item.open>a {
     background: none !important;
 }
+
 .navbar .dropdown-menu {
     border-radius: 1px;
     border-color: #e5e5e5;
-    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
 }
+
 .navbar .dropdown-menu li a {
     color: #777;
     padding: 8px 20px;
     line-height: normal;
     background-color: transparent !important;
-}
-.navbar .navbar-form {
-    margin-right: 0;
-    margin-left: 0;
-    border: 0;
 }
 
 .dropdown-toggle::after {
@@ -91,11 +435,11 @@ body{
 .row {
     margin: auto;
     text-align: center;
-    color:  #777;
+    color: #777;
 }
 
-.nounder  {
-    color:white;
+.nounder {
+    color: white;
     text-decoration: none;
 }
 
@@ -107,7 +451,7 @@ body{
 .region {
     text-align: center;
     vertical-align: middle;
-    color: maroon;
+    color: rgb(80, 0, 0);
 }
 
 .container-fluid {
@@ -115,32 +459,31 @@ body{
     margin: 0;
 }
 
-.centered {
-    text-align: center;
-}
-
-.justified {
-    text-align: justify;
+.icon {
+    color: #777;
+    padding: 5px;
 }
 
 #footer.row {
     margin: auto;
     text-align: center;
-    color:  #777;
+    color: #777;
     background: #fff;
     border-top: 1px solid #d6d6d6;
-    box-shadow: 0 0 4px rgba(0,0,0,.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .1);
 }
 
-.footer {
-    color:  #777;
+.footer,
+.footer2 {
+    color: #777;
     text-decoration: none;
     font-size: 25px;
     padding: 5px
 }
 
-.footer:hover {
-    color:  maroon;
+.footer:hover,
+.footer2:hover {
+    color: rgb(80, 0, 0);
     text-decoration: none;
     font-size: 25px;
     padding: 5px
@@ -150,367 +493,6 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
 }
 
-#footer {
-    padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-/****/
-
-#member {
-    /*background-color: rgb(253, 46, 46);*/
-    /*
-    background-image: linear-gradient(rgba(255, 66, 66, 0.692), rgba(255, 66, 66, 0.692)),url("../pictures/pic2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    */
-    padding: 150px;
-}
-/*
-#member:hover {
-    background-image: url("../pictures/pic2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    height: 50%;
-    text-align: center;
-    padding: 150px;
-}
-*/
-#points {
-    /*background-color: rgb(190, 68, 190);
-    background-image: linear-gradient(rgba(247, 250, 93, 0.692), rgba(247, 250, 93, 0.692)),url("../pictures/points3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    */
-    padding: 150px;
-}
-
-#news {
-    /*
-    background-image: linear-gradient(rgba(24, 255, 63, 0.568), rgba(24, 255, 63, 0.568)), url("../pictures/news.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    */
-    padding: 150px;
-}
-
-#money {
-   /*background-color: rgb(6, 115, 187);
-   background-image: linear-gradient(rgba(6, 115, 187, 0.692), rgba(6, 115, 187, 0.692)),url("../pictures/scholar.jpg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   */
-   padding: 150px;
-}
-
-#events {
-   /*background-color: pink;
-   background-image: linear-gradient(rgba(230, 78, 179, 0.692), rgba(230, 78, 179, 0.692)),url("../pictures/cal.jpg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   */
-    padding: 150px;
-}
-
-/**
-#conf {
-    
-    background-image: url("../pictures/nc19-feature-image.jpg");
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50%;
-    padding: 150px;
-}
-**/
-
-#about {
-    /*background-color: rgb(30, 214, 46);*/
-    /*
-    background-image: linear-gradient(rgba(240, 148, 86, 0.568), rgba(240, 148, 86, 0.568)),url("../pictures/about.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    */
-    padding: 150px;
-}
-
-#eboard {
-    /*background-color: rgb(23, 143, 255);*/
-    /*background-image: linear-gradient(rgba(23, 143, 255, 0.568), rgba(23, 143, 255, 0.568)),url("../pictures/officers.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50%;
-    */
-    padding: 150px;
-}
-
-#photo {
-    /**
-    background-image: linear-gradient(rgba(182, 185, 183, 0.822), rgba(182, 185, 183, 0.822)), url("../pictures/members.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    **/
-    height: 50%;
-    padding: 150px;
-}
-
-.gradient1 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-image: linear-gradient(
-      to right,
-      rgba(240, 148, 86, 0.4), rgba(240, 148, 86, 0.4)
-    ),url("../pictures/about.jpg");
-    z-index: 1;
-}
-  
-.gradient1::before {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url("../pictures/about.jpg");
-    z-index: -1;
-    transition: opacity 0.5s linear;
-    opacity: 0;
-}
-  
-.gradient1:hover::before {
-    opacity: 1;
-}
-
-.gradient2 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-image: linear-gradient(
-      to right,
-      rgba(23, 143, 255, 0.4), rgba(23, 143, 255, 0.4)
-    ),url("../pictures/officers.jpg");
-    z-index: 1;
-}
-  
-.gradient2::before {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url("../pictures/officers.jpg");
-    z-index: -1;
-    transition: opacity 0.5s linear;
-    opacity: 0;
-}
-  
-.gradient2:hover::before {
-    opacity: 1;
-}
-
-.gradient3 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-image: linear-gradient(
-      to right,rgba(255, 66, 66, 0.4), rgba(255, 66, 66, 0.4)),url("../pictures/pic2.jpg");
-    z-index: 1;
-}
-  
-.gradient3::before {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url("../pictures/pic2.jpg");
-    z-index: -1;
-    transition: opacity 0.5s linear;
-    opacity: 0;
-}
-  
-.gradient3:hover::before {
-    opacity: 1;
-}
-
-.gradient4 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-image: linear-gradient(
-      to right,
-      rgba(154, 156, 15, 0.4), rgba(154, 156, 15, 0.4)),url("../pictures/points3.jpg");
-    z-index: 1;
-}
-  
-.gradient4::before {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url("../pictures/points3.jpg");
-    z-index: -1;
-    transition: opacity 0.5s linear;
-    opacity: 0;
-}
-  
-.gradient4:hover::before {
-    opacity: 1;
-}
-
-.gradient5 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-image: linear-gradient(
-      to right,rgba(23, 218, 55, 0.4), rgba(23, 218, 55, 0.4)), url("../pictures/news.jpg");
-    z-index: 1;
-}
-  
-.gradient5::before {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url("../pictures/news.jpg");
-    z-index: -1;
-    transition: opacity 0.5s linear;
-    opacity: 0;
-}
-  
-.gradient5:hover::before {
-    opacity: 1;
-}
-
-.gradient6 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-image: linear-gradient(
-      to right,
-      rgba(6, 115, 187, 0.4), rgba(6, 115, 187, 0.4)),url("../pictures/scholar.jpg");
-    z-index: 1;
-}
-  
-.gradient6::before {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url("../pictures/scholar.jpg");
-    z-index: -1;
-    transition: opacity 0.5s linear;
-    opacity: 0;
-}
-  
-.gradient6:hover::before {
-    opacity: 1;
-}
-
-.gradient7 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-image: linear-gradient(
-      to right,rgba(230, 78, 179, 0.4), rgba(230, 78, 179, 0.4)),url("../pictures/cal.jpg");
-    z-index: 1;
-}
-  
-.gradient7::before {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url("../pictures/cal.jpg");
-    z-index: -1;
-    transition: opacity 0.5s linear;
-    opacity: 0;
-}
-  
-.gradient7:hover::before {
-    opacity: 1;
-}
-
-.gradient8 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-image: linear-gradient(
-      to right,rgba(235, 235, 235, 0.8), rgba(235, 235, 235, 0.8)), url("../pictures/members.jpg");
-    z-index: 1;
-}
-  
-.gradient8::before {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    background-image: url("../pictures/members.jpg");
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    transition: opacity 0.5s linear;
-    opacity: 0;
-}
-  
-.gradient8:hover::before {
-    opacity: 1;
-}
 
 .cool-link {
     display: inline-block;
@@ -523,7 +505,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
     width: 0;
     height: 2px;
-    background:navy;
+    background: navy;
     transition: width .3s;
 }
 
@@ -532,35 +514,530 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     transition: width .3s;
 }
 
-/**
-.d-inline-block {
+
+.school {
+    color: rgb(80, 0, 0);
+}
+
+.nat {
+    color: navy;
+}
+
+.pillTextHead {
+    color: #777;
+}
+
+.pillText {
+    color: #777;
+    text-decoration: none;
+}
+
+.pillText:hover {
+    color: rgb(80, 0, 0);
+    text-decoration: none;
+}
+
+.service {
+    padding-top: 20px;
+}
+
+.motto,
+.underline {
+    border-bottom: 1px solid;
+}
+
+/* Responsive iFrame */
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.reviewRes {
+    max-width: 380px;
+    max-height: 950px;
+    width: auto;
+    height: auto;
+}
+
+.maroonLink,
+.maroonLink:hover {
+    color: rgb(80, 0, 0);
+    text-decoration: none;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+.for-mobile {
+    display: none;
+}
+
+.forIpad {
+    display: none;
+}
+
+.maroon,
+.maroon:hover {
+    background-color: #800000;
+    color: white;
+}
+
+/* Get around ipad pro issue */
+@media (min-width: 1280px) and (max-width: 1365px),
+(min-width: 1367px) {
+    .plax {
+        background-attachment: fixed;
+    }
+}
+
+/*Calendar Adjustment*/
+@media (min-width: 300px) and (max-width: 1023px) {
+    .big-container {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .small-container {
+        display: none;
+    }
+
+    #name {
+        font-size: 12px;
+    }
+
+    #posiiton {
+        font-size: 12px;
+    }
+
+    .eInfo,
+    #major {
+        font-size: 12px;
+    }
+
+    .footer2 {
+        font-size: 15px;
+    }
+
+    .forIpad {
+        display: inherit;
+    }
+
+}
+
+
+/*fix issues with ipad*/
+@media (min-width: 760px) {
+
+    .motto,
+    .icon {
+        font-size: 25px !important;
+    }
+}
+
+/*mobile devices*/
+@media (max-width: 750px) {
+    #name {
+        font-size: 15px;
+    }
+
+    #posiiton {
+        font-size: 12px;
+    }
+
+    /*Can't spell too lazy to fix*/
+
+    #photo {
+        padding: 75px;
+    }
+
+    #photo2,
+    #photo3,
+    #photo4,
+    #subregional,
+    #confaward,
+    #lucas,
+    #chp,
+    #memretreat,
+    #icesocial,
+    #imural,
+    #faq,
+    #former,
+    #former2,
+    #former3,
+    #former4,
+    #leadshpe,
+    #emmanuelTalking,
+    #awardPhoto,
+    #bowl,
+    #volley,
+    #pro,
+    #resumeWork,
+    #close,
+    #service,
+    #outreach,
+    #service2,
+    #boil,
+    #review,
+    #fin,
+    #sponsor,
+    #acd,
+    #scholar,
+    #acdWork {
+        padding: 150px;
+    }
+
+    .reviewRes {
+        max-width: 250px;
+        max-height: 750px;
+        height: auto;
+        width: auto;
+    }
+
+    .school,
+    .nat {
+        font-size: 30px;
+        border-bottom: solid 1px #777;
+        padding-bottom: 5px;
+    }
+
+    .pillText {
+        text-align: justify !important;
+    }
+
+    .icon {
+        font-size: 15px !important;
+    }
+
+    .motto,
+    .rem,
+    .non-mobile {
+        display: none;
+    }
+
+    .for-mobile {
+        display: inherit;
+    }
+
+    .eInfo,
+    #major {
+        font-size: 10px;
+    }
+
+    .footer2 {
+        font-size: 15px;
+    }
+}
+
+
+/* Academic Development page */
+#center-pic-horizontal img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);   
+}
+@media (min-width: 1200px){
+    #horizontalfooterLink{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+/* Chapter Development page */
+#chapdevphoto {
+
+    max-height: 320px;
+}
+
+/*This contains the edit for the our members page*/
+
+/*Carousel 1*/
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #3a3a3a;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: #080808;
+}
+
+/*Member of the month cards*/
+
+/*Card one or latest member of the month*/
+
+#member-card1 {
+    padding: 10px;
+}
+
+/*End of card 1*/
+
+/*Card two*/
+
+#member-card2 {
+    padding: 10px;
+}
+
+/*End of card 2*/
+
+/*Card three*/
+
+#member-card3 {
+    padding: 10px;
+}
+
+/*End of card 3*/
+
+/* Highlighted Member Cards */
+
+/* Modal style */
+.committeemodal{
+    height: 200px;
+    overflow-y: hidden;
+}
+.membermodal {
+    height: 325px;
+    overflow-y: scroll;
+}
+
+#membermodalfoot {
+    padding: 0%;
+}
+
+#cardbodymodal {
+    padding: 1rem;
+}
+
+.btn:hover{
+    background-color: rgb(185, 120, 96);
+}
+.btn  {
+    background-color: #0070C0;
+}
+.btn-outline-secondary{
+    color: white;
+}
+#carouselimg {
+
+    max-height: 500px;
+    opacity: 75%;
+}
+#WidePic{
+    width:100%;
+}
+#footerLink{
+    height: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/*This contains the edit for the our members page*/
+.membercard {
+    padding-bottom: 2%;
+}
+
+.pointpic {
+    padding: 2%;
+}
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#history_banner {
+    background-image: linear-gradient(to bottom right, rgba(60, 60, 60, 0.5), rgba(65, 60, 60, 0.5)), url("../pictures/LucasHeadshot.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    padding-top: 100px;
+}
+
+.shpe_story {
+    font-size: 35px;
+    color: white;
+}
+
+.add_info {
+    font-size: 20px;
+}
+
+.shpe_mission {
+
+    font-size: 50px;
+    color: white;
+}
+
+#about_banner {
+    background-image: linear-gradient(to bottom right, rgba(80, 0, 0, 0.5), rgba(65, 60, 60, 0.322)), url("../pictures/2019AwardPhotoGroup.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    padding-top: 150px;
+}
+
+.non_banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #777;
+}
+
+.right {
+    text-align-last: right;
+}
+
+.fa-arrow-alt-circle-right {
+    font-size: 35px;
+    position: relative;
+    top: 5px;
     padding-right: 5px;
 }
-**/
 
-@media (min-width: 992px){
-    .form-inline .input-group {
-        width: 250px;
-        margin-right: 30px;
-    }
+/*This contains the edit for the pastevents page*/
+.stretch{
+    padding: 3% 10% 3% 10%;
 }
-@media (max-width: 991px){
-    .form-inline {
-        display: block;
-        margin-bottom: 10px;
-        margin-top: 0;
-    }
-    .input-group {
-        width: 100%;
-    }
-    h3 {
-        font-size: 15px;
-    }
-    div.col-xs-12 {
-        padding: 75px !important;
-    }
-    #footer {
-        font-size: 15px;
-        padding: 20px !important;
-    }
+
+#ourmemberphoto {
+    background-image: url("../pictures/sand_volleyball.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#highlightmem {
+    background-image: url("../pictures/subregionret.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#nursehome {
+    background-image: url("../pictures/nursing_home_volunteer.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#pasteventspic {
+    background-image: url("../pictures/mentorshpePair.png");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#monthone {
+    background-image: url("../pictures/12th_man_courts.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#monthtwo {
+    background-image: url("../pictures/SackPotatoRace.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#monththree {
+    background-image: url("../pictures/shpetina_dinner.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+#committee1{
+    background-image: url("../pictures/MeetingDiscussingInternships.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+#committee2{
+    background-image: url("../pictures/SHPEmembersCoding.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+#committee3{
+    background-image: url("../pictures/GetFitWithSHPE.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.maxheightcard {
+    max-height: 420px;
+}
+
+.maxheightcard2{
+    max-height: 434px;
+}
+
+.maxcardheight {
+    max-height: 158px;
+}
+
+.eboardcard {
+    max-height: 462px;
+}
+
+.commcard {
+    max-height: 230px;
+}
+/*This contains the edit for the sponsorshpe page*/
+.scroll-parent{
+
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.scroll-parent img{
+    height: 100px;
+    padding: 2%;
+    width: auto;
+}
+#center-pic-horizontal img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
