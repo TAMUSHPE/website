@@ -764,6 +764,28 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     max-height: 320px;
 }
 
+/*This contains the edit for the our members member development*/
+ul.courses-offered{
+    list-style-type: none;
+}
+.fa-book , .fa-video-camera{
+    font-size: 25px;
+    padding-right: 10px;
+}
+.course-title{
+    display: inline-flex;
+    padding-bottom: 5px;
+}
+.center-title strong{
+    padding-left: 50px;
+}
+.center-title2 strong{
+    padding-left: 45px;
+}
+.class-name{
+    margin: auto 0 auto 0;
+}
+
 /*This contains the edit for the our members page*/
 
 /*Carousel 1*/
