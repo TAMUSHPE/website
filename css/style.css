@@ -313,6 +313,30 @@ body {
     padding-bottom: 300px;
 }
 
+#shpetina-social{
+    background-image: url("../pictures/shpetina_dinner.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#shpetina-plax{
+    background-image: url("../pictures/shpetina-plax.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#shpetina-billards{
+    background-image: url("../pictures/SHPEtinaBillards.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
 #award {
     height: 75%;
 }
@@ -331,6 +355,8 @@ body {
     width: 100%;
     height: auto;
 }
+
+
 
 .newback {
     padding: 50px;
@@ -1048,4 +1074,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+/*This contains the edit for the shpetina page*/
+#pink-back{
+    background-image: linear-gradient(#f8dada,#ffffff);
 }
