@@ -1079,3 +1079,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 #pink-back{
     background-image: linear-gradient(#f8dada,#ffffff);
 }
+
+.maroon-hover:hover{
+    color: rgb(80, 0, 0);
+}
