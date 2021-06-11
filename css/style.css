@@ -570,6 +570,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .motto,
 .underline {
     border-bottom: 1px solid;
+    padding-bottom: 5px;
 }
 
 /* Responsive iFrame */
@@ -690,7 +691,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     /*Can't spell too lazy to fix*/
 
     #photo {
-        padding: 75px;
+        padding: 45px;
         margin-top: 57px;
     }
 
@@ -739,7 +740,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
     .school,
     .nat {
-        font-size: 30px;
+        font-size: 40px;
         border-bottom: solid 1px #777;
         padding-bottom: 5px;
     }
