@@ -10,6 +10,9 @@ body {
     padding-bottom: 50px;
 }
 
+.left-align{
+    text-align: start;
+}
 /* index */
 #photo {
     background-image: linear-gradient(to right, rgba(200, 200, 200, 0.8), rgba(200, 200, 200, 0.8)), url("../pictures/members.jpg");
@@ -687,11 +690,14 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     #posiiton {
         font-size: 12px;
     }
-
+    .left-align{
+        text-align: center;
+    }
     /*Can't spell too lazy to fix*/
 
     #photo {
-        padding: 45px;
+        height: 35vh;
+        padding: 80px 45px 45px 45px;
         margin-top: 57px;
     }
 
