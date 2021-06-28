@@ -506,7 +506,7 @@ body {
 .footer2 {
     color: #777;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px
 }
 
@@ -514,7 +514,7 @@ body {
 .footer2:hover {
     color: rgb(80, 0, 0);
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px
 }
 
@@ -649,20 +649,25 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
 
     #name {
-        font-size: 12px;
+        font-size: 20px;
+        font-weight: 900;
+        color: rgb(73, 73, 73);
     }
 
     #posiiton {
-        font-size: 12px;
+        font-size: 15px;
     }
 
-    .eInfo,
+    .eInfo,p{
+        font-size: 13.5px;
+    }
     #major {
-        font-size: 12px;
+        font-size: 15px;
+        font-weight: bold;
     }
 
     .footer2 {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .forIpad {
@@ -684,11 +689,21 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 /*mobile devices*/
 @media (max-width: 750px) {
     #name {
-        font-size: 15px;
+        font-size: 20px;
+        font-weight: 900;
+        color: rgb(73, 73, 73);
     }
 
     #posiiton {
-        font-size: 12px;
+        font-size: 15px;
+    }
+
+    .eInfo,p{
+        font-size: 13.5px;
+    }
+    #major {
+        font-size: 15px;
+        font-weight: bold;
     }
     .left-align{
         text-align: center;
@@ -775,7 +790,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
 
     .footer2 {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
@@ -1062,7 +1077,16 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 .eboardcard {
-    max-height: 462px;
+    /* max-height: 462px; */
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8e9eab, #eef2f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e9eab, #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.tester-img{
+    
+
 }
 
 .commcard {
@@ -1095,4 +1119,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .white-text{
     color:white;
+}
+
+.eBoard-icon{
+    padding: 0 !important;
 }
