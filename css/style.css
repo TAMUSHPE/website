@@ -10,6 +10,50 @@ body {
     padding-bottom: 50px;
 }
 
+/* freshman-resources*/
+
+.Sidebar{
+    position: fixed;
+    width: 250px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #111;
+    padding-top: 50px;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+.Sidebar a{
+    display: block;
+    padding: 10px 20px;
+    color: #bbb;
+    text-decoration: none;
+    font-family: "Rubik";
+    letter-spacing: 2px;
+  
+}
+
+.Sidebar a:hover{
+    color: #fff;
+    margin-left: 20px;
+    transition: 0.4s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* */
+
 .left-align{
     text-align: start;
 }
