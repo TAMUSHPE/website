@@ -12,6 +12,7 @@ body {
 
 /* freshman-resources*/
 
+/* TODO Needs fixed v */
 .color-overlay{
     position: absolute;
     top: 0;
@@ -24,9 +25,10 @@ body {
 }
 
 .pageTitle {
-    color: Black;
+    color: #777777;
     font-weight: bolder;
-    background-color: #eeeeee;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
 
 /* ------End of New content------- */
