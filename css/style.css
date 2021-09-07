@@ -25,6 +25,7 @@ body {
 }
 
 .pageTitle {
+    margin-top: 8%;
     color: #777777;
     font-weight: bolder;
     background-color: #ffffff;
