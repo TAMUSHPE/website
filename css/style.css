@@ -10,9 +10,76 @@ body {
     padding-bottom: 50px;
 }
 
-.left-align{
+/* freshman-resources*/
+
+/* TODO Needs fixed v */
+.color-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    width:100%;
+    /* height: 100vh; */
+    opacity: 100;
+    /* z-index: 3; */
+}
+
+.pageTitle {
+    margin-top: 60px;
+    color: #777777;
+    font-weight: bolder;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* ------End of New content------- */
+
+.Sidebar {
+    position: fixed;
+    width: 250px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #111;
+    padding-top: 50px;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+.Sidebar a {
+    display: block;
+    padding: 10px 20px;
+    color: #bbb;
+    text-decoration: none;
+    font-family: "Rubik";
+    letter-spacing: 2px;
+
+}
+
+.Sidebar a:hover {
+    color: #fff;
+    margin-left: 20px;
+    transition: 0.4s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* */
+
+.left-align {
     text-align: start;
 }
+
 /* index */
 #photo {
     background-image: linear-gradient(to right, rgba(200, 200, 200, 0.8), rgba(200, 200, 200, 0.8)), url("../pictures/members.jpg");
@@ -101,7 +168,8 @@ body {
     padding-top: 300px;
     padding-bottom: 300px;
 }
-#mentor{
+
+#mentor {
     background-image: url("../pictures/mentorshpe_plex.jpg");
     opacity: 0.75;
     padding: 150px;
@@ -276,7 +344,8 @@ body {
     padding-top: 300px;
     padding-bottom: 300px;
 }
-#waterTower{
+
+#waterTower {
     background-image: url("../pictures/WaterTower.jpg");
     opacity: 0.75;
     padding: 150px;
@@ -316,7 +385,7 @@ body {
     padding-bottom: 300px;
 }
 
-#shpetina-social{
+#shpetina-social {
     background-image: url("../pictures/shpetina_dinner.jpg");
     opacity: 0.75;
     padding: 150px;
@@ -324,7 +393,7 @@ body {
     padding-bottom: 300px;
 }
 
-#shpetina-plax{
+#shpetina-plax {
     background-image: url("../pictures/shpetina-plax.jpg");
     opacity: 0.75;
     padding: 150px;
@@ -332,7 +401,7 @@ body {
     padding-bottom: 300px;
 }
 
-#shpetina-billards{
+#shpetina-billards {
     background-image: url("../pictures/SHPEtinaBillards.jpg");
     opacity: 0.75;
     padding: 150px;
@@ -344,17 +413,18 @@ body {
     height: 75%;
 }
 
-#ShpeLogo{
+#ShpeLogo {
     padding-top: 110px;
     padding-bottom: 110px;
     padding-left: 10px;
-    padding-right:10px;
+    padding-right: 10px;
 }
-#TamuShpeLogo{
+
+#TamuShpeLogo {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 10px;
-    padding-right:10px;
+    padding-right: 10px;
     width: 100%;
     height: auto;
 }
@@ -658,9 +728,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         font-size: 15px;
     }
 
-    .eInfo,p{
+    .eInfo,
+    p {
         font-size: 13.5px;
     }
+
     #major {
         font-size: 15px;
         font-weight: bold;
@@ -698,16 +770,20 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         font-size: 15px;
     }
 
-    .eInfo,p{
+    .eInfo,
+    p {
         font-size: 13.5px;
     }
+
     #major {
         font-size: 15px;
         font-weight: bold;
     }
-    .left-align{
+
+    .left-align {
         text-align: center;
     }
+
     /*Can't spell too lazy to fix*/
 
     #photo {
@@ -796,17 +872,19 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 
 /* Academic Development page */
-#center-pic-horizontal img{
+#center-pic-horizontal img {
     position: relative;
     top: 50%;
-    transform: translateY(-50%);   
+    transform: translateY(-50%);
 }
-@media (min-width: 1200px){
-    #horizontalfooterLink{
+
+@media (min-width: 1200px) {
+    #horizontalfooterLink {
         padding-top: 25px;
         padding-bottom: 25px;
     }
 }
+
 /* Chapter Development page */
 #chapdevphoto {
 
@@ -865,7 +943,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 /* Highlighted Member Cards */
 @media (min-width: 576px) {
-    .ourmemfix{
+    .ourmemfix {
         width: 100%;
         height: 30vw;
         object-fit: cover;
@@ -874,10 +952,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 
 /* Modal style */
-.committeemodal{
+.committeemodal {
     height: 200px;
     overflow-y: hidden;
 }
+
 .membermodal {
     height: 325px;
     overflow-y: scroll;
@@ -891,25 +970,30 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     padding: 1rem;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: rgb(242, 101, 52);
     color: white;
 }
-.btn  {
+
+.btn {
     background-color: #0070C0;
 }
-.btn-outline-secondary{
+
+.btn-outline-secondary {
     color: white;
 }
+
 #carouselimg {
 
     max-height: 500px;
     opacity: 75%;
 }
-#WidePic{
-    width:100%;
+
+#WidePic {
+    width: 100%;
 }
-#footerLink{
+
+#footerLink {
     height: 25%;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -922,6 +1006,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .pointpic {
     padding: 2%;
 }
+
 #wrapper {
     display: flex;
     justify-content: center;
@@ -958,7 +1043,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
     max-width: 100%;
@@ -983,7 +1068,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 /*This contains the edit for the pastevents page*/
-.stretch{
+.stretch {
     padding: 3% 10% 3% 10%;
 }
 
@@ -1042,21 +1127,24 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     padding-top: 300px;
     padding-bottom: 300px;
 }
-#committee1{
+
+#committee1 {
     background-image: url("../pictures/MeetingDiscussingInternships.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
     padding-bottom: 300px;
 }
-#committee2{
+
+#committee2 {
     background-image: url("../pictures/SHPEmembersCoding.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
     padding-bottom: 300px;
 }
-#committee3{
+
+#committee3 {
     background-image: url("../pictures/GetFitWithSHPE.jpg");
     opacity: 0.75;
     padding: 150px;
@@ -1068,7 +1156,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     max-height: 420px;
 }
 
-.maxheightcard2{
+.maxheightcard2 {
     max-height: 434px;
 }
 
@@ -1078,44 +1166,51 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .eboardcard {
     /* max-height: 462px; */
-    background: #8e9eab;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #8e9eab, #eef2f3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #8e9eab, #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #8e9eab;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8e9eab, #eef2f3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .commcard {
     max-height: 230px;
 }
+
 /*This contains the edit for the sponsorshpe page*/
-.scroll-parent{
+.scroll-parent {
 
     overflow-x: scroll;
     white-space: nowrap;
 }
-.scroll-parent img{
+
+.scroll-parent img {
     height: 100px;
     padding: 2%;
     width: auto;
 }
-#center-pic-horizontal img{
+
+#center-pic-horizontal img {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
+
 /*This contains the edit for the shpetina page*/
-#pink-back{
-    background-image: linear-gradient(#f8dada,#ffffff);
+#pink-back {
+    background-image: linear-gradient(#f8dada, #ffffff);
 }
 
-.maroon-hover:hover{
+.maroon-hover:hover {
     color: rgb(80, 0, 0);
 }
 
-.white-text{
-    color:white;
+.white-text {
+    color: white;
 }
 
-.eBoard-icon{
+.eBoard-icon {
     padding: 0 !important;
 }
