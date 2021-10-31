@@ -144,7 +144,9 @@ body {
 }
 
 
-
+.announcment-img{
+    width: 50%;
+}
 
 
 
@@ -840,6 +842,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 /*mobile devices*/
 @media (max-width: 750px) {
+    .announcment-img{
+        width: 75%;
+    }
     #name {
         font-size: 20px;
         font-weight: 900;
