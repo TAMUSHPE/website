@@ -517,6 +517,10 @@ body {
     padding: 50px;
 }
 
+.newback-merch {
+    padding: 50px;
+}
+
 .plax {
     background-position: center;
     background-repeat: no-repeat;
@@ -849,6 +853,12 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         font-size: 20px;
         font-weight: 900;
         color: rgb(73, 73, 73);
+    }
+
+    .newback-merch {
+        padding-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .newback {
         padding: 10px;
@@ -1306,4 +1316,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .eBoard-icon {
     padding: 0 !important;
+}
+
+.merch-price{
+    font-weight: bold;
 }
