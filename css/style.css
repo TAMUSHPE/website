@@ -850,6 +850,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         font-weight: 900;
         color: rgb(73, 73, 73);
     }
+    .newback {
+        padding: 10px;
+    }
 
     #posiiton {
         font-size: 15px;
