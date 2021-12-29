@@ -517,6 +517,10 @@ body {
     padding: 50px;
 }
 
+.newback-cal {
+    padding: 50px 50px 20px 50px;
+}
+
 .newback-merch {
     padding: 50px;
 }
@@ -844,6 +848,12 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
 }
 
+.cal{
+    background-color:white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
 /*mobile devices*/
 @media (max-width: 750px) {
     .announcment-img{
@@ -862,6 +872,15 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
     .newback {
         padding: 10px;
+    }
+    .newback-cal{
+        padding: 50px 10px 20px 10px;
+    }
+    #calendar{
+        height: 460px;
+    }
+    .cal{
+        height: 500px;
     }
 
     #posiiton {

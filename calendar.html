@@ -19,8 +19,109 @@
     <link rel="icon" type="image/png" sizes="16x16" href="pictures/SHPELogoTransparent.png">
     <link rel="manifest" href="site.webmanifest">
     <link rel="mask-icon" href="pictures/safari-pinned-tab.svg" color="#5bbad5">
+    <!-- <link href='https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.css' rel='stylesheet' />
+    <link href='https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.1/css/all.css' rel='stylesheet'> -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var calendarEl = document.getElementById('calendar');
+            let calendar = new FullCalendar.Calendar(calendarEl, {
+            // plugins: [ googleCalendarPlugin ],
+            themeSystem: 'bootstrap',
+            aspectRatio: 1.75,
+            googleCalendarApiKey: 'AIzaSyAq2fBm28GJ7Z4t34560IMVFm0oHTqiK0E',
+            eventClick: function(info) {
+                console.log(JSON.stringify(info.event));
+                info.jsEvent.preventDefault();
+                // alert('Event: ' + info.event.title);
+                // alert('Coordinates: ' + info.event.description);
+                // alert('View: ' + info.event.location);
+                // alert('View: ' + info.event.start);
+                // alert('View: ' + info.event.end);
+                var body = document.body;
+                let startDate = info.event.start.toString().split(" ");
+                let startTime = startDate[4].split(":");
+                let startSuffix = (startTime[0] >= 12)? 'pm' : 'am';
+                let startHours = (startTime[0] > 12)? startTime[0] -12 : startTime[0];
+
+                let endDate = info.event.end.toString().split(" ");
+                let endTime = endDate[4].split(":");
+                let endSuffix = (endTime[0] >= 12)? 'pm' : 'am';
+                let endHours = (endTime[0] > 12)? endTime[0] -12 : endTime[0];
+                
+                let modalString = 
+                `
+                <div class="modal fade" id="eventModal" tabindex="-1" role="dialog" aria-labelledby="eventModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="eventModalLabel">${info.event.title}</h5>
+                        <button type="button" onclick="deleteModal()" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6><strong>Start:</strong> ${startDate[1]} ${startDate[2]} ${startHours}:${startTime[1] + startSuffix}</h6>
+                        <h6><strong>End:</strong> ${endDate[1]} ${endDate[2]} ${endHours}:${endTime[1] + endSuffix}</h6>
+                        ${info.event.extendedProps.description? `<h6><strong>Where:</strong> ${info.event.extendedProps.description}</h6>`: ""}
+                        ${info.event.extendedProps.location? `<h6><strong>Where:</strong> ${info.event.extendedProps.location}</h6>`: ""}
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" onclick="deleteModal()" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                `
+                body.insertAdjacentHTML('afterbegin', modalString);
+                // document.getElementById('eventModal').modal("show");
+                $('#eventModal').modal('show');
+
+                
+            },
+            eventSources: [
+                {
+                googleCalendarId: 'tamushpe@gmail.com',
+                backgroundColor: '#ff291a',
+                borderColor: '#ff291a'
+                },
+                {
+                googleCalendarId: 'p19dmac1ih22so1f44adj7uc48@group.calendar.google.com',
+                },
+                {
+                googleCalendarId: 'qseipl2jkfh4kd1jimnk0e3600@group.calendar.google.com',
+                backgroundColor: '#C1E1C1',
+                borderColor: '#C1E1C1'
+                },
+                {
+                googleCalendarId: '53nqem8d49pgg752j8jg0idrmc@group.calendar.google.com',
+                },
+                {
+                googleCalendarId: 'otmmlpi343epdcvioo9k5nu0q0@group.calendar.google.com',
+                },
+                {
+                googleCalendarId: 'jpso1ngij1sfrq1c19h4hrgsm8@group.calendar.google.com',
+                backgroundColor: '#21ADA8',
+                borderColor: '#21ADA8'
+                }
+            ],
+            initialView: screen.width > 750 ? 'dayGridMonth' : 'listWeek'
+            });
+            calendar.render();
+        });
+
+    function deleteModal(){
+        document.getElementById('eventModal').remove();
+    }
+        
+    </script>
 </head>
 
 <body>
@@ -90,7 +191,7 @@
     <!--End of nav-->
 
     <!--Main content-->
-    <div class="container newback">
+    <div class="container newback-cal">
         <br>
         <div class="row">
             <div class="col-md-12">
@@ -100,8 +201,8 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="responsive-iframe-container big-container">
+    <div class="container cal" >
+        <!-- <div class="responsive-iframe-container big-container">
             <iframe
                 src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=dGFtdXNocGVAZ21haWwuY29t&amp;src=cXNlaXBsMmprZmg0a2QxamltbmswZTM2MDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=b3RtbWxwaTM0M2VwZGN2aW9vOWs1bnUwcTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=anBzbzFuZ2lqMXNmcnExYzE5aDRocmdzbThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E67C73&amp;color=%23EF6C00&amp;color=%238E24AA&amp;color=%23039BE5&amp;showCalendars=1&amp;showTz=1&amp;showTabs=1&amp;showPrint=1&amp;showDate=1&amp;showNav=1&amp;showTitle=1&amp;title=TAMU%20SHPE"
                 style="border-width:0" width="100%" height="650" frameborder="0" scrolling="no"></iframe>
@@ -111,7 +212,8 @@
             <iframe
                 src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=dGFtdXNocGVAZ21haWwuY29t&amp;src=cXNlaXBsMmprZmg0a2QxamltbmswZTM2MDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=b3RtbWxwaTM0M2VwZGN2aW9vOWs1bnUwcTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=anBzbzFuZ2lqMXNmcnExYzE5aDRocmdzbThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E67C73&amp;color=%23EF6C00&amp;color=%238E24AA&amp;color=%23039BE5&amp;mode=AGENDA"
                 style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-        </div>
+        </div> -->
+        <div id='calendar'></div>
     </div>
 
     <br><br>
