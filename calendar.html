@@ -32,6 +32,11 @@
             var calendarEl = document.getElementById('calendar');
             let calendar = new FullCalendar.Calendar(calendarEl, {
             // plugins: [ googleCalendarPlugin ],
+            headerToolbar: {
+                start: 'title', // will normally be on the left. if RTL, will be on the right
+                center: '',
+                end: screen.width > 750 ? 'dayGridMonth,dayGridWeek prev,today,next': 'prev,today,next' // will normally be on the right. if RTL, will be on the left
+            },
             themeSystem: 'bootstrap',
             aspectRatio: 1.75,
             googleCalendarApiKey: 'AIzaSyAq2fBm28GJ7Z4t34560IMVFm0oHTqiK0E',
