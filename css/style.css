@@ -1374,3 +1374,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     color: white !important;
     text-decoration: none !important;
 }
+
+.index-card-img{
+    border-radius: 15px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
