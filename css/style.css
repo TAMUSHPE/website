@@ -854,6 +854,23 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     border-radius: 20px;
 }
 
+.testing-card{
+    padding: 20px;
+    /* margin: 5px; */
+    transition: transform 0.2s ease;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.testing-card:hover{
+    transform: scale(1.04);
+}
+
+.newback-index{
+    padding: 50px 0px 50px 0px;
+}
+
+
 /*mobile devices*/
 @media (max-width: 750px) {
     .announcment-img{
@@ -876,6 +893,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     .newback-cal{
         padding: 50px 10px 20px 10px;
     }
+    .newback-index{
+        padding: 20px;
+    }
     #calendar{
         height: 460px;
     }
@@ -885,6 +905,16 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
     #posiiton {
         font-size: 15px;
+    }
+    .testing-card{
+        margin-top: 15px;
+        margin-bottom: 15px;        
+    }
+    .index-card-div{
+        margin-top: 0px !important;
+    }
+    .testing-card:hover{
+        transform: scale(1);
     }
 
     .eInfo,
@@ -1094,7 +1124,6 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .btn:hover {
     background-color: rgb(242, 101, 52);
-    color: white;
 }
 
 .btn {
@@ -1339,4 +1368,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .merch-price{
     font-weight: bold;
+}
+
+.memberSHPE-hover{
+    color: white !important;
+    text-decoration: none !important;
 }
