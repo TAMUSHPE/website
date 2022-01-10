@@ -1412,8 +1412,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     color: white;
     padding: 2px;
     position: absolute;
-    top: 12px;
-    left: 3px;
+    top: 10px;
+    left: 4px;
     z-index: 2;
     transform: rotate(-45deg);
   }
