@@ -870,6 +870,18 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     padding: 50px 0px 50px 0px;
 }
 
+.merch-card{
+    border-width: 0px;
+    max-width: 30.5%;
+    transition: transform 0.2s ease;
+    border-radius: 15px;
+    /* background-color: rgb(255, 255, 255); */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.merch-card:hover{
+    transform: scale(1.04);
+}
+
 
 /*mobile devices*/
 @media (max-width: 750px) {
@@ -1014,6 +1026,15 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
     .footer2 {
         font-size: 20px;
+    }
+
+    .merch-card{
+        max-width: 300px;
+        width: auto;
+        margin-bottom: 40px !important;
+        transform: none;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -1378,4 +1399,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .index-card-img{
     border-radius: 15px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.merch-card-img {
+    border-radius: 15px 15px 0px 0px;
+}
