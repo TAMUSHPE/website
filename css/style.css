@@ -1124,6 +1124,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .btn:hover {
     background-color: rgb(242, 101, 52);
+    color: white;
 }
 
 .btn {
