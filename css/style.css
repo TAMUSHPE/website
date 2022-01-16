@@ -203,16 +203,16 @@ body {
     padding-bottom: 300px;
 }
 
-#lucas {
-    background-image: url("../pictures/LucasHeadshot.jpg");
+#shpetina-pannel {
+    background-image: url("../pictures/shpetina-pannel.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
     padding-bottom: 300px;
 }
 
-#subregional {
-    background-image: url("../pictures/HardRockCafePhoenix.jpg");
+#mentorshpe-reveals {
+    background-image: url("../pictures/mentorshpe-reveals.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -521,7 +521,7 @@ body {
     padding: 50px 50px 20px 50px;
 }
 
-.newback-merch {
+.newback-padding {
     padding: 50px;
 }
 
@@ -894,7 +894,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         color: rgb(73, 73, 73);
     }
 
-    .newback-merch {
+    .newback-padding {
         padding-top: 50px;
         padding-left: 50px;
         padding-right: 50px;
@@ -954,9 +954,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     #photo2,
     #photo3,
     #photo4,
-    #subregional,
+    #mentorshpe-reveals,
     #confaward,
-    #lucas,
+    #shpetina-pannel,
     #chp,
     #memretreat,
     #icesocial,
