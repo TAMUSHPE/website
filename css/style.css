@@ -1441,3 +1441,29 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     left: -27px;
     bottom: -3px;
   }
+
+  .carousel-control-next-icon,
+.carousel-control-prev-icon /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .carousel-item {
+    transition: transform .6s ease-in-out;
+  }
+  
+  .carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
+    transition: opacity 0s .6s;
+  }
+
+  .crt-logo{
+      color: rgba(0, 0, 0, 0) !important;
+  }
