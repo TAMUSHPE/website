@@ -27,40 +27,40 @@
     <meta name="theme-color" content="#ffffff">
 
     <script>
-
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             var calendarEl = document.getElementById('calendar');
             let calendar = new FullCalendar.Calendar(calendarEl, {
-            // plugins: [ googleCalendarPlugin ],
-            headerToolbar: {
-                start: 'title', // will normally be on the left. if RTL, will be on the right
-                center: '',
-                end: screen.width > 750 ? 'dayGridMonth,dayGridWeek prev,today,next': 'prev,today,next' // will normally be on the right. if RTL, will be on the left
-            },
-            themeSystem: 'bootstrap',
-            aspectRatio: 1.75,
-            googleCalendarApiKey: 'AIzaSyAq2fBm28GJ7Z4t34560IMVFm0oHTqiK0E',
-            eventClick: function(info) {
-                console.log(JSON.stringify(info.event));
-                info.jsEvent.preventDefault();
-                // alert('Event: ' + info.event.title);
-                // alert('Coordinates: ' + info.event.description);
-                // alert('View: ' + info.event.location);
-                // alert('View: ' + info.event.start);
-                // alert('View: ' + info.event.end);
-                var body = document.body;
-                let startDate = info.event.start.toString().split(" ");
-                let startTime = startDate[4].split(":");
-                let startSuffix = (startTime[0] >= 12)? 'pm' : 'am';
-                let startHours = (startTime[0] > 12)? startTime[0] -12 : startTime[0];
+                // plugins: [ googleCalendarPlugin ],
+                headerToolbar: {
+                    start: 'title', // will normally be on the left. if RTL, will be on the right
+                    center: '',
+                    end: screen.width > 750 ? 'dayGridMonth,dayGridWeek prev,today,next' :
+                        'prev,today,next' // will normally be on the right. if RTL, will be on the left
+                },
+                themeSystem: 'bootstrap',
+                aspectRatio: 1.75,
+                googleCalendarApiKey: 'AIzaSyAq2fBm28GJ7Z4t34560IMVFm0oHTqiK0E',
+                eventClick: function (info) {
+                    console.log(JSON.stringify(info.event));
+                    info.jsEvent.preventDefault();
+                    // alert('Event: ' + info.event.title);
+                    // alert('Coordinates: ' + info.event.description);
+                    // alert('View: ' + info.event.location);
+                    // alert('View: ' + info.event.start);
+                    // alert('View: ' + info.event.end);
+                    var body = document.body;
+                    let startDate = info.event.start.toString().split(" ");
+                    let startTime = startDate[4].split(":");
+                    let startSuffix = (startTime[0] >= 12) ? 'pm' : 'am';
+                    let startHours = (startTime[0] > 12) ? startTime[0] - 12 : startTime[0];
 
-                let endDate = info.event.end.toString().split(" ");
-                let endTime = endDate[4].split(":");
-                let endSuffix = (endTime[0] >= 12)? 'pm' : 'am';
-                let endHours = (endTime[0] > 12)? endTime[0] -12 : endTime[0];
-                
-                let modalString = 
-                `
+                    let endDate = info.event.end.toString().split(" ");
+                    let endTime = endDate[4].split(":");
+                    let endSuffix = (endTime[0] >= 12) ? 'pm' : 'am';
+                    let endHours = (endTime[0] > 12) ? endTime[0] - 12 : endTime[0];
+
+                    let modalString =
+                        `
                 <div class="modal fade" id="eventModal" tabindex="-1" role="dialog" aria-labelledby="eventModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -85,47 +85,45 @@
                 </div>
                 </div>
                 `
-                body.insertAdjacentHTML('afterbegin', modalString);
-                // document.getElementById('eventModal').modal("show");
-                $('#eventModal').modal('show');
+                    body.insertAdjacentHTML('afterbegin', modalString);
+                    // document.getElementById('eventModal').modal("show");
+                    $('#eventModal').modal('show');
 
-                
-            },
-            eventSources: [
-                {
-                googleCalendarId: 'tamushpe@gmail.com',
-                backgroundColor: '#ff291a',
-                borderColor: '#ff291a'
+
                 },
-                {
-                googleCalendarId: 'p19dmac1ih22so1f44adj7uc48@group.calendar.google.com',
-                },
-                {
-                googleCalendarId: 'qseipl2jkfh4kd1jimnk0e3600@group.calendar.google.com',
-                backgroundColor: '#C1E1C1',
-                borderColor: '#C1E1C1'
-                },
-                {
-                googleCalendarId: '53nqem8d49pgg752j8jg0idrmc@group.calendar.google.com',
-                },
-                {
-                googleCalendarId: 'otmmlpi343epdcvioo9k5nu0q0@group.calendar.google.com',
-                },
-                {
-                googleCalendarId: 'jpso1ngij1sfrq1c19h4hrgsm8@group.calendar.google.com',
-                backgroundColor: '#21ADA8',
-                borderColor: '#21ADA8'
-                }
-            ],
-            initialView: screen.width > 750 ? 'dayGridMonth' : 'listWeek'
+                eventSources: [{
+                        googleCalendarId: 'tamushpe@gmail.com',
+                        backgroundColor: '#ff291a',
+                        borderColor: '#ff291a'
+                    },
+                    {
+                        googleCalendarId: 'p19dmac1ih22so1f44adj7uc48@group.calendar.google.com',
+                    },
+                    {
+                        googleCalendarId: 'qseipl2jkfh4kd1jimnk0e3600@group.calendar.google.com',
+                        backgroundColor: '#C1E1C1',
+                        borderColor: '#C1E1C1'
+                    },
+                    {
+                        googleCalendarId: '53nqem8d49pgg752j8jg0idrmc@group.calendar.google.com',
+                    },
+                    {
+                        googleCalendarId: 'otmmlpi343epdcvioo9k5nu0q0@group.calendar.google.com',
+                    },
+                    {
+                        googleCalendarId: 'jpso1ngij1sfrq1c19h4hrgsm8@group.calendar.google.com',
+                        backgroundColor: '#21ADA8',
+                        borderColor: '#21ADA8'
+                    }
+                ],
+                initialView: screen.width > 750 ? 'dayGridMonth' : 'listWeek'
             });
             calendar.render();
         });
 
-    function deleteModal(){
-        document.getElementById('eventModal').remove();
-    }
-        
+        function deleteModal() {
+            document.getElementById('eventModal').remove();
+        }
     </script>
 </head>
 
@@ -135,8 +133,8 @@
     <nav class="navbar fixed-top navbar-default navbar-expand-lg navbar-light">
         <div class="navbar-header d-flex col">
             <a class="navbar-brand" href="index.html">
-                <img src="pictures/logo_light_png.png" width="150" height="30"
-                    class="d-inline-block align-center" id="logo" alt="Logo">
+                <img src="pictures/logo_light_png.png" width="150" height="30" class="d-inline-block align-center"
+                    id="logo" alt="Logo">
                 <!-- tamu<b>SHPE</b> -->
             </a>
             <button type="button" data-target="#navbarCollapse" data-toggle="collapse"
@@ -181,7 +179,7 @@
                         </li>
                         <li><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=tamushpe@gmail.com"
                                 target="_blank" class="cool-link dropdown-item">Contact Us</a></li>
-                        
+
                         <li><a href="https://tamu.us6.list-manage.com/subscribe/post?u=6ae7c8bc6f504306c21da82d0&id=9f11e7de05"
                                 target="_blank" class="cool-link dropdown-item">Newsletter</a></li>
                         <li><a href="calendar.html" class="cool-link dropdown-item">Upcoming Events</a>
@@ -190,7 +188,8 @@
                 </li>
                 <!-- <li class="nav-item"><a href="contact.html" class="cool-link nav-link">Contact Us</a></li> -->
             </ul>
-            <li class="btn ml-auto"><a href="https://www.membershpe.org" target=_blank class="white-text memberSHPE-hover"><i class="fas fa-user-circle mr-1"></i>Login</a></li>
+            <li class="btn ml-auto"><a href="https://www.membershpe.org" target=_blank
+                    class="white-text memberSHPE-hover"><i class="fas fa-user-circle mr-1"></i>Login</a></li>
         </div>
     </nav>
     <!--End of nav-->
@@ -206,7 +205,7 @@
         </div>
     </div>
 
-    <div class="container cal" >
+    <div class="container cal">
         <!-- <div class="responsive-iframe-container big-container">
             <iframe
                 src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=dGFtdXNocGVAZ21haWwuY29t&amp;src=cXNlaXBsMmprZmg0a2QxamltbmswZTM2MDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=b3RtbWxwaTM0M2VwZGN2aW9vOWs1bnUwcTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=anBzbzFuZ2lqMXNmcnExYzE5aDRocmdzbThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E67C73&amp;color=%23EF6C00&amp;color=%238E24AA&amp;color=%23039BE5&amp;showCalendars=1&amp;showTz=1&amp;showTabs=1&amp;showPrint=1&amp;showDate=1&amp;showNav=1&amp;showTitle=1&amp;title=TAMU%20SHPE"
