@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ACE Camp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body{
+    color: #FFFFFF;
+}
+
+:root {
+    --switches-bg-color: #23a6d5;
+    --switches-label-color: white ;
+    --switch-bg-color: white;
+    --switch-text-color: #23a6d5;
+}
+
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 500px;
+}
+
+.gradient-custom {
+    min-height: 100vh;
+    background-image: url('pictures/209037.gif');
+}
+
+.glass-card{
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.glass-card-shadow{
+    background: rgba(0, 0, 0, 0.75);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.text-75{
+    opacity: 75%;
+}
+
+
+.card-block {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#top-item-list{
+    overflow: scroll;
+}
+
+.top-item-rank{
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.top-item-info{
+    /* position:absolute;
+    bottom:10px; */
+    margin-top: auto;
+    color: white;
+    /* background-color: red;
+    width: 100%; */
+}
+
+.top-item-photo{
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#attempts-left{
+    font-size: 100% !important;
+}
+    </style>
+  </head>
+
+  <body>
+      <section class="gradient-custom">
+
+        <div class="container p-5" style="padding-top: 79px !important;">
+
+          <div id="login" class="container py-5 h-100">
+            <div class="row align-middle d-flex justify-content-center align-items-center h-100">
+              <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="glass-card-shadow card" style="border-radius: 1rem;">
+                  <div class="card-body p-5 text-center text-white">
+        
+                    <div class="mb-md-1 mt-md-1 pb-4">
+                      <div class="alert alert-danger" id="wrong-alert" style="display: none;" role="alert">
+                        Incorrect. Please try again!
+                      </div>
+                      <img src="pictures/tamu-shpe-logo-white.png" class="rounded w-75 mb-4" alt="Strimi Logo">
+                      <h2 class="fw-bold mb-2">ACE Camp</h2>
+                      <p class="text-white mb-4 text-75">You have <span id="attempts-left" class="badge badge-success">10</span> attempts left</p>
+                      <!-- <a href="/login" class="btn w-75 mx-auto" id="spotify-login-btn"> <i class="fa fa-spotify" style="font-size:2rem"></i> <span class="my-auto">Log in with Spotify<span></a> -->
+                      <input type="text" id="ace-camp-code" class="form-control" placeholder="Enter Code" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                      <button type="button" id="submit-btn" onclick="codeFunction()" class="btn btn-primary mt-3 w-50">Submit</button>
+                    </div>
+
+                    <div class="mt-4">
+                      <p class="mb-0"><a href="https://jonathangaytan.com" class="text-white-50 fw-bold">Awesome Link!!</a></p>
+                    </div>
+        
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+      if (localStorage.getItem('attempts')) {
+          Number(localStorage.getItem('attempts')); 
+          document.getElementById("attempts-left").innerHTML = 10-Number(localStorage.getItem('attempts'));
+      }
+      else{
+          localStorage.setItem("attempts", 0);
+      }
+  
+      if(10-Number(localStorage.getItem('attempts')) <= 0){
+          document.getElementById('ace-camp-code').style.display = 'none';
+          document.getElementById('submit-btn').style.display = 'none';
+      }
+  
+  
+      function codeFunction(){
+          var code = document.getElementById('ace-camp-code');
+          console.log("HI");
+          if(code.value == "TESTING"){
+              document.getElementById('wrong-alert').style.display = 'block';
+              document.getElementById('wrong-alert').classList = 'alert alert-success';
+              window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank').focus();
+          }
+          else{
+              document.getElementById('wrong-alert').classList = 'alert alert-danger';
+              document.getElementById('wrong-alert').style.display = 'block';
+              localStorage.setItem("attempts", Number(localStorage.getItem('attempts')) + 1);
+              if(10-Number(localStorage.getItem('attempts')) <= 0){
+                  document.getElementById('ace-camp-code').style.display = 'none';
+                  document.getElementById('submit-btn').style.display = 'none';
+              }
+              document.getElementById("attempts-left").innerHTML = 10-Number(localStorage.getItem('attempts'));
+          }
+  
+          if (10-Number(localStorage.getItem('attempts')) > 7){
+              document.getElementById("attempts-left").classList = 'badge badge-success';
+          }
+          else if(10-Number(localStorage.getItem('attempts')) > 1){
+              document.getElementById("attempts-left").classList = 'badge badge-warning';
+          }
+          else if(10-Number(localStorage.getItem('attempts')) > 0){
+              document.getElementById("attempts-left").classList = 'badge badge-danger';
+          }
+      }
+  
+  
+      // Get the input field
+      var input = document.getElementById("ace-camp-code");
+  
+      // Execute a function when the user releases a key on the keyboard
+      input.addEventListener("keyup", function(event) {
+        // Number 13 is the "Enter" key on the keyboard
+        if (event.keyCode === 13) {
+          // Cancel the default action, if needed
+          event.preventDefault();
+          // Trigger the button element with a click
+          document.getElementById("submit-btn").click();
+        }
+      });
+      </script>
+</html>
