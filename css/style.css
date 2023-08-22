@@ -10,6 +10,9 @@ body {
     padding-bottom: 50px;
 }
 
+.socialEmbed {
+    font-size: 50px;
+}
 
 .vertCent {
     display: flex;
@@ -228,7 +231,7 @@ body {
 }
 
 #bowl {
-    background-image: url("../pictures/SHPEs&Salsa2.jpg");
+    background-image: url("../pictures/SHPEs&Salsa23-24.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
