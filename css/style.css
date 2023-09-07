@@ -10,6 +10,9 @@ body {
     padding-bottom: 50px;
 }
 
+.socialEmbed {
+    font-size: 50px;
+}
 
 .vertCent {
     display: flex;
@@ -228,7 +231,7 @@ body {
 }
 
 #bowl {
-    background-image: url("../pictures/SHPEs&Salsa2.jpg");
+    background-image: url("../pictures/SHPEs&Salsa23-24.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -244,7 +247,7 @@ body {
 }
 
 #acd {
-    background-image: url("../pictures/academicXL2.jpg");
+    background-image: url("../pictures/22-23/ADTesting.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -252,7 +255,7 @@ body {
 }
 
 #mentor {
-    background-image: url("../pictures/mentorshpe_plex.jpg");
+    background-image: url("../pictures/22-23/ADThreePeople.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -268,7 +271,7 @@ body {
 }
 
 #scholar {
-    background-image: url("../pictures/ZachChevronRoomMeeting.jpg");
+    background-image: url("../pictures/22-23/ADBerk.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -276,7 +279,7 @@ body {
 }
 
 #acdWork {
-    background-image: url("../pictures/AcademicDevelopmentWorkshop.jpg");
+    background-image: url("../pictures/22-23/ADPeople2.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -284,7 +287,7 @@ body {
 }
 
 #pro {
-    background-image: url("../pictures/pro3.jpg");
+    background-image: url("../pictures/22-23/PDMain.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -292,7 +295,7 @@ body {
 }
 
 #resumeWork {
-    background-image: url("../pictures/ResumeWorkshop.jpg");
+    background-image: url("../pictures/22-23/PD2.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -300,7 +303,7 @@ body {
 }
 
 #close {
-    background-image: url("../pictures/ETBmeeting.jpg");
+    background-image: url("../pictures/22-23/PD3.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -308,7 +311,7 @@ body {
 }
 
 #leadshpe {
-    background-image: url("../pictures/panel.jpg");
+    background-image: url("../pictures/22-23/LD3.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -316,7 +319,7 @@ body {
 }
 
 #emmanuelTalking {
-    background-image: url("../pictures/DSC_0090.JPG");
+    background-image: url("../pictures/22-23/LD2.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -324,7 +327,7 @@ body {
 }
 
 #awardPhoto {
-    background-image: url("../pictures/2019AwardPhotoGroup.jpeg");
+    background-image: url("../pictures/22-23/LDMain.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -332,7 +335,7 @@ body {
 }
 
 #chp {
-    background-image: url("../pictures/ScoatesGeneralMeeting.jpg");
+    background-image: url("../pictures/22-23/CDMain.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -340,7 +343,7 @@ body {
 }
 
 #memretreat {
-    background-image: url("../pictures/SackPotatoRace.jpg");
+    background-image: url("../pictures/22-23/CDVolleyball.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -348,7 +351,7 @@ body {
 }
 
 #icesocial {
-    background-image: url("../pictures/IceSkatingSocial.jpg");
+    background-image: url("../pictures/22-23/CDBowling.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -356,7 +359,7 @@ body {
 }
 
 #imural {
-    background-image: url("../pictures/IntramuralFlagFootball.jpg");
+    background-image: url("../pictures/22-23/CDSpikeBall.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -364,7 +367,7 @@ body {
 }
 
 #service {
-    background-image: url("../pictures/ServiceTeachingKids.jpg");
+    background-image: url("../pictures/22-23/SOMain.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -372,7 +375,7 @@ body {
 }
 
 #service2 {
-    background-image: url("../pictures/ServicePicture.jpg");
+    background-image: url("../pictures/22-23/SO3.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -380,7 +383,7 @@ body {
 }
 
 #outreach {
-    background-image: url("../pictures/chapdev2.jpg");
+    background-image: url("../pictures/22-23/SO2.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -436,7 +439,7 @@ body {
 }
 
 #sponsor {
-    background-image: url("../pictures/EboardWithSponsors.jpg");
+    background-image: url("../pictures/2023EboardWithCaterpillar.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -444,7 +447,7 @@ body {
 }
 
 #boil {
-    background-image: url("../pictures/CrawfishBoilGroup.jpg");
+    background-image: url("../pictures/2023CrawfishBoilGroup.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -452,7 +455,7 @@ body {
 }
 
 #review {
-    background-image: url("../pictures/2019NationalConventionTrophy.jpeg");
+    background-image: url("../pictures/2023LeadershpeLive.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
